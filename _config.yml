@@ -13,20 +13,19 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: JKON
+title: 
+  de: JKON
+  fr: JKON
+  en: JKON
+
 email: info@jkon.ch
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+
 baseurl: "/jkon.ch" # the subpath of your site, e.g. /blog
 url: "https://jkon.ch" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
 theme: minima
-plugins:
-  - jekyll-feed
 
 locales:
   - code: de
@@ -35,6 +34,19 @@ locales:
     name: Français
   - code: en 
     name: English
+
+index:
+  de: index.html
+  fr: index.fr.html
+  en: index.en.html
+
+facebook_username: jungekunstolten
+instagram_username: jkonolten
+
+page_refs:
+  - index
+  - call-for-artists
+  - what-is-jkon
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
