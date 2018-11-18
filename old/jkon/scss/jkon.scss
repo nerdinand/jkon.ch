@@ -1,0 +1,208 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12.01.2017, 23:19:40
+    Author     : manuel
+*/
+
+@import "settings";
+
+body {
+    font-family: Georgia, Helvetica, Roboto, Arial, sans-serif;
+    background: url(/themes/jkon/images/Vorlage_Browser_Linen2.png) repeat top center fixed;
+    background-color: $body-background;
+    color: $primary-color;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+}
+
+.teaser p {
+    font-size: 3em;
+    line-height: 1em;
+}
+
+.content a {
+    text-decoration: underline;
+}
+
+.jkon-center {
+    width: 100%;
+    padding: 20px;
+    .hamburger-top {
+        margin: auto;
+        width: 40px;
+        height: 40px;
+        display: block;
+        background-size: cover;
+        background-image: url(/themes/jkon/images/Menu_Top.png);
+    }
+}
+
+
+.jkon-center-bottom {
+    width: 100%;
+    position: fixed;
+    bottom: 2px;
+    .hamburger-bottom {
+        margin: auto;
+        width: 40px;
+        height: 40px;
+        display: block;
+        background-size: cover;
+        background-image: url(/themes/jkon/images/Menu_Footer.png);
+        z-index: 100;
+    }
+}
+
+footer{
+    padding: 50px;
+}
+
+.jkon-menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: auto;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 64, 64, 0.6);
+    margin: 20px;
+    z-index: 500;
+    text-align: center;
+
+    ul {
+        margin: 30px auto;
+        list-style: none;
+
+        .menu-close {
+            font-size: 2em;
+            padding: 40px;
+        }
+
+        li {
+            line-height: 1.8em;
+
+            a {
+                text-transform: uppercase;
+                color: $body-background;
+                font-size: 1.3em;
+            }
+
+            ul {
+                display: none;
+
+                li a {
+                    text-transform: none;
+                    font-size: 1.2em;
+                }
+            }
+        }
+
+        li.active a {
+            text-decoration: underline;
+        }
+
+        .dropdown {
+            margin: 0px 0px 20px 0px;
+        }
+    }
+
+    .menu-close {
+        width: 100%;
+
+        a {
+            margin: auto;
+            width: 40px;
+            height: 40px;
+            display: block;
+            background-image: url(/themes/jkon/images/Menu_close.png);
+            background-size: cover;
+        }
+    }
+}
+
+.img-container {
+    position: relative;
+    margin: none !important;
+    padding: 20px;
+    img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+}
+
+
+
+.img-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    padding: 50px;
+    transition: .5s ease;
+    background-color: rgba(255, 64, 64, 0.7);
+
+    a {
+        color: $body-background;
+        text-transform: uppercase;
+        font-size: 2em;
+        line-height: 1em;
+        text-decoration: none;
+    }
+}
+
+.img-container:hover .img-overlay {
+    opacity: 1;
+}
+
+.artist img {
+    filter: grayscale(100%);
+}
+
+.logo {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#sb-overlay {
+    background-color: rgba(255, 64, 64, 0.7) !important;
+}
+
+#sb-loading {
+    background-color: $primary-color !important;
+}
+
+#sb-wrapper-inner {
+    border: none !important;
+}
+
+  @media screen and (max-width: $break-small) {
+    body {
+    background: url(/themes/jkon/images/Vorlage_Mobile_Linien.png) repeat top center fixed;
+    background-color: $body-background;
+    color: $primary-color;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    }
+    .row{
+        max-width: 100%;
+    }
+}

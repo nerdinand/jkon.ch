@@ -1,0 +1,29 @@
+{
+	"name": "rywa/silverstripe-foundation",
+	"type": "silverstripe-theme",
+	"description": "Foundation 5 Prototyping Theme for SilverStripe",
+	"keywords": ["foundation theme", "silverstripe foundation", "responsive", "prototyping", "theme"],
+	"license": "MIT Open Source License",
+	"authors": [
+		{
+			"name": "Ryan Wachtl",
+			"role": "Developer",
+			"email": "ryan@beyondusability.pro",
+			"homepage": "http://beyondusability.pro"
+		}
+	],
+	"require":
+	{
+		"composer/installers": "*",
+		"silverstripe/framework": "~3.1"
+	},
+	"extra": {
+		"installer-name": "foundation",
+		"branch-alias": {
+			"dev-master": "1.1.x-dev"
+		}
+	},
+	"support": {
+		"issues": "https://github.com/ryanwachtl/silverstripe-foundation-theme/issues"
+	}
+}
