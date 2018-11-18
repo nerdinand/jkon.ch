@@ -2,8 +2,10 @@
 
   <div class="wrapper">
 
-    {% if page.lang %}
-      <a class="site-title" rel="author" href="{{ site.baseurl }}/{{ site.index[page.lang] }}">{{ site.title[page.lang] | escape }}</a>
+    {% assign locale=page.lang | 'de' %}
+
+    {% if locale %}
+      <a class="site-title" rel="author" href="{{ site.baseurl }}/{{ site.index[locale] }}">{{ site.title[locale] | escape }}</a>
     {% else %}
       <a class="site-title" rel="author" href="{{ site.baseurl | append: '/' }}">{{ site.title['de'] }}</a>
     {% endif %}
@@ -19,9 +21,9 @@
       </label>
 
       <div class="trigger">
-        {% if page.lang %}
+        {% if locale %}
           
-          {% assign pages=site.pages | where:"lang", page.lang %}
+          {% assign pages=site.pages | where:"lang", locale %}
           {% for page_ref in site.page_refs %}
             {% assign current_page=pages | where:"ref", page_ref | first %}
 
