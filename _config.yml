@@ -28,6 +28,14 @@ theme: minima
 plugins:
   - jekyll-feed
 
+locales:
+  - code: de
+    name: Deutsch
+  - code: fr 
+    name: Français
+  - code: en 
+    name: English
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
