@@ -23,10 +23,10 @@
           
           {% assign pages=site.pages | where:"lang", page.lang %}
           {% for page_ref in site.page_refs %}
-            {% assign page=pages | where:"ref", page_ref | first %}
+            {% assign current_page=pages | where:"ref", page_ref | first %}
 
-            {% if page.title %}
-              <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+            {% if current_page.title %}
+              <a class="page-link" href="{{ current_page.url | prepend: site.baseurl }}">{{ current_page.title }}</a>
             {% endif %}
           {% endfor %}
 
@@ -40,11 +40,10 @@
 
   <div class="wrapper" style="text-align: right; line-height: 2em">
     {% assign pages=site.pages | where:"ref", page.ref %}
-    
     {% for locale in site.locales %}
-      {% assign page=pages | where:"lang", locale['code'] | first %}
-      {% if page %}
-        <a href="{{ page.url | prepend: site.baseurl }}" class="{{locale['code']}}">{{locale['name']}}</a> 
+      {% assign current_page=pages | where:"lang", locale['code'] | first %}
+      {% if current_page %}
+        <a href="{{ current_page.url | prepend: site.baseurl }}" class="{{locale['code']}}">{{locale['name']}}</a> 
       {% endif %}
     {% endfor %}
   </div>
