@@ -39,8 +39,13 @@ a, a:visited, a:hover, a:link {
     line-height: 1em;
 }
 
-.content a, .post-content a {
+.content a, .post-content a, .footer-col-wrapper a {
     text-decoration: underline;
+    color: $link-color;
+}
+
+.content a:hover, .post-content a:hover, .footer-col-wrapper a:hover, .username:hover {
+    text-decoration: none;
     color: $link-color;
 }
 
