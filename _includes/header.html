@@ -1,5 +1,7 @@
 <header class="site-header">
 
+  <div id="jkon-logo"></div>
+
   <div class="wrapper">
 
     {% assign locale=page.lang | 'de' %}
@@ -40,7 +42,7 @@
 
   </div>
 
-  <div class="wrapper" style="text-align: right; line-height: 2em">
+  <div class="wrapper lang" style="text-align: right; line-height: 2em">
     {% assign pages=site.pages | where:"ref", page.ref %}
     {% for locale in site.locales %}
       {% assign current_page=pages | where:"lang", locale['code'] | first %}

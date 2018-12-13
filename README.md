@@ -11,13 +11,13 @@ Jekyll requires the [Ruby programming language](https://www.ruby-lang.org/). If 
 Next install bundler using Rubygems:
 
 ```bash
-gem install bundler # if this doesn't work, try `sudo gem install bundler`
+sudo gem install bundler # if this doesn't work, try `sudo gem install bundler`
 ```
 
 Once Ruby and bundler are installed, clone this repository using git:
 
 ```bash
-git clone git@github.com:nerdinand/jkon.ch.git
+git clone https://github.com/nerdinand/jkon.ch.git
 ```
 
 Change into the jkon.ch directory:
