@@ -20,7 +20,7 @@ $row-width: 51.5%;
 body {
     // font-size: 20px;
     font-family: Georgia, Helvetica, Roboto, Arial, sans-serif;
-    background: url(/jkon.ch/images/Vorlage_Browser_Linen2.png) repeat top center fixed;
+    background: url(/images/Vorlage_Browser_Linen2.png) repeat top center fixed;
     background-color: $body-background;
     color: $primary-color;
     -webkit-background-size: cover;
@@ -55,7 +55,7 @@ a, a:visited, a:hover, a:link {
 
 #jkon-logo{
     position: fixed;
-    background-image: url(/jkon.ch/images/jkon_logo_mobile_2018.png);
+    background-image: url(/images/jkon_logo_mobile_2018.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -363,7 +363,7 @@ footer{
 
 @media screen and (max-width: $break-small) {
     body {
-    background: url(/jkon.ch/images/Vorlage_Mobile_Linien.png) repeat top center fixed;
+    background: url(/images/Vorlage_Mobile_Linien.png) repeat top center fixed;
     background-color: $body-background;
     color: $primary-color;
     -webkit-background-size: cover;
