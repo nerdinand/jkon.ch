@@ -5,4 +5,6 @@ title: The sponsors
 lang: en
 ---
 
-Coming soon...
+[Niarchos Foundation for Young Artists](https://www.snf.org/)
+
+[![Migros Kulturprozent](images/migros-kulturprozent-farbig_d.gif)](https://www.migros-kulturprozent.ch/)
