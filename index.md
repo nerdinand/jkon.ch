@@ -7,6 +7,8 @@ lang: de
 
 Die JKON, Junge Kunst Olten, findet vom 22. bis 24. August 2019 in der [Schützi](https://schuetzi.ch/) Olten statt. 
 
+## Wir suchen dich! <br>Du machst Kunst, <br>bist zwischen 18 <br>und 35 Jahre alt und <br>möchtest Deine Werke <br>im August 2018 <br>in der Schützi Olten <br>ausstellen? <br>Zur Verfügung stehen <br>3136 Kubikmeter Raum. <br>Fülle diesen <br>mit Deiner Kunst.
+Melde dich bis am 18. Februar 2019 an. [Anmeldeformular](/call-for-artists.html)
 
 ### Öffnungszeiten
 
