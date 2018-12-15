@@ -11,7 +11,7 @@ Jekyll requires the [Ruby programming language](https://www.ruby-lang.org/). If 
 Next install bundler using Rubygems:
 
 ```bash
-sudo gem install bundler # if this doesn't work, try `sudo gem install bundler`
+gem install bundler # if this doesn't work, try `sudo gem install bundler`
 ```
 
 Once Ruby and bundler are installed, clone this repository using git:
