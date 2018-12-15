@@ -20,7 +20,7 @@ $row-width: 51.5%;
 body {
     // font-size: 20px;
     font-family: Georgia, Helvetica, Roboto, Arial, sans-serif;
-    background: url(/images/Vorlage_Browser_Linen2.png) repeat top center fixed;
+    background: url(/images/Vorlage_Browser_Linen2_2019.png) repeat top center fixed;
     background-color: $body-background;
     color: $primary-color;
     -webkit-background-size: cover;
@@ -52,10 +52,6 @@ a, a:visited, a:hover, a:link {
 .site-header {
     border: 0;    
 }
-
-// h1{
-//     font-size: 24px;
-// }
 
 #jkon-logo{
     position: fixed;
