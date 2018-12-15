@@ -5,7 +5,7 @@ title: JKON 2019
 lang: fr
 ---
 
-La JKON, l'Art Jeune d'Olten, aura lieu du 22 au 24 août 2019 dans le "Schützi" d'Olten. 
+La JKON, l'Art Jeune d'Olten, aura lieu du 22 au 24 août 2019 dans le "[Schützi](https://schuetzi.ch/)" d'Olten. 
 
 
 ### Horaires d'ouvertures de l'exposition

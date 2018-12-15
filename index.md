@@ -5,7 +5,7 @@ title: JUNGE KUNST OLTEN 2019
 lang: de
 ---
 
-Die JKON, Junge Kunst Olten, findet vom 22. bis 24. August 2019 in der Schützi Olten statt. 
+Die JKON, Junge Kunst Olten, findet vom 22. bis 24. August 2019 in der [Schützi](https://schuetzi.ch/) Olten statt. 
 
 
 ### Öffnungszeiten
