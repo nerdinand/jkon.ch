@@ -12,9 +12,7 @@ La JKON, l'Art Jeune d'Olten, aura lieu du 22 au 24 août 2019 dans le "Schützi
 
 |__Jeudi__, 22 août 2019|18h00-21h00|
 |__Vendredi__, 23 août 2019|16h00-21h00|
-|__Samedi__, 24 août 2019|10h00-21h00,| 
-||Afterparty au Coq d'Or, Olten|
-
+|__Samedi__, 24 août 2019|10h00-21h00|
 
 La __vernissage__ aura lieu jeudi 22 août 2019 à 18h30.
 
