@@ -17,7 +17,6 @@ title: JKON
 
 email: info@jkon.ch
 
-# baseurl: "/jkon.ch" # the subpath of your site, e.g. /blog
 url: "https://jkon.ch" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
@@ -47,8 +46,6 @@ page_refs:
   - what-is-jkon
   - sponsors
   - about
-
-# baseurl: /
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
