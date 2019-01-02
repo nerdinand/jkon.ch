@@ -30,7 +30,7 @@
             {% assign current_page=pages | where:"ref", page_ref | first %}
 
             {% if current_page.title %}
-              <a class="page-link" href="{{ current_page.url | prepend: site.baseurl }}">{{ current_page.title }}</a>
+              <a class="page-link" href="{{ site.baseurl | append: current_page.url }}">{{ current_page.title }}</a>
             {% endif %}
           {% endfor %}
 

@@ -10,11 +10,12 @@ La JKON, l'Art Jeune d'Olten, aura lieu du 22 au 24 août 2019 dans le "[Schütz
 ## Nous t'attendons!<br>Tu es un/une artiste?<br>Tu as entre 18 et 35 ans<br>et tu aimerais montrer<br>tes œuvres dans<br> le Schützi à Olten<br>en août 2019?<br>Nous avons un espace<br>de 3136 mètres cube.<br>Remplis le avec tes<br>créations!
 Inscriptions jusqu'au 18. février 2019. [Formulaire d'inscription](/call-for-artists.fr.html)
 
-<!-- ### Horaires d'ouvertures de l'exposition -->
+### Horaires d'ouvertures de l'exposition
 
 |__Jeudi__, 22 août 2019|18h00-21h00|
 |__Vendredi__, 23 août 2019|16h00-21h00|
 |__Samedi__, 24 août 2019|10h00-21h00|
+||Afterparty au [Coq d’Or](http://coq-d-or.ch/), Olten|
 
 La __vernissage__ aura lieu jeudi 22 août 2019 à 18h30.
 
