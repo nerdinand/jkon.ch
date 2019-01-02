@@ -20,3 +20,5 @@ Register until the 18th of February 2019. [Registration form](/call-for-artists.
 The __opening__ takes place 18h30, Thursday, 22nd of August 2019. 
 
 The __finissage__, including the award ceremony, takes place at 17h30, Saturday, 24th of August 2019. 
+
+[Add to my calendar](ical-script/jkon2019.ics)

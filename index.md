@@ -20,3 +20,5 @@ Melde dich bis am 18. Februar 2019 an. [Anmeldeformular](/call-for-artists.html)
 Die __Vernissage__ findet 18h30 am Donnerstag, 22. August 2019 statt.
 
 Die __Finissage__ mit Preisverleihung findet 17h30 am Samstag, 24. August 2019 statt.
+
+[Zu meinem Kalender hinzufügen](ical-script/jkon2019.ics)

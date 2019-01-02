@@ -20,3 +20,5 @@ Inscriptions jusqu'au 18. février 2019. [Formulaire d'inscription](/call-for-ar
 La __vernissage__ aura lieu jeudi 22 août 2019 à 18h30.
 
 La __clôture__, y compris la remise des prix, aura lieu le samedi 24 août 2019 à 17h30.
+
+[Ajouter à mon calendrier](ical-script/jkon2019.ics)
