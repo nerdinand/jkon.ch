@@ -2,5 +2,5 @@ source 'https://rubygems.org'
 
 gem 'awesome_print'
 gem 'pry-byebug'
-gem 'hexapdf'
 gem 'wicked_pdf'
+gem 'activesupport'

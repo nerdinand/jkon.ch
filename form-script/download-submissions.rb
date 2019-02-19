@@ -4,7 +4,6 @@ require 'awesome_print'
 require 'json'
 require 'pry-byebug'
 require 'wicked_pdf'
-require 'open-uri'
 
 JOTFORM_FORM_ID = 83444216427355
 api_key = ENV['API_KEY']
@@ -159,12 +158,7 @@ class AttachmentDownload
   end
 
   def download!
-    File.open(write_path, 'wb') do |write_file|
-      # the following "open" is provided by open-uri
-      open(URI.escape(url), 'rb') do |read_file|
-        write_file.write(read_file.read)
-      end
-    end
+    system("curl -L -s '#{url}' > #{write_path}")
   end
 
   private
@@ -195,7 +189,11 @@ response = Net::HTTP.get(
 
 FileUtils.mkdir_p('out')
 
-JSON.parse(response)['content'].each do |submission|
+submissions = JSON.parse(response)['content']
+
+submissions_count = submissions.count
+
+submissions.each.with_index do |submission, index|
   submission_id = submission['id']
 
   submission = Submission.new(submission_id, submission['answers'])
@@ -206,5 +204,6 @@ JSON.parse(response)['content'].each do |submission|
 
   combined_pdf_file_name = submission.name.gsub(/[^A-Za-z]/, '-') + '.pdf'
   PDFCombination.new("out/#{combined_pdf_file_name}", "#{submission_id}/summary.pdf", "#{submission_id}/exhibition_proposal.pdf", "#{submission_id}/dossier.pdf").combine!
+  puts "#{index + 1}/#{submissions_count} (#{submission_id}) > #{combined_pdf_file_name}"
 end
 
