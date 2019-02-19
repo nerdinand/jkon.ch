@@ -15,4 +15,4 @@ Exposition: __22.-24. août 2019, [Schützi](https://schuetzi.ch/) Olten__
 
 Pour l’exposition collective de la JKON 2019, nous cherchons des artistes qui déposent leur candidature avec un portfolio et tenter ainsi d’obtenir une place dans l’exposition.
 
-{% include_relative form.html %}
+<!-- {% include_relative form.html %} -->

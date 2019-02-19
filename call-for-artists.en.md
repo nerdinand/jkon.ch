@@ -15,4 +15,4 @@ Are you an artist between 18 and 35 years old? Would you like to exhibit your ar
 
 For the group exhibition JKON 2019, we are looking for artists who submit their portfolio to obtain a place in the exhibition. 
 
-{% include_relative form.html %}
+<!-- {% include_relative form.html %} -->
