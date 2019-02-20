@@ -158,7 +158,7 @@ class AttachmentDownload
   end
 
   def download!
-    system("curl -L -s '#{url}' > #{write_path}")
+    system("curl -L -s \"#{url}\" > #{write_path}")
   end
 
   private
@@ -183,17 +183,7 @@ class PDFCombination
   attr_reader :out_pdf_path, :in_pdf_paths
 end
 
-response = Net::HTTP.get(
-  URI("https://eu-api.jotform.com/form/#{JOTFORM_FORM_ID}/submissions?apiKey=#{api_key}&limit=1000")
-)
-
-FileUtils.mkdir_p('out')
-
-submissions = JSON.parse(response)['content']
-
-submissions_count = submissions.count
-
-submissions.each.with_index do |submission, index|
+def process_submission(submission)
   submission_id = submission['id']
 
   submission = Submission.new(submission_id, submission['answers'])
@@ -204,6 +194,28 @@ submissions.each.with_index do |submission, index|
 
   combined_pdf_file_name = submission.name.gsub(/[^A-Za-z]/, '-') + '.pdf'
   PDFCombination.new("out/#{combined_pdf_file_name}", "#{submission_id}/summary.pdf", "#{submission_id}/exhibition_proposal.pdf", "#{submission_id}/dossier.pdf").combine!
-  puts "#{index + 1}/#{submissions_count} (#{submission_id}) > #{combined_pdf_file_name}"
+
+  combined_pdf_file_name
 end
 
+submission_id_argument = ARGV[0]
+
+response = Net::HTTP.get(
+  URI("https://eu-api.jotform.com/form/#{JOTFORM_FORM_ID}/submissions?apiKey=#{api_key}&limit=1000")
+)
+
+FileUtils.mkdir_p('out')
+
+submissions = JSON.parse(response)['content']
+
+submissions_count = submissions.count
+
+if submission_id_argument
+  submission = submissions.find { |s| s['id'] == submission_id_argument }
+  process_submission(submission)
+else
+  submissions.each.with_index do |submission, index|
+    combined_pdf_file_name = process_submission(submission)
+    puts "#{index + 1}/#{submissions_count} (#{submission['id']}) > #{combined_pdf_file_name}"
+  end
+end
