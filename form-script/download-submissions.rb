@@ -95,6 +95,7 @@ class PDFExport
   TITLE_FIELD = 'name'
 
   TEXT_FIELDS = %w[
+    id
     address
     birth_date
     phone
