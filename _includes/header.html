@@ -23,6 +23,9 @@
       </label>
 
       <div class="trigger">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger" class="nav-trigger-label">[X]</label>
+
         {% if locale %}
           
           {% assign pages=site.pages | where:"lang", locale %}

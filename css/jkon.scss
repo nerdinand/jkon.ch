@@ -7,7 +7,6 @@ $active-color: #333;
 $secondary-color: #FF6464;
 $light-color: #FCFDFA;
 $link-color: #333;
-//#FF6464
 
 $break-small: 860px;
 
@@ -16,9 +15,7 @@ $header-font-color: $primary-color;
 $row-width: 51.5%;
 
 
-
 body {
-    // font-size: 20px;
     font-family: Georgia, Helvetica, Roboto, Arial, sans-serif;
     background: url(/images/Vorlage_Browser_Linen2_2019.png) repeat top center fixed;
     background-color: $body-background;
@@ -60,11 +57,10 @@ a, a:visited, a:hover, a:link {
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-    // margin: 0 auto;
     height: 25vw;
     z-index: 4;
-    // background-color: aqua;
-    display: block;  }
+    display: block;  
+}
 
 .wrapper {
     max-width: -webkit-calc(900px - (80px * 2));
@@ -95,58 +91,85 @@ a, a:visited, a:hover, a:link {
 }
 
 .site-nav {
+    .nav-trigger-label{
+        margin-top: -70px;
+    }
+
     float: right;
-    line-height: 54px; }
-    .site-nav .nav-trigger {
-      display: none; }
-    .site-nav .menu-icon {
-      display: none; }
-    .site-nav .page-link {
-      color: #111;
-      line-height: 1.5; }
-      .site-nav .page-link:not(:last-child) {
-        margin-right: 20px; }
-    @media screen and (min-width: 1px) {
-      .site-nav {
+    line-height: 54px; 
+}
+
+.site-nav .nav-trigger {
+    display: none; 
+}
+
+.site-nav .menu-icon {
+    display: none; 
+}
+
+.site-nav .page-link {
+    color: #111;
+    line-height: 1.5; 
+}
+
+.site-nav .page-link:not(:last-child) {
+    margin-right: 20px; 
+}
+
+@media screen and (min-width: 1px) {
+    .site-nav {
         position: absolute;
         top: 27vw;
         right: calc(50vw - 18px);
         background-color: transparent;
         border: 0px solid #e8e8e8;
         border-radius: 5px;
-        text-align: center; }
-        .site-nav label[for="nav-trigger"] {
-          display: block;
-          float: right;
-          width: 36px;
-          height: 36px;
-          z-index: 2;
-          cursor: pointer; }
-        .site-nav .menu-icon {
-          display: block;
-          float: right;
-          width: 36px;
-          height: 26px;
-          line-height: 0;
-          padding-top: 10px;
-          text-align: center; }
-          .site-nav .menu-icon > svg {
-            fill: $secondary-color; }
-        .site-nav input ~ .trigger {
-          clear: both;
-          display: none; 
-          }
-        .site-nav input:checked ~ .trigger {
-          display: block;
-          padding-bottom: 5px; 
-          }
-        .site-nav .page-link {
-          display: block;
-          padding: 5px 10px;
-          margin-left: 20px; }
-          .site-nav .page-link:not(:last-child) {
-            margin-right: 0; } }
-  
+        text-align: center; 
+    }
+    .site-nav label[for="nav-trigger"] {
+        display: block;
+        float: right;
+        width: 36px;
+        height: 36px;
+        z-index: 2;
+        cursor: pointer; 
+    }
+
+    .site-nav .menu-icon {
+        display: block;
+        float: right;
+        width: 36px;
+        height: 26px;
+        line-height: 0;
+        padding-top: 10px;
+        text-align: center; 
+    }
+
+    .site-nav .menu-icon > svg {
+        fill: $secondary-color; 
+    }
+
+    .site-nav input ~ .trigger {
+        clear: both;
+        display: none; 
+    }
+
+    .site-nav input:checked ~ .trigger {
+        display: block;
+        padding-bottom: 5px; 
+    }
+
+    .site-nav .page-link {
+        display: block;
+        padding: 5px 10px;
+        margin-left: 20px; 
+    }
+
+    .site-nav .page-link:not(:last-child) {
+        margin-right: 0; 
+    } 
+}
+
 .page-content{
     padding: 28vw 0 14vw 0;
 }
@@ -157,189 +180,49 @@ a, a:visited, a:hover, a:link {
 }
 
 .svg-icon {
-    display:none;
+    display: none;
 }
+
 .social-media-list li + li {
-    padding-top: 0px; }
+    padding-top: 0px; 
+}
 
 ul {
     margin-bottom:0;
 }
 
-/**
- * Tables
- */
- table {
+
+table {
     margin: 0 auto 30px auto;
     width: 80%;
     text-align: right;
     color: $primary-color;
     border-collapse: collapse;
     background-color: transparent;
-    border: 0; }
-    table tr:nth-child(even) {
-      background-color: transparent;     
-    }
-    table td:nth-child(even) {
-      text-align: left;     
-    }
-    table th, table td {
-      padding: 10px 15px; }
-    table th {
-      background-color: transparent;
-      border: 0px solid #dedede;
-      border-bottom-color: none; }
-    table td {
-      border: 0px solid #e8e8e8; 
-    }
+    border: 0; 
+}
+table tr:nth-child(even) {
+    background-color: transparent;     
+}
+table td:nth-child(even) {
+    text-align: left;     
+}
+table th, table td {
+    padding: 10px 15px; 
+}
+table th {
+    background-color: transparent;
+    border: 0px solid #dedede;
+    border-bottom-color: none; }
+table td {
+    border: 0px solid #e8e8e8; 
+}
   
 
-
-/*
-.jkon-center {
-    width: 100%;
-    padding: 20px;
-    .hamburger-top {
-        margin: auto;
-        width: 40px;
-        height: 40px;
-        display: block;
-        background-size: cover;
-        background-image: url(images/Menu_Top.png);
-    }
-}
-
-
-.jkon-center-bottom {
-    width: 100%;
-    position: fixed;
-    bottom: 2px;
-    .hamburger-bottom {
-        margin: auto;
-        width: 40px;
-        height: 40px;
-        display: block;
-        background-size: cover;
-        background-image: url(images/Menu_Footer.png);
-        z-index: 100;
-    }
-}
-*/
-
-footer{
+footer {
     padding: 50px;
 }
 
-/*
-.jkon-menu {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: auto;
-    bottom: 0;
-    top: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(255, 64, 64, 0.6);
-    margin: 20px;
-    z-index: 500;
-    text-align: center;
-
-    ul {
-        margin: 30px auto;
-        list-style: none;
-
-        .menu-close {
-            font-size: 2em;
-            padding: 40px;
-        }
-
-        li {
-            line-height: 1.8em;
-
-            a {
-                text-transform: uppercase;
-                color: $body-background;
-                font-size: 1.3em;
-            }
-
-            ul {
-                display: none;
-
-                li a {
-                    text-transform: none;
-                    font-size: 1.2em;
-                }
-            }
-        }
-
-        li.active a {
-            text-decoration: underline;
-        }
-
-        .dropdown {
-            margin: 0px 0px 20px 0px;
-        }
-    }
-
-    .menu-close {
-        width: 100%;
-
-        a {
-            margin: auto;
-            width: 40px;
-            height: 40px;
-            display: block;
-            background-image: url(images/Menu_close.png);
-            background-size: cover;
-        }
-    }
-}
-
-.img-container {
-    position: relative;
-    margin: none !important;
-    padding: 20px;
-    img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-}
-
-
-
-.img-overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    padding: 50px;
-    transition: .5s ease;
-    background-color: rgba(255, 64, 64, 0.7);
-
-    a {
-        color: $body-background;
-        text-transform: uppercase;
-        font-size: 2em;
-        line-height: 1em;
-        text-decoration: none;
-    }
-}
-
-.img-container:hover .img-overlay {
-    opacity: 1;
-}
-
-.artist img {
-    filter: grayscale(100%);
-}
-*/
 
 .logo {
     position: fixed;
@@ -347,32 +230,20 @@ footer{
     left: 0;
 }
 
-/*
-#sb-overlay {
-    background-color: rgba(255, 64, 64, 0.7) !important;
-}
-
-#sb-loading {
-    background-color: $primary-color !important;
-}
-
-#sb-wrapper-inner {
-    border: none !important;
-}
-*/
 
 @media screen and (max-width: $break-small) {
     body {
-    background: url(/images/Vorlage_Mobile_Linien.png) repeat top center fixed;
-    background-color: $body-background;
-    color: $primary-color;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    text-align: center;
+        background: url(/images/Vorlage_Mobile_Linien.png) repeat top center fixed;
+        background-color: $body-background;
+        color: $primary-color;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        text-align: center;
     }
-    .row{
+
+    .row {
         max-width: 100%;
     }
 }
