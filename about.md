@@ -7,11 +7,11 @@ lang: de
 
 ## Das Organisationskomitee der JKON 2019
 
-Florian Amoser, Nadia Bader, Melanie Gamma, Stefanie Kurt, Fabian Matz, Ferdinand Niedermann, Nermina Šerifović, Janine Strasser, René Mennuni
+Florian Amoser, Nadia Bader, Melanie Gamma, Stefanie Kurt, Fabian Matz, Ferdinand Niedermann, Nermina Šerifović, Janine Strasser
 
 ## Kuration JKON 2019
 
-Nermina Šerifović, Janine Strasser, René Mennuni
+Nermina Šerifović, Janine Strasser
 
 ## Ehemalige Mitglieder im Organisationskomitee
 
