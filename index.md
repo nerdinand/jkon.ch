@@ -11,6 +11,8 @@ Die JKON, Junge Kunst Olten, findet vom 22. bis 24. August 2019 in der [Schützi
 
 Ambrosius Huber, Andreas Jäggi, Anina Müller, Anna Malina Jaun, Christina Huber, Denis Roueche, Eliane Hürlimann, Franca Manz, Jannai Balikavlayan, Jolanda Epprecht, Julian Zehnder, Luca Harlacher, Maria Ionescu, Mirko Kircher, Moritz Tobler, Nefeli Chrysa Avgeris, Nicole Küttel, Nicolle Bussien, Ronja Römmelt, Stefanie Koemeda, Sven Friedli, Tereza Glazova, Tobias Furter
 
+[Mehr Informationen](artists.html)
+
 ### Öffnungszeiten
 
 |__Donnerstag__, 22. August 2019|18h00-21h00|

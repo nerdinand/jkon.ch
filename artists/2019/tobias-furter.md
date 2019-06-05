@@ -1,14 +1,14 @@
 ### Tobias Furter (\*1993)
 
-![Tobias Furter](images/artists/2019/Tobias_Furter_Portrait.jpg)
+![Tobias Furter](/images/artists/2019/Tobias_Furter_Portrait.jpg)
 
 Ich heisse Tobias Furter und bin 26 Jahre alt. Im Jahr 2017 habe ich mein Architekturstudium an der Hochschule Luzern abgeschlossen. Heute arbeite ich als Architekt und Maler. In meiner Arbeit setze ich mich mit Raum, Proportion und Form auseinander. Mein liebstes Haus steht im Tessin und mein liebstes Bild zeigt die Nordsee. 
 
-![Tobias Furter's opus](images/artists/2019/Tobias_Furter_Zeichnung01.jpg)
+![Tobias Furter's opus](/images/artists/2019/Tobias_Furter_Zeichnung01.jpg)
 
-![Tobias Furter's opus](images/artists/2019/Tobias_Furter_Zeichnung02.jpg)
+![Tobias Furter's opus](/images/artists/2019/Tobias_Furter_Zeichnung02.jpg)
 
-![Tobias Furter's opus](images/artists/2019/Tobias_Furter_Zeichnung03.jpg)
+![Tobias Furter's opus](/images/artists/2019/Tobias_Furter_Zeichnung03.jpg)
 
 Als Mensch nimmt man eine persönliche Position zur Welt ein, in der man lebt. Der Künstler arbeitet aus dieser Position heraus. Somit ist sein gesamtes Werk auch Ausdruck dieser Situation. Die Architekturzeichungen entspringen Gesehenem und zeigen Gewünschtes. Es sind unabhängige Notate, visuelle Untersuchungen von Proportion, Ordnung, Form und Raum. Sie brauchen kein Kapital und doch ist bei ihnen, wie beim fertigen Haus, alles versammelt. Sämtliche Zeichnungen sind mit Grafitstift auf Papier gezeichnet. 
 

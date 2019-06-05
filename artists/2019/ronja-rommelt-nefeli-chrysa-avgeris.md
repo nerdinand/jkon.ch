@@ -1,12 +1,12 @@
 ### Ronja Römmelt (\*1994) und Nefeli Chrysa Avgeris (\*1993)
 
-![Ronja Römmelt and Nefeli Chrysa Avgeris](images/artists/2019/Ronja_Roemmelt_Nefeli_Chrysa_Avgeris_Portrait.jpg)
+![Ronja Römmelt and Nefeli Chrysa Avgeris](/images/artists/2019/Ronja_Roemmelt_Nefeli_Chrysa_Avgeris_Portrait.jpg)
 
 Ronja Römmelt arbeitet an der Schnittstelle zwischen bildender und darstellender Kunst. Wiederkehrende Themen ihrer Arbeiten sind die Analyse zwischenmenschlicher Beziehungen, menschlichen Verhaltens und menschlicher Emotionen. Durch geschickte Kombination von Elementen aus Wissenschaft, Tanz und Performance thematisiert und hinterfragt Römmelt Konventionen gängiger Aufführungspraxen verschiedener Kunstsparten.
 
 Nefeli Chrysa Avgeris ist Filmemacherin. Ihre Arbeit bewegt sich im Grenzbereich verschiedener künstlerischer Disziplinen und umfasst skulpturale Raum-Installationen, poetische Texte und essayistische Filme. Ihr persönlicher Fokus liegt momentan in der Darstellung der subjektiven Wahrnehmung von zwischenmenschlichen Beziehungen der heutigen Gesellschaft und deren assoziativen Interpretation.
 
-![Ronja Römmelt and Nefeli Chrysa Avgeris's opus](images/artists/2019/Ronja_Roemmelt_Nefeli_Chrysa_Avgeris_Werk_JJ.jpg)
+![Ronja Römmelt and Nefeli Chrysa Avgeris's opus](/images/artists/2019/Ronja_Roemmelt_Nefeli_Chrysa_Avgeris_Werk_JJ.jpg)
 
 Sie will, dass er sie will. Er will, dass sie ihn will. Damit er sie will, gibt sie vor, ihn zu wollen. Damit sie ihn will, gibt er vor, sie zu wollen. Er will, dass sie ihn will. Also sagt er zu ihr: Ich will dich. Sie will, dass er sie will. Also sagt sie zu ihm: Ich will dich. Ein perfekter Vertrag. 
 
