@@ -5,4 +5,4 @@ title: 'Künstler*innen 2019'
 lang: de
 ---
 
-{% include_relative artists/2019/index.md %}
+{% include_relative artists/2019.md %}
