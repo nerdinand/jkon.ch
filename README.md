@@ -40,8 +40,8 @@ After following the installation steps above, you should be able to start a loca
 bundle exec jekyll serve
 ```
 
-If everything works according to plan, the website should be accessible locally using your browser at http://127.0.0.1:4000/jkon.ch/
+If everything works according to plan, the website should be accessible locally using your browser at http://127.0.0.1:4000
 
-Jekyll supports auto-generation: If you edit a file belonging to the website, your changes are automatically processed and available after you refresh in your browser.
+Jekyll supports auto-generation: If you edit a file belonging to the website locally, your changes are automatically processed and available after you refresh in your browser.
 
-When you push your changes to this repository using git, GitHub pages automatically publishes them to the live version of the website: https://nerdinand.github.io/jkon.ch/
+When you push your changes to this repository using git, GitHub pages automatically publishes them to the live version of the website: https://nerdinand.github.io/jkon.ch/. Of course the website is also available through https://www.jkon.ch/.
