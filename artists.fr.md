@@ -5,4 +5,4 @@ title: Artistes 2019
 lang: fr
 ---
 
-## Artistes 2019
+{% include_relative artists/2019.md %}

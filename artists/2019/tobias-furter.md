@@ -1,0 +1,16 @@
+### Tobias Furter (\*1993)
+
+![Tobias Furter](images/artists/2019/Tobias_Furter_Portrait.jpg)
+
+Ich heisse Tobias Furter und bin 26 Jahre alt. Im Jahr 2017 habe ich mein Architekturstudium an der Hochschule Luzern abgeschlossen. Heute arbeite ich als Architekt und Maler. In meiner Arbeit setze ich mich mit Raum, Proportion und Form auseinander. Mein liebstes Haus steht im Tessin und mein liebstes Bild zeigt die Nordsee. 
+
+![Tobias Furter's opus](images/artists/2019/Tobias_Furter_Zeichnung01.jpg)
+
+![Tobias Furter's opus](images/artists/2019/Tobias_Furter_Zeichnung02.jpg)
+
+![Tobias Furter's opus](images/artists/2019/Tobias_Furter_Zeichnung03.jpg)
+
+Als Mensch nimmt man eine persönliche Position zur Welt ein, in der man lebt. Der Künstler arbeitet aus dieser Position heraus. Somit ist sein gesamtes Werk auch Ausdruck dieser Situation. Die Architekturzeichungen entspringen Gesehenem und zeigen Gewünschtes. Es sind unabhängige Notate, visuelle Untersuchungen von Proportion, Ordnung, Form und Raum. Sie brauchen kein Kapital und doch ist bei ihnen, wie beim fertigen Haus, alles versammelt. Sämtliche Zeichnungen sind mit Grafitstift auf Papier gezeichnet. 
+
+Vitruv, 10 Bücher über Architektur, 2. Buch, 1. Kapitel. Vom Ursprung der Gebäude: 
+«... Als also infolge der Entdeckung des Feuers zunächst bei den Menschen ein Zusammenlauf, ein Zusammenschluss und ein Zusammenleben entstanden war und mehr Menschen an eine Stelle zusammenkamen, die von der Natur aus dies vor den anderen Lebewesen als Auszeichnung hatten, dass sie nicht vornübergeneigt, sondern aufrecht gingen und die Herrlichkeit des Weltalls und der Gestirne anblickten, ferner mit ihren Händen und Gliedmassen alles, was sie wollten, leicht bearbeiteten, begannen in dieser Gemeinschaft die einen, aus Laub Hütten zu bauen, andere, am Fuss von Bergen Höhlen zu graben; einigen ahmten auch Nester der Schwalben nach und stellten aus Lehm und Reisig Behausungen her, um dort unterzuschlüpfen. Dann beobachteten sie die Behausungen der anderen, fügten durch eigenes Nachdenken Neuerungen hinzu und schufen so von Tag zu Tag bessere Arten von Hütten.»

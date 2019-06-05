@@ -43,7 +43,7 @@ page_refs:
   - index
   # TODO: reactivate this once call for artists is open again
   # - call-for-artists
-  # - artists
+  - artists
   - past-exhibitions
   - what-is-jkon
   - sponsors
