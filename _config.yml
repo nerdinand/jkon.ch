@@ -41,7 +41,9 @@ instagram_username: jkonolten
 
 page_refs:
   - index
-  - call-for-artists
+  # TODO: reactivate this once call for artists is open again
+  # - call-for-artists
+  # - artists
   - past-exhibitions
   - what-is-jkon
   - sponsors
