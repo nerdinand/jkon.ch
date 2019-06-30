@@ -23,3 +23,6 @@ The __finissage__, including the award ceremony, takes place at 17h30, Saturday,
 ### Artists
 
 {% include index-artists-2019.md %}
+
+![Flyer Front](images/flyers/JKON2019_Flyer_Front_EN.jpg)
+![Flyer Back](images/flyers/JKON2019_Flyer_Back_EN.jpg)

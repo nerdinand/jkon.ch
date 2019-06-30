@@ -23,3 +23,6 @@ Die __Finissage__ mit Preisverleihung findet 17h30 am Samstag, 24. August 2019 s
 ### Künstler\*innen
 
 {% include index-artists-2019.md %}
+
+![Flyer Front](images/flyers/JKON2019_Flyer_Front_DE.jpg)
+![Flyer Back](images/flyers/JKON2019_Flyer_Back_DE.jpg)

@@ -23,3 +23,6 @@ La __clôture__, y compris la remise des prix, aura lieu le samedi 24 août 2019
 ### Artistes
 
 {% include index-artists-2019.md %}
+
+![Flyer Front](images/flyers/JKON2019_Flyer_Front_FR.jpg)
+![Flyer Back](images/flyers/JKON2019_Flyer_Back_FR.jpg)
