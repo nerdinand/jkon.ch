@@ -3,9 +3,7 @@
 {% assign artist = artist_hash[1] %}
 {% assign name = artist.short_name %}
 
-{% if artist.cancelled %}
-{% assign name = name | append: " <b>ABGESAGT</b>" %}
-{% endif %}
-
+{% unless artist.cancelled %}
 <a href="/artists#{{artist_hash[0]}}">{{ name }}</a>
+{% endunless %}
 {% endfor %}
