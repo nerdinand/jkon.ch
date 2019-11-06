@@ -1,28 +1,18 @@
 ---
 layout: page
 ref: index
-title: JKON 2019
+title: JKON 2020
 lang: fr
 ---
 
-La JKON, l'Art Jeune d'Olten, aura lieu du 22 au 24 août 2019 dans le "[Schützi](https://schuetzi.ch/)" d'Olten. 
+La JKON, l'Art Jeune d'Olten, aura lieu du 13 au 15 août 2020 dans le "[Schützi](https://schuetzi.ch/)" d'Olten. 
 
-### Horaires d'ouvertures de l'exposition
+{% include index/call-for-help.md %}
 
-|__Jeudi__, 22 août 2019|18h00-21h00|
-|__Vendredi__, 23 août 2019|16h00-21h00|
-|__Samedi__, 24 août 2019|10h00-21h00|
-||Afterparty au [Coq d’Or](http://coq-d-or.ch/), Olten|
+{% comment %}
+{% include index/opening-hours.fr.md %}
 
-La __vernissage__ aura lieu jeudi 22 août 2019 à 18h30.
+{% include index/artists.fr.md %}
 
-La __clôture__, y compris la remise des prix, aura lieu le samedi 24 août 2019 à 17h30.
-
-[Ajouter à mon calendrier](ical-script/jkon2019.ics)
-
-### Artistes
-
-{% include index-artists-2019.md %}
-
-![Flyer Front](images/flyers/JKON2019_Flyer_Front_FR.jpg)
-![Flyer Back](images/flyers/JKON2019_Flyer_Back_FR.jpg)
+{% include index/flyer.fr.md %}
+{% endcomment %}

@@ -1,28 +1,18 @@
 ---
 layout: page
 ref: index
-title: JUNGE KUNST OLTEN 2019
+title: JUNGE KUNST OLTEN 2020
 lang: de
 ---
 
-Die JKON, Junge Kunst Olten, findet vom 22. bis 24. August 2019 in der [Schützi](https://schuetzi.ch/) Olten statt. 
+Die JKON, Junge Kunst Olten, findet vom 13. bis 15. August 2020 in der [Schützi](https://schuetzi.ch/) Olten statt. 
 
-### Öffnungszeiten
+{% include index/call-for-help.md %}
 
-|__Donnerstag__, 22. August 2019|18h00-21h00|
-|__Freitag__, 23. August 2019|16h00-21h00|
-|__Samstag__, 24. August 2019|10h00-21h00|
-||Afterparty im [Coq d’Or](http://coq-d-or.ch/), Olten|
+{% comment %}
+{% include index/opening-hours.md %}
 
-Die __Vernissage__ findet 18h30 am Donnerstag, 22. August 2019 statt.
+{% include index/artists.md %}
 
-Die __Finissage__ mit Preisverleihung findet 17h30 am Samstag, 24. August 2019 statt.
-
-[Zu meinem Kalender hinzufügen](ical-script/jkon2019.ics)
-
-### Künstler\*innen
-
-{% include index-artists-2019.md %}
-
-![Flyer Front](images/flyers/JKON2019_Flyer_Front_DE.jpg)
-![Flyer Back](images/flyers/JKON2019_Flyer_Back_DE.jpg)
+{% include index/flyer.md %}
+{% endcomment %}
