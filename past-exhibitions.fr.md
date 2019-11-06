@@ -15,7 +15,7 @@ Anina Müller (Prix de la fondation Maurer-Billeter de CHF 5000)
 
 Luca Harlacher (exposition dans la vitrine d'été du Kunsthaus Zofingen LOOK@JKON 2019)
 
-Denis Roueche (exposition du musée d’art d’Olten "Dienstraum")
+Denis Roueche (exposition dans le "Dienstraum", musée d‘art d‘Olten, 2020)
 
 __Artistes__:
 

@@ -15,7 +15,7 @@ Anina Müller (CHF 5000 cash prize of the foundation Hans and Beatrice Maurer-Bi
 
 Luca Harlacher (exhibition in the summer window showcase of Kunsthaus Zofingen LOOK@JKON 2019)
 
-Denis Roueche (exhibition "Dienstraum" of the Kunstmuseum Olten)
+Denis Roueche (exhibition "Dienstraum" of the Kunstmuseum Olten in 2020)
 
 __Artists__:
 

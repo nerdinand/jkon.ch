@@ -15,7 +15,7 @@ Anina Müller (Bargeldpreis von 5'000.- CHF der Hans und Beatrice Maurer-Billete
 
 Luca Harlacher (Sommerfenster im Kunsthaus Zofingen LOOK@JKON 2019)
 
-Denis Roueche (Ausstellung im Dienstraum des Kunstmuseum Olten)
+Denis Roueche (Ausstellung im Dienstraum des Kunstmuseum Olten 2020)
 
 __Künstler\*innen__:
 
