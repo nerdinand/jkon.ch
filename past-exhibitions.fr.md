@@ -5,6 +5,22 @@ title: Éditions précédentes
 lang: fr
 ---
 
+## [JKON 2019](artists/2019.fr.html)
+
+__Les commissaires__: Janine Strasser, Nermina Serifovic
+
+__Les lauréats / les lauréates__:
+
+Anina Müller (Prix de la fondation Maurer-Billeter de CHF 5000)
+
+Luca Harlacher (exposition dans la vitrine d'été du Kunsthaus Zofingen LOOK@JKON 2019)
+
+Denis Roueche (exposition du musée d’art d’Olten "Dienstraum")
+
+__Artistes__:
+
+{% include past-exhibitions/artists-2019.md %}
+
 ## JKON 2018
 
 __Les commissaires__: Tanja Breu, Antonella Barone

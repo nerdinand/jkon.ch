@@ -5,6 +5,22 @@ title: Past exhibitions
 lang: en
 ---
 
+## [JKON 2019](artists/2019.en.html)
+
+__Curators__: Janine Strasser, Nermina Serifovic
+
+__Laureates__: 
+
+Anina Müller (CHF 5000 cash prize of the foundation Hans and Beatrice Maurer-Billeter)
+
+Luca Harlacher (exhibition in the summer window showcase of Kunsthaus Zofingen LOOK@JKON 2019)
+
+Denis Roueche (exhibition "Dienstraum" of the Kunstmuseum Olten)
+
+__Artists__:
+
+{% include past-exhibitions/artists-2019.md %}
+
 ## JKON 2018
 
 __Curators__: Tanja Breu, Antonella Barone

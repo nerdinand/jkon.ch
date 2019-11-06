@@ -1,4 +1,4 @@
-{% for artist_hash in site.data.artists.2019 %}
+{% for artist_hash in site.data.artists.a2019 %}
 
 {% assign artist = artist_hash[1] %}
 {% assign name = artist.short_name %}

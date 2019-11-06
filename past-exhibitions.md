@@ -5,6 +5,22 @@ title: Vergangene Ausstellungen
 lang: de
 ---
 
+## [JKON 2019](artists/2019.html)
+
+__Kuratorinnen__: Janine Strasser, Nermina Serifovic
+
+__Preisträger\*innen__: 
+
+Anina Müller (Bargeldpreis von 5'000.- CHF der Hans und Beatrice Maurer-Billeter-Stiftung)
+
+Luca Harlacher (Sommerfenster im Kunsthaus Zofingen LOOK@JKON 2019)
+
+Denis Roueche (Ausstellung im Dienstraum des Kunstmuseum Olten)
+
+__Künstler\*innen__:
+
+{% include past-exhibitions/artists-2019.md %}
+
 ## JKON 2018
 
 __Kuratorinnen__: Tanja Breu, Antonella Barone
@@ -25,7 +41,7 @@ __Preisträger\*innen__: [Gregor Vogel](https://www.gregor-vogel.com/), [Corneli
 __Künstler\*innen__:
 [Adrian Fernandez Garcia](http://adrianfernandezgarcia.com/), [Anouk Strähl](https://www.dent-de-lion.ch/), [Cornelia Fröhlich](http://corneliafroehlich.com/), [Daniel Züsli](http://www.daniel-zuesli.ch/), Eliane Hürlimann, [Flavia Somalvico](http://flaviasomalvico.blogspot.com/), [Gregor Vogel](https://www.gregor-vogel.com/), Mathola Wittmer, [Mattania Bösiger](https://macherei.com/), Michaela Schmid, [Nadja Künzli](https://www.nadjakuenzli.ch/), [Nicolas Witschi](http://nicolaswitschi.com/), [Ramona Köchli](http://ramonakoechli.ch/), [Reto Lienhard](http://www.retolienhard.com/), [Samuel Rauber](http://www.samuelrauber.ch/), [Sonja Berta](http://www.sonjaberta.com/)
 
-![JKON Stimmungsbild 3](images/jkon2.jpg)
+![JKON Stimmungsbild 2](images/jkon2.jpg)
 
 ## JKON 2016
 
@@ -34,7 +50,7 @@ __Preisträger__: [Jan Merlin Pulfer](https://macherei.com/), [Fabian Matz](http
 __Künstler\*innen__:
 Corina Heinrich, Daniel Müller, [Fabian Matz](https://fabianmatz.com/), [Jan Merlin Pulfer](https://macherei.com/), [Julia Nussbaumer](https://julianussbaumer.com/), [Julia Schicker](http://www.juliaschicker.ch/), [Laurie Vannaz](http://laurievannaz.wixsite.com/portfolio), [Maeva Rosset](http://www.maevarosset.com/), Matthias Amsler, [Naomi Figueiredo](https://www.naomifigueiredo.com/), [Nico Sebastian Meyer](http://www.nicosebastianmeyer.com/), [Pearlie Frisch](https://pearliefrisch.com/), [Ruben Frei](http://rubenfrei.com/), [Sara Tordini](http://saratordini.tumblr.com/), [Samuel Kunz](http://samuel-kunz.tumblr.com/), [Selina Zürrer](http://www.selinazuerrer.ch/), [Thomas Blank](http://www.thomasgeorgblank.de/)
  
-![JKON Stimmungsbild 3](images/jkon1.jpg)
+![JKON Stimmungsbild 1](images/jkon1.jpg)
 
 ## JKON 2015
 
