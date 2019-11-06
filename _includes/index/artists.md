@@ -1,3 +1,3 @@
 ### Künstler\*innen
 
-{% include index/artists-2019.md %}
+{% include_relative artists-2019.md %}
