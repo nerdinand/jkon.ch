@@ -5,7 +5,7 @@ require 'json'
 require 'pry-byebug'
 require 'wicked_pdf'
 
-JOTFORM_FORM_ID = 83444216427355
+JOTFORM_FORM_ID = 200111850223335
 api_key = ENV['API_KEY']
 
 class Submission
@@ -210,6 +210,8 @@ FileUtils.mkdir_p('out')
 submissions = JSON.parse(response)['content']
 
 submissions_count = submissions.count
+
+puts "#{submissions_count} submissions"
 
 if submission_id_argument
   submission = submissions.find { |s| s['id'] == submission_id_argument }
