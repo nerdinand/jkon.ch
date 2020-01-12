@@ -15,15 +15,10 @@ La fondation octroie à une/un artiste une bourse de CHF 5000 pour l’encourage
 
 Sur l’invitation de la CFF, le musée d’art d’Olten organise des expositions artistiques dans l’ancien bureau sur le perron 7 de la gare d’Olten depuis 2018.
 
-Une/un artiste de l’JKON reçoit la possibilité d’exposer ses œuvres dans ce bureau l’année 2020.
+Une/un artiste de l’JKON reçoit la possibilité d’exposer ses œuvres dans ce bureau l’année 2021.
 
-[www.kunstmuseumolten.ch](https://www.kunstmuseumolten.ch){:target="_blank"}
+[www.kunstmuseumolten.ch](https://www.kunstmuseumolten.ch){:target="\_blank"}
 
 ## Kunsthaus Zofingen SOMMERFENSTER
 
-__Le lauréat: Luca Harlacher__
-
-La ou le lauréat/e exposera dans la vitrine d'été du Kunsthaus Zofingen.
-Exposition "Look@JKON" 6.7. - 9.8.2019 \| vernissage DI 7.7.2019 17h00
-
-[Kunsthaus Zofingen Look@JKON](https://kunsthauszofingen.ch/2019/look-jkon-2019/){:target="_blank"}
+La ou le lauréat/e exposera dans la vitrine d'été (juillet/août 2020) du Kunsthaus Zofingen.

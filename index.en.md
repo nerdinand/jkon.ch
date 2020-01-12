@@ -7,14 +7,15 @@ lang: en
 
 The JKON, Young Art Olten, takes place in the [Schützi](https://schuetzi.ch/) Olten from the 13th until 15th of August 2020.
 
-Call for artists: __January 2020__
+{% include index/call-for-artists.en.md %}
 
 {% comment %}
 {% include index/call-for-help.md %}
+{% endcomment %}
 
 {% include index/opening-hours.en.md %}
 
+{% comment %}
 {% include index/artists.en.md %}
-
 {% include index/flyer.en.md %}
 {% endcomment %}
