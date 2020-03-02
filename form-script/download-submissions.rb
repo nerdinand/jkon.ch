@@ -18,7 +18,7 @@ class Submission
     curriculum_vitae
     website
     instagram_handle
-    portrait
+    portraitneutraler
     dossier
     exhibition_proposal
   )
@@ -48,6 +48,7 @@ class Submission
   end
 
   def find_field(field_name)
+    # p @answers_hash.map { |k, v| v['name'] }
     found = @answers_hash.find { |k, v| v['name'] == field_name }
     raise "#{field_name} not found" if found.nil?
     found.last
@@ -137,7 +138,7 @@ class PDFExport
     '   </tbody>
       </table>
       <div style="page-break-before: always;" />' +
-      "<img src=\"#{submission.portrait}\" style=\"max-width: 900px; max-height: 1400px;\"/>" +
+      "<img src=\"#{submission.portraitneutraler}\" style=\"max-width: 900px; max-height: 1400px;\"/>" +
     '</body>' +
     '</html>'
   end
@@ -194,7 +195,13 @@ def process_submission(submission)
   AttachmentDownload.new(submission_id, submission.exhibition_proposal, 'exhibition_proposal.pdf').download!
 
   combined_pdf_file_name = submission.name.gsub(/[^A-Za-z]/, '-') + '.pdf'
-  PDFCombination.new("out/#{combined_pdf_file_name}", "#{submission_id}/summary.pdf", "#{submission_id}/exhibition_proposal.pdf", "#{submission_id}/dossier.pdf").combine!
+  while File.exists? "out/#{combined_pdf_file_name}"
+    combined_pdf_file_name = "#{combined_pdf_file_name[0..-5]}-1.pdf"
+  end
+
+  combined_pdf_path = "out/#{combined_pdf_file_name}"
+
+  PDFCombination.new(combined_pdf_path, "#{submission_id}/summary.pdf", "#{submission_id}/exhibition_proposal.pdf", "#{submission_id}/dossier.pdf").combine!
 
   combined_pdf_file_name
 end
