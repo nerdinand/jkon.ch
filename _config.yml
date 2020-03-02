@@ -42,7 +42,7 @@ instagram_username: jkonolten
 page_refs:
   - index
   # toggle this on/off to show/hide call-for-artists page
-  - call-for-artists
+  # - call-for-artists
   # toggle this on/off to show/hide artists page
   # - artists
   - past-exhibitions
