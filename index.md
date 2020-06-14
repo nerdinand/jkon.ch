@@ -5,21 +5,50 @@ title: JUNGE KUNST OLTEN 2020
 lang: de
 ---
 
-Die JKON, Junge Kunst Olten, findet vom 13. bis 15. August 2020 in der [Schützi](https://schuetzi.ch/) Olten statt. 
 
-{% include index/artist-names.md %}
+{%- case site.data.phase.phase -%}
+  {%- when "new_date_announced" -%}
+    {%- include index/date-announcement.md -%}
 
-{% comment %}
-{% include index/call-for-artists.md %}
-{% endcomment %}
+  {%- when "schedule_announced" -%}
+    {%- include index/date-announcement.md -%}
 
-{% comment %}
-{% include index/call-for-help.md %}
-{% endcomment %}
+    {%- include index/opening-hours.md -%}
 
-{% include index/opening-hours.md %}
+  {%- when "call_for_artists_running" -%}
+    {%- include index/date-announcement.md -%}
+    
+    {%- include index/call-for-artists.md -%}
+    
+    {%- include index/opening-hours.md -%}
 
-{% comment %}
-{% include index/artists.md %}
-{% include index/flyer.md %}
-{% endcomment %}
+  {%- when "call_for_artists_closed" -%}
+    {%- include index/date-announcement.md -%}
+
+    {%- include index/opening-hours.md -%}
+
+  {%- when "list_of_artists_announced" -%}
+    {%- include index/date-announcement.md -%}
+    
+    <p>
+      {%- include index/artist-names.md -%}
+    </p>
+
+    {%- include index/opening-hours.md -%}
+    
+  {%- when "artist_portraits_online" -%}
+    {%- include index/date-announcement.md -%}
+
+    <p>
+      {%- include index/artist-names.md -%}
+    </p>
+
+    {%- include index/opening-hours.md -%}
+
+    {%- include index/flyer.md -%}
+
+{%- endcase -%}
+
+{%- if site.data.phase.call_for_help -%}
+  {%- include index/call-for-help.md -%}
+{%- endif -%}

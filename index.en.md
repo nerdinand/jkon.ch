@@ -5,21 +5,50 @@ title: JKON 2020
 lang: en
 ---
 
-The JKON, Young Art Olten, takes place in the [Schützi](https://schuetzi.ch/) Olten from the 13th until 15th of August 2020.
 
-{% include index/artist-names.md %}
+{%- case site.data.phase.phase -%}
+  {%- when "new_date_announced" -%}
+    {%- include index/date-announcement.en.md -%}
 
-{% comment %}
-{% include index/call-for-artists.en.md %}
-{% endcomment %}
+  {%- when "schedule_announced" -%}
+    {%- include index/date-announcement.en.md -%}
 
-{% comment %}
-{% include index/call-for-help.md %}
-{% endcomment %}
+    {%- include index/opening-hours.en.md -%}
 
-{% include index/opening-hours.en.md %}
+  {%- when "call_for_artists_running" -%}
+    {%- include index/date-announcement.en.md -%}
+    
+    {%- include index/call-for-artists.en.md -%}
+    
+    {%- include index/opening-hours.en.md -%}
 
-{% comment %}
-{% include index/artists.en.md %}
-{% include index/flyer.en.md %}
-{% endcomment %}
+  {%- when "call_for_artists_closed" -%}
+    {%- include index/date-announcement.en.md -%}
+
+    {%- include index/opening-hours.en.md -%}
+
+  {%- when "list_of_artists_announced" -%}
+    {%- include index/date-announcement.en.md -%}
+    
+    <p>
+      {%- include index/artist-names.md -%}
+    </p>
+
+    {%- include index/opening-hours.en.md -%}
+    
+  {%- when "artist_portraits_online" -%}
+    {%- include index/date-announcement.en.md -%}
+
+    <p>
+      {%- include index/artist-names.md -%}
+    </p>
+
+    {%- include index/opening-hours.en.md -%}
+
+    {%- include index/flyer.en.md -%}
+
+{%- endcase -%}
+
+{%- if site.data.phase.call_for_help -%}
+  {%- include index/call-for-help.md -%}
+{%- endif -%}
