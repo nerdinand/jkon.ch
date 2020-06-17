@@ -10,7 +10,7 @@
 # phase: schedule_announced
 # phase: call_for_artists_running
 # phase: call_for_artists_closed
-phase: list_of_artists_announced
-# phase: artist_portraits_online
+# phase: list_of_artists_announced
+phase: artist_portraits_online
 
 call_for_help: false

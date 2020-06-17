@@ -1,1 +1,1 @@
-Alexeï Monney, Delia Ferraro, Isabelle Weber, Joëlle Bischof & Robin Lütolf, June Schädelin & Noa Andrea Steiner, Lea Lina Hofer & Babette Walder, Linus Stiefel, Mindaugas Matulis, Sacha Rappo, Ste Haudenschild, Stella Meris, Yaeka Tabara
+{{ site.data.artists.a2020 | where: 'cancelled', false | map: 'short_name' | join: ', ' }}

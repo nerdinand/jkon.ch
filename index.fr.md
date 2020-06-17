@@ -40,7 +40,7 @@ lang: fr
     {%- include index/date-announcement.fr.md -%}
 
     <p>
-      {%- include index/artist-names.md -%}
+      {%- include index/artist-links.md -%}
     </p>
 
     {%- include index/opening-hours.fr.md -%}

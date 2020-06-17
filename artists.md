@@ -1,8 +1,8 @@
 ---
 layout: page
 ref: artists
-title: 'Künstler*innen 2019'
+title: 'Künstler*innen 2020'
 lang: de
 ---
 
-{% include_relative artists/2019.md %}
+{% include artists/2020.md %}
