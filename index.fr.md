@@ -45,8 +45,9 @@ lang: fr
 
     {%- include index/opening-hours.fr.md -%}
 
+    {% comment %}
     {%- include index/flyer.fr.md -%}
-
+    {% endcomment %}
 {%- endcase -%}
 
 {%- if site.data.phase.call_for_help -%}
