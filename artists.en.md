@@ -1,8 +1,8 @@
 ---
 layout: page
 ref: artists
-title: Artists 2019
+title: Artists 2020
 lang: en
 ---
 
-{% include_relative artists/2019.md %}
+{% include artists/2020.md %}

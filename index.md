@@ -40,13 +40,14 @@ lang: de
     {%- include index/date-announcement.md -%}
 
     <p>
-      {%- include index/artist-names.md -%}
+      {%- include index/artist-links.md -%}
     </p>
 
     {%- include index/opening-hours.md -%}
 
+    {% comment %}
     {%- include index/flyer.md -%}
-
+    {% endcomment %}
 {%- endcase -%}
 
 {%- if site.data.phase.call_for_help -%}
