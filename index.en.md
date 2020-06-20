@@ -30,9 +30,7 @@ lang: en
   {%- when "list_of_artists_announced" -%}
     {%- include index/date-announcement.en.md -%}
     
-    <p>
-      {%- include index/artist-names.md -%}
-    </p>
+    {%- include index/artist-names.html -%}
 
     {%- include index/opening-hours.en.md -%}
     

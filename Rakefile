@@ -5,9 +5,13 @@ IMAGES_DIRECTORY = '/images/artists/2020/'
 
 task :add_artist, [:name] do |t, args|
   yaml_string = {
-    'short_name' => args.name,
-    'persons' => [args.name],
-    'website_url' => nil,
+    'persons' => [
+      {
+        'name' => args.name,
+        'birth_year' => nil,
+        'website_url' => nil,
+      }
+    ],
     'portrait_image' => IMAGES_DIRECTORY,
     'biography' => nil,
     'artwork_images' => [IMAGES_DIRECTORY],

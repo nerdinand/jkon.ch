@@ -1,8 +1,8 @@
 ---
-short_name: Linus Stiefel
 persons:
-- Linus Stiefel (*1996)
-website_url:
+- name: Linus Stiefel 
+  birth_year: 1996
+  website_url:
 portrait_image: /images/artists/2020/LinusStiefel_Portrait.jpeg
 biography: Linus Stiefel lebt und arbeitet in Zürich.
 artwork_images: /images/artists/2020/STEVIL.jpg

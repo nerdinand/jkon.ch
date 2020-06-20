@@ -5,7 +5,6 @@ title: JUNGE KUNST OLTEN 2020
 lang: de
 ---
 
-
 {%- case site.data.phase.phase -%}
   {%- when "new_date_announced" -%}
     {%- include index/date-announcement.md -%}
@@ -30,9 +29,7 @@ lang: de
   {%- when "list_of_artists_announced" -%}
     {%- include index/date-announcement.md -%}
     
-    <p>
-      {%- include index/artist-names.md -%}
-    </p>
+    {%- include index/artist-names.html -%}
 
     {%- include index/opening-hours.md -%}
     
