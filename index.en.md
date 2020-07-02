@@ -5,7 +5,6 @@ title: JKON 2020
 lang: en
 ---
 
-
 {%- case site.data.phase.phase -%}
   {%- when "new_date_announced" -%}
     {%- include index/date-announcement.en.md -%}
@@ -42,10 +41,8 @@ lang: en
     </p>
 
     {%- include index/opening-hours.en.md -%}
-    
-    {% comment %}
+        
     {%- include index/flyer.en.md -%}
-    {% endcomment %}
 {%- endcase -%}
 
 {%- if site.data.phase.call_for_help -%}

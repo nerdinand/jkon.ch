@@ -42,9 +42,7 @@ lang: de
 
     {%- include index/opening-hours.md -%}
 
-    {% comment %}
     {%- include index/flyer.md -%}
-    {% endcomment %}
 {%- endcase -%}
 
 {%- if site.data.phase.call_for_help -%}
