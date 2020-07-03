@@ -21,4 +21,4 @@ Ein\*e JKON-Teilnehmende\*r darf das eigene Schaffen im Jahr 2021 in diesem Glas
 
 ## SOMMERFENSTER Kunsthaus Zofingen
 
-Die oder der Preisträger\*in bespielt das Sommerfenster (Juli/August 2020) des Kunsthauses Zofingen.
+Die oder der Preisträger\*in bespielt das Sommerfenster (Juli/August 2021) des Kunsthauses Zofingen.

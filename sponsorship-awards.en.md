@@ -21,4 +21,4 @@ One artist of JKON will be allowed to exhibit their work in 2021 in this glass c
 
 ## SOMMERFENSTER Kunsthaus Zofingen
 
-The prize winner exhibits in the summer window showcase (july/august 2020) of the Kunsthaus Zofingen.
+The prize winner exhibits in the summer window showcase (july/august 2021) of the Kunsthaus Zofingen.
