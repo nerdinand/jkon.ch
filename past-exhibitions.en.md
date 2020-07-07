@@ -19,7 +19,7 @@ Denis Roueche (exhibition "Dienstraum" of the Kunstmuseum Olten in 2020)
 
 __Artists__:
 
-{% include past-exhibitions/artists-2019.md %}
+{% include past-exhibitions/artists-2019.html %}
 
 ## JKON 2018
 

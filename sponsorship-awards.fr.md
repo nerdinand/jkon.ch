@@ -21,4 +21,4 @@ Une/un artiste de l’JKON reçoit la possibilité d’exposer ses œuvres dans 
 
 ## Kunsthaus Zofingen SOMMERFENSTER
 
-La ou le lauréat/e exposera dans la vitrine d'été (juillet/août 2020) du Kunsthaus Zofingen.
+La ou le lauréat/e exposera dans la vitrine d'été (juillet/août 2021) du Kunsthaus Zofingen.

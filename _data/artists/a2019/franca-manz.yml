@@ -1,10 +1,10 @@
-short_name: Franca Manz
 persons:
-  - Franca Manz (*1993 in Zürich)
-website_url:
+- name: Franca Manz
+  birth_year: 1993
+  website_url:
 portrait_image: /images/artists/2019/Franca_Manz_Portrait.jpg
 biography: Franca Manz hat Szenografie an der Zürcher Hochschule der Künste studiert. Seit ihrem Abschluss 2018 ist sie freischaffende Künstlerin/Szenografin und erarbeitet Kostüme, Szenografien, Skuplturen und Performances. Mit ihrem Verlag Edition Zischhh beschäftigt sie sich mit Text und Buchbinden.<br>Ihr Interesse gilt den Gegensätzen und Gemeinsamkeiten im Leben, der Beziehung zwischen Körper und Umwelt.
 artwork_images:
-  - /images/artists/2019/Franca_Manz_Werk_Teaser.jpg
+- /images/artists/2019/Franca_Manz_Werk_Teaser.jpg
 art_description: „Ich liebe das Runde, die Kurven, die Wellen. Die Welt ist rund. Die Welt ist eine Brust. Ich mag keine Symmetrie. Ich mag das Unvollkommene. Meine Kreise sind nie ganz rund, das ist meine Wahl. Die Perfektion ist kalt. Das Unvollkommene lebt. Ich liebe das Leben.“ (Niki de St Phalle)<br>Ausgangspunkt für mammae ist die formale Ähnlichkeit zwischen Augen und Vulvas, Tränen und Brüsten.
 cancelled: false

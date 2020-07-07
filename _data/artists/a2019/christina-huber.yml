@@ -1,11 +1,11 @@
-short_name: Christina Huber
 persons:
-  - Christina Huber (*1988 Landshut, Deutschland)
-website_url: https://christina-huber.com/
+- name: Christina Huber 
+  birth_year: 1988
+  website_url: https://christina-huber.com/
 portrait_image:
 biography: Christina Huber (*1988 Landshut, Deutschland) lebt und arbeitet in Zürich und Berlin. Sie studiert im letzten Semester Bildende Kunst an der Universität der Künste, Berlin und war 2018 für ein Gaststudium an der Central Saint Martins University of Arts, London. Sie ist in Ausstellungen in Zürich, Berlin, London und Warschau vertreten. Im Zentrum ihrer Arbeit steht das Sichtbarmachen von Informationen zwischen unserer Umwelt und menschlicher Handlung. Sie hinterfragt die Einbettung unserer Gesellschaft in kulturelle Systeme, deren Bedeutungsspielräume und damit einhergehende Narrative.
 artwork_images:
-  - /images/artists/2019/Christina_Huber_Werk_Gruen_orange_Koerperwaerme.jpg
-  - /images/artists/2019/Christina_Huber_Werk_Gruen_orange_Koerperwaerme_Detail.jpg
+- /images/artists/2019/Christina_Huber_Werk_Gruen_orange_Koerperwaerme.jpg
+- /images/artists/2019/Christina_Huber_Werk_Gruen_orange_Koerperwaerme_Detail.jpg
 art_description: In der Installation "Grün orange Körperwärme X" zeigt sie ihren Prozess der Nachforschung. Indem reine Acryl-Dispersion und Pigment verwendet werden, kommt die sonst in Acrylfarbe nicht sichtbare Struktur des Kunststoffes zum Vorschein und wird ohne Leinwand im Raum installiert. Diese Objekte formt Christina Huber am Morgen des Aufbaus wiederum auf Tonformen ab. Diese trocknen, beeinflusst von den jeweiligen äusseren Faktoren wie Boden und Temperatur. Sie sind Abbilder einer vergangenen Handlung und zukünftige Relikte, der uns umgebenden, synthetischen Materialstrukturen des 20 und 21. Jahrhunderts.
 cancelled: false

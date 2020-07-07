@@ -1,10 +1,10 @@
-short_name: Stefanie Koemeda
 persons:
-  - Stefanie Koemeda (*1987)
-website_url: https://www.stefaniekoemeda.com
+- name: Stefanie Koemeda
+  birth_year: 1987
+  website_url: https://www.stefaniekoemeda.com
 portrait_image: /images/artists/2019/Stefanie_Koemeda_Portrait.jpg
 biography: Stefanie Koemeda kam 1987 im Thurgau zur Welt. Nach einem Biologiestudium an der ETH Zürich und dem künstlerischen Vorkurs an der Hochschule Luzern ging sie für ein Studium in Art & Science an die Hochschule für angewandte Kunst nach Wien. Neben Gruppenausstellungen in Österreich und der Schweiz nahm sie an Ausstellungen in Belgrad, Porto, Brno und Amsterdam teil.
 artwork_images:
-  - /images/artists/2019/Stefanie_Koemeda_Werk_LiebeAusPlastik.jpg
+- /images/artists/2019/Stefanie_Koemeda_Werk_LiebeAusPlastik.jpg
 art_description: 'In ihrer Arbeit sucht Koemeda nach künstlichen Stoffen und wandelt sie in natürlich wirkende Formen um. Die Ausgangsmaterialien findet sie oft im architektonischen Kontext. Ihre Arbeit wird von der Frage getragen, ob eine Unterscheidung zwischen künstlich und natürlich sinnvoll ist in einer Gegenwart, die den Klimawandel, das Anthropozän und ein sechstes Massenaussterben debattiert.'
 cancelled: false

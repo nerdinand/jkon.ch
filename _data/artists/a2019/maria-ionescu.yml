@@ -1,10 +1,10 @@
-short_name: Maria Ionescu
 persons:
-  - Maria Ionescu (*1999)
-website_url:
+- name: Maria Ionescu 
+  birth_year: 1999
+  website_url:
 portrait_image: /images/artists/2019/Maria_Ionescu_Portrait.jpg
 biography: My name is Maria Ionescu. I was born and grew up in Bucharest, Romania. Growing up in a Romanian family and bathed in Romanian life, I would come to Switzerland every few months to visit the country and to ski. In 2010, aged 11, I moved to Biel, Switzerland, with my parents. I made my way through high school, mind set on studying law, heart set on something unknown, beautiful and scary. Fast forward to 2018, when I would sit on benches in parks during lunch breaks, knowing too well my family and everything rational and secure would want me to follow a university path, but that my guts were somewhere else. Finally, I decided the battle against odds and my own parents´ support. It was worth it. A naive and peaceful faith in my own heart was all the strength and confirmation I really needed. Instead of law school, I ended up in the Propädeutikum Kunst und Design in Biel. I will soon be starting Fine Arts studies in Basel, the only school I actually sent my portfolio – trust and strength set on some naive faith, once again. I am keen to see where this confusion leads.
 artwork_images:
-  - /images/artists/2019/Maria_Ionescu_Werk_Konzeptskizze.jpg
+- /images/artists/2019/Maria_Ionescu_Werk_Konzeptskizze.jpg
 art_description: 'As the school years passed, an unknown yet familiar voice kept pushing me towards creation. My desire to DO something in order to help the world led me to torturing my mind about ways in which I could put my own brick in the wall. Peaceful and introvert by nature, I soon discovered pouring my strength outwards was merely destroying and emptying me. Art, my art, allows me to use what is inherent IN me, FOR me and THROUGH me; it allows me to pour my own strength inwards. The circle seems to close itself. The only world I can change is mine, and that is the only way to change the bigger picture as well. Art transforms, by gently forcing me to change myself in the first place. Art gives, by gently forcing me to fulfill a duty beyond me. Art speaks truth, by gently forcing me to be honest with myself: there is no way I can lie here, no curtain behind which to hide. Art destroys (me) and brings (me) together, by making me connect with my true self, and with other selves who understand the subtle tones and variations of my being.'
 cancelled: true

@@ -1,8 +1,8 @@
 ---
-short_name: Ste Haudenschild
 persons:
-- Ste Haudenschild (*1993)
-website_url: https://stefaniehaudenschild.com/
+- name: Ste Haudenschild 
+  birth_year: 1993
+  website_url: https://stefaniehaudenschild.com/
 portrait_image: /images/artists/2020/SteHaudenschild_Portrait.JPG
 biography: Ste Haudenschild lebt und arbeitet in Wien und Bern. Sie hat ihren Bachelor in Vermittlung in Kunst und Design sowie ihren Bachelor in Kunstgeschichte in Bern abgeschlossen. Ihre bevorzugten Medien sind Fotografie, Zeichnung, Malerei, Text und Collage.
 artwork_images:
