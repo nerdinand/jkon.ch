@@ -1,24 +1,24 @@
+
+
 ---
 ---
 
-$body-background: rgb(248, 248, 248);
+$body-background-color: rgb(248, 248, 248);
 $primary-color: #333;
 $active-color: #333; 
 $secondary-color: #FF6464;
-$light-color: #FCFDFA;
 $link-color: #333;
 
 $break-small: 860px;
 
 $anchor-font-color: $secondary-color;
 $header-font-color: $primary-color;
-$row-width: 51.5%;
 
 
 body {
     font-family: Georgia, Helvetica, Roboto, Arial, sans-serif;
     background: url(/images/JKON2020_HintergrundWeb.png) repeat top center fixed;
-    background-color: $body-background;
+    background-color: $body-background-color;
     color: $primary-color;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -234,7 +234,7 @@ footer {
 @media screen and (max-width: $break-small) {
     body {
         background: url(/images/Vorlage_Mobile_Linien.png) repeat top center fixed;
-        background-color: $body-background;
+        background-color: $body-background-color;
         color: $primary-color;
         -webkit-background-size: cover;
         -moz-background-size: cover;

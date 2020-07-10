@@ -35,9 +35,6 @@ index:
   fr: index.fr.html
   en: index.en.html
 
-facebook_username: jungekunstolten
-instagram_username: jkonolten
-
 plugins:
   - jekyll-seo-tag
 
