@@ -1,0 +1,244 @@
+$body-background-color: rgb(248, 248, 248);
+$primary-color: #333;
+$active-color: #333; 
+$secondary-color: #FF6464;
+$link-color: #333;
+
+$break-small: 860px;
+
+$anchor-font-color: $secondary-color;
+$header-font-color: $primary-color;
+
+
+body {
+    font-family: Georgia, Helvetica, Roboto, Arial, sans-serif;
+    background: url(/images/JKON2020_HintergrundWeb.png) repeat top center fixed;
+    background-color: $body-background-color;
+    color: $primary-color;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+}
+
+a, a:visited, a:hover, a:link {
+    color: $link-color;
+}
+
+.teaser p {
+    font-size: 3em;
+    line-height: 1em;
+}
+
+.content a, .post-content a, .footer-col-wrapper a {
+    text-decoration: underline;
+    color: $link-color;
+}
+
+.content a:hover, .post-content a:hover, .footer-col-wrapper a:hover, .username:hover {
+    text-decoration: none;
+    color: $link-color;
+}
+
+.site-header {
+    border: 0;    
+}
+
+#jkon-logo{
+    position: fixed;
+    background-image: url(/images/jkon_logo_mobile_2018.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 25vw;
+    z-index: 4;
+    display: block;  
+}
+
+.wrapper {
+    max-width: -webkit-calc(900px - (80px * 2));
+    max-width: calc(900px - (80px * 2));
+}
+
+
+.lang{
+    color: $link-color;
+    text-transform: none;
+    font-size: 12px;
+    position: fixed;
+    top: 5px;
+    right: 0vw;
+    z-index: 12;
+}
+
+.trigger {
+    background-color: $secondary-color;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: calc(100vw - 30px);
+    height: calc(92vh - 35px);
+    margin: 15px;
+    padding: 8vh 0;
+    z-index: 50;
+}
+
+.site-nav {
+    .nav-trigger-label{
+        margin-top: -70px;
+    }
+
+    float: right;
+    line-height: 54px; 
+}
+
+.site-nav .nav-trigger {
+    display: none; 
+}
+
+.site-nav .menu-icon {
+    display: none; 
+}
+
+.site-nav .page-link {
+    color: #111;
+    line-height: 1.5; 
+}
+
+.site-nav .page-link:not(:last-child) {
+    margin-right: 20px; 
+}
+
+@media screen and (min-width: 1px) {
+    .site-nav {
+        position: absolute;
+        top: 27vw;
+        right: calc(50vw - 18px);
+        background-color: transparent;
+        border: 0px solid #e8e8e8;
+        border-radius: 5px;
+        text-align: center; 
+    }
+    .site-nav label[for="nav-trigger"] {
+        display: block;
+        float: right;
+        width: 36px;
+        height: 36px;
+        z-index: 2;
+        cursor: pointer; 
+    }
+
+    .site-nav .menu-icon {
+        display: block;
+        float: right;
+        width: 36px;
+        height: 26px;
+        line-height: 0;
+        padding-top: 10px;
+        text-align: center; 
+    }
+
+    .site-nav .menu-icon > svg {
+        fill: $secondary-color; 
+    }
+
+    .site-nav input ~ .trigger {
+        clear: both;
+        display: none; 
+    }
+
+    .site-nav input:checked ~ .trigger {
+        display: block;
+        padding-bottom: 5px; 
+    }
+
+    .site-nav .page-link {
+        display: block;
+        padding: 5px 10px;
+        margin-left: 20px; 
+    }
+
+    .site-nav .page-link:not(:last-child) {
+        margin-right: 0; 
+    } 
+}
+
+.page-content{
+    padding: 28vw 0 14vw 0;
+}
+
+
+.site-footer {
+    border: 0;    
+}
+
+.svg-icon {
+    display: none;
+}
+
+.social-media-list li + li {
+    padding-top: 0px; 
+}
+
+ul {
+    margin-bottom:0;
+}
+
+
+table {
+    margin: 0 auto 30px auto;
+    width: 80%;
+    text-align: right;
+    color: $primary-color;
+    border-collapse: collapse;
+    background-color: transparent;
+    border: 0; 
+}
+table tr:nth-child(even) {
+    background-color: transparent;     
+}
+table td:nth-child(even) {
+    text-align: left;     
+}
+table th, table td {
+    padding: 10px 15px; 
+}
+table th {
+    background-color: transparent;
+    border: 0px solid #dedede;
+    border-bottom-color: none; }
+table td {
+    border: 0px solid #e8e8e8; 
+}
+  
+
+footer {
+    padding: 50px;
+}
+
+
+.logo {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+
+@media screen and (max-width: $break-small) {
+    body {
+        background: url(/images/Vorlage_Mobile_Linien.png) repeat top center fixed;
+        background-color: $body-background-color;
+        color: $primary-color;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        text-align: center;
+    }
+
+    .row {
+        max-width: 100%;
+    }
+}

@@ -1,14 +1,14 @@
----
----
-
-$background-color: #F8F8F8;
 $brand-color: #FF6464;
 $font-color: #333;
 $link-color: #333;
 
+$hamburger-padding-x           : 5px;
+$hamburger-padding-y           : 5px;
+$hamburger-layer-width         : 30px;
+$hamburger-layer-color         : white;
+
 body {
   font-family: Georgia, Helvetica, Roboto, Arial, sans-serif;
-  background-color: $background-color;
   color: $font-color;
   text-align: center;
   background: url(/images/jkon-background-lines.svg) repeat top center fixed;
@@ -77,7 +77,32 @@ body {
     padding: 1vw 0 14vw 0
   }
 
-  .social-media-list {
+  .list-style-none {
     list-style: none;
+    padding-left: 0;
+  }
+
+  .menu-icon {
+    margin-top: 6vw;
+
+    span.rhombus {
+      background-color: $brand-color;
+      transform: rotate(45deg);
+      width: 50px;
+      height: 50px;
+      display: inline-block;
+
+      button.hamburger {
+        transform: rotate(-45deg);
+
+        span.hamburger-box {
+          margin: 8px 6px;
+        }
+      }
+    }
+  }
+
+  .nav-list {
+    display: none;
   }
 }
