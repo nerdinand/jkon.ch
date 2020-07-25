@@ -3,9 +3,9 @@ persons:
 - name: Alexeï Monney
   birth_year: 1990
   website_url:
-portrait_image: /images/artists/2020/AlexeyMonney_Portrait.jpg
+portrait_image: /images/artists/2020/big/AlexeyMonney_Portrait.jpg
 biography: Alexeï Monney is born 1990 in Estavayer-le-lac (Fribourg). After living two years in the US he started his studies 2011 at the university of Lausanne in political science. In 2012 he studied photography at the école cantonale d’art de Lausanne. From 2015 to 2017 he studied graphic design at the école romande d'arts et communication Lausanne. Since 2017 he lives in Zurich and studies sculpture and installation at the Zürcher Hochschule der Künste. 
 artwork_images: 
-- /images/artists/2020/Alexei_Monney_Werk1_Douze_mois_par_an.jpg
+- /images/artists/2020/big/Alexei_Monney_Werk1_Douze_mois_par_an.jpg
 art_description: My artistic works explore the friction between aesthetics and socially and politically critical messages. Throughout installations, sculptures, photography or texts, my work reconnects the human being with her*/himself. By flirting with imaginary censorship the artwork might provoke the public and push recipients out of their comfort zone - blurring the boundary between right and wrong. However, I do not expect a specific, but rather some sort of reaction, negative or positive, towards my artwork. In consequence, the reaction of the audience evolves. To sum up, my artwork can be described as a form of “social combat” which questions people about their way of life and their living together. Whether by displaying stupidity, evoking nostalgia or through means of playful interaction, immersion, participation or even direct confrontation I plea and fight for respect among people. 
 cancelled: false

@@ -1,0 +1,108 @@
+$brand-color: #FF6464;
+$font-color: #333;
+$link-color: #333;
+
+$hamburger-padding-x           : 5px;
+$hamburger-padding-y           : 5px;
+$hamburger-layer-width         : 30px;
+$hamburger-layer-color         : white;
+
+body {
+  font-family: Georgia, Helvetica, Roboto, Arial, sans-serif;
+  color: $font-color;
+  text-align: center;
+  background: url(/images/jkon-background-lines.svg) repeat top center fixed;
+  background-size: cover;
+
+  .locale-links {
+    text-align: right; 
+    line-height: 2em;
+
+    text-transform: none;
+    font-size: 12px;
+    position: fixed;
+    top: 5px;
+    right: 0vw;
+    z-index: 12;
+  }
+
+  #jkon-logo {
+    background-image: url(/images/jkon-logo-plain.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 15vw;
+    margin-top: 6vw;
+  }
+
+  .wrapper {
+    max-width: calc(900px - (80px * 2));
+
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  a {
+    color: $link-color;
+    text-decoration: underline;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  table {
+    margin: 0 auto 30px auto;
+    width: 80%;
+    text-align: right;
+    border-collapse: collapse;
+
+    th, td {
+      padding: 10px 15px;
+    }
+
+    td:nth-child(2n) {
+      text-align: left;
+    }
+  }
+
+  img {
+    max-width: 100%;
+    vertical-align: middle;
+  }
+
+  main {
+    padding: 1vw 0 14vw 0
+  }
+
+  .list-style-none {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .menu-icon {
+    margin-top: 6vw;
+
+    span.rhombus {
+      background-color: $brand-color;
+      transform: rotate(45deg);
+      width: 50px;
+      height: 50px;
+      display: inline-block;
+
+      button.hamburger {
+        transform: rotate(-45deg);
+
+        span.hamburger-box {
+          margin: 8px 6px;
+        }
+      }
+    }
+  }
+
+  .nav-list {
+    display: none;
+  }
+}

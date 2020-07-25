@@ -1,40 +1,10 @@
-<footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
-
+<footer aria-label="Footer">
   <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title[page.lang] | escape }}</h2>
-
-    <div class="footer-col-wrapper">
-      <!-- <div class="footer-col footer-col-9">
-        <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title[page.lang] | escape }}
-            {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            {%- endif -%}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-9">
-      </div>
-      
-      <div class="footer-col footer-col-9">
-      </div> -->
-      <!-- <div class="footer-col footer-col-9"> -->
-        
-      <a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a>
-      {%- include social.html -%}
-      <a href="{{site.baseurl | append: '/impressum'}}">Impressum</a>
-
-    </div>
-
+    <ul class="list-style-none">
+      <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+      <li><a rel="me" href="https://www.facebook.com/jungekunstolten" title="facebook: jungekunstolten">facebook: jungekunstolten</a></li>
+      <li><a rel="me" href="https://www.instagram.com/jkonolten" title="instagram: jkonolten">instagram: jkonolten</a></li>
+      <li><a href="{{site.baseurl | append: '/impressum'}}">Impressum</a></li>
+    </ul>
   </div>
-
-  <script> initalize(); // hacks to correct some template shortcomings, flo</script>
-
 </footer>

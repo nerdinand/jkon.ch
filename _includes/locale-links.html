@@ -1,0 +1,9 @@
+<div class="locale-links wrapper">
+  {% assign pages = site.pages | where: "ref", page.ref %}
+  {% for locale in site.locales %}
+    {% assign current_page = pages | where: "lang", locale['code'] | first %}
+    {% if current_page %}
+      <a href="{{ current_page.url | prepend: site.baseurl }}" class="{{ locale['code'] }}">{{ locale['name'] }}</a> 
+    {% endif %}
+  {% endfor %}
+</div>
