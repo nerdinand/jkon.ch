@@ -5,7 +5,7 @@ title: Vergangene Ausstellungen
 lang: de
 ---
 
-## [JKON 2019](artists/2019.html)
+## [JKON 2019](/artists/2019.html)
 
 __Kuratorinnen__: Janine Strasser, Nermina Serifovic
 

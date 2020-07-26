@@ -1,7 +1,7 @@
 {%- assign artist = include.artist -%}
 
 {%- unless artist.cancelled -%}
-  <a href="artists/{{ artist.year }}/{{ artist.persons | map: "name" | join | slugify: "pretty" }}">
+  <a href="/artists/{{ artist.year }}/{{ artist.persons | map: "name" | join }}">
     <div class="artist-thumbnail" style="background-image: url({{ artist.portrait_image.small }})">
       <div class="artist-name">
         {%- for person in artist.persons -%}

@@ -5,7 +5,7 @@ title: Past exhibitions
 lang: en
 ---
 
-## [JKON 2019](artists/2019.en.html)
+## [JKON 2019](/artists/2019.en.html)
 
 __Curators__: Janine Strasser, Nermina Serifovic
 

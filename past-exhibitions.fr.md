@@ -5,7 +5,7 @@ title: Éditions précédentes
 lang: fr
 ---
 
-## [JKON 2019](artists/2019.fr.html)
+## [JKON 2019](/artists/2019.fr.html)
 
 __Les commissaires__: Janine Strasser, Nermina Serifovic
 

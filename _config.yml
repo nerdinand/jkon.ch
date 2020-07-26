@@ -25,9 +25,9 @@ markdown: kramdown
 locales:
   - code: de
     name: Deutsch
-  - code: fr 
+  - code: fr
     name: Français
-  - code: en 
+  - code: en
     name: English
 
 index:
@@ -41,7 +41,7 @@ plugins:
 collections:
   artists:
     output: true
-    permalink: /:collection/:year/:slug/
+    # permalink: /:collection/:path/:slug
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
