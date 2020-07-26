@@ -5,6 +5,8 @@ title: JUNGE KUNST OLTEN 2020
 lang: de
 ---
 
+{%- assign artists = site.artists | where: "artist.year", "2020" | map: "artist" -%}
+
 {%- case site.data.phase.phase -%}
   {%- when "new_date_announced" -%}
     {%- include index/date-announcement.md -%}
@@ -29,7 +31,7 @@ lang: de
   {%- when "list_of_artists_announced" -%}
     {%- include index/date-announcement.md -%}
     
-    {%- include index/artist-names.html -%}
+    {%- include index/artist-names.html artists=artists -%}
 
     {%- include index/opening-hours.md -%}
     
@@ -37,7 +39,7 @@ lang: de
     {%- include index/date-announcement.md -%}
 
     <p>
-      {%- include index/artist-links.md -%}
+      {%- include index/artist-links.html artists=artists -%}
     </p>
 
     {%- include index/opening-hours.md -%}

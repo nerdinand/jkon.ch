@@ -1,7 +1,0 @@
-{%- assign artists = site.artists | where: "artist.year", "2019" | map: "artist" -%}
-
-<div class="artist-thumbnail-container">
-  {%- for artist in artists -%}
-    {%- include artists/artist-thumbnail.html artist=artist -%}
-  {%- endfor -%}
-</div>
