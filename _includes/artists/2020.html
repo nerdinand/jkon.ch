@@ -1,4 +1,4 @@
-{%- assign artists = site.artists | where: "artist_hash.year", "2020" | map: "artist_hash" -%}
+{%- assign artists = site.artists | where: "artist.year", "2020" | map: "artist" -%}
 
 <div class="artist-thumbnail-container">
   {%- for artist in artists -%}

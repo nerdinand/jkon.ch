@@ -9,13 +9,13 @@
 
     <main aria-label="Content">
       <h1>
-        {% assign artist_names = page.artist_hash.persons | map: "name" %}
+        {% assign artist_names = page.artist.persons | map: "name" %}
         {% for artist_name in artist_names %}
           {{ artist_name }}<br>
         {% endfor %}
       </h1>
       <div class="wrapper">
-        {%- include artists/all-artists-information.html artist_hash=page.artist_hash -%}
+        {%- include artists/all-artists-information.html artist=page.artist -%}
       </div>
     </main>
 
