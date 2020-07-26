@@ -6,7 +6,9 @@ persons:
 - name: Babette Walder
   birth_year: 1999
   website_url: https://www.babettewalder.com/
-portrait_image: /images/artists/2020/big/BabetteWalder_LeaElinaHofer_Portrait.JPG
+portrait_image:
+  big: /images/artists/2020/big/BabetteWalder_LeaElinaHofer_Portrait.JPG
+  small: /images/artists/2020/small/BabetteWalder_LeaElinaHofer_Portrait.JPG
 biography: "kölèktief: das sind Babette Walder und Lea Elina Hofer. Wir beide, 1999 in und um Zürich geboren und aufgewachsen, besuchten nach dem Gymnasium das Gestalterische Propädeutikum an der Zürcher Hochschule der Künste. Basierend auf unserer gemeinsamen künstlerischen Wellenlänge entstand Ende 2019 das köllêkțîvv - aus Überzeugung immer wieder anders geschrieben."
 artwork_images: 
 - /images/artists/2020/big/BabetteWalder_LeaElinaHofer_Werk_comella.png

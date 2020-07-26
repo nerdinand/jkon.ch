@@ -3,7 +3,9 @@ persons:
 - name: Isabelle Weber 
   birth_year: 1994
   website_url:
-portrait_image: /images/artists/2020/big/IsabelleWeber_Portrait.jpg
+portrait_image:
+  big: /images/artists/2020/big/IsabelleWeber_Portrait.jpg
+  small: /images/artists/2020/small/IsabelleWeber_Portrait.jpg
 biography: Isabelle Weber ist in Luzern aufgewachsen und studierte Vermittlung in Kunst und Design an der Hochschule der Künste Bern, Kunstgeschichte (Moderne und Gegenwart) an der Universität Bern und freie Kunst an der Kunsthochschule in Utrecht (NL). Isabelle Weber arbeitet multimedial – hauptsächlich skulptural, installativ und mit Video.
 artwork_images: 
 - /images/artists/2020/big/IsabelleWeber_Werk_AGranularIdea.jpg

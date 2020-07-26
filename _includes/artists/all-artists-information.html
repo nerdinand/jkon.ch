@@ -1,4 +1,4 @@
-{%- assign artist = artist_hash[1] -%}
+{%- assign artist = include.artist_hash -%}
 
 {%- unless artist.cancelled -%}
   {%- for person in artist.persons -%}
@@ -6,7 +6,7 @@
       {{ person.name }} (*{{ person.birth_year }})
     {%- endcapture -%}
 
-    <h3 id="{{ artist_hash[0] }}" >
+    <h3>
       {%- if person.website_url -%}
         <a href="{{person.website_url}}" target="_blank">
           {{ link_text }}
@@ -17,8 +17,8 @@
     </h3>
   {%- endfor -%}
 
-  {%- if artist.portrait_image -%}
-    <img src="{{ artist.portrait_image }}" alt="{{ title }}">
+  {%- if artist.portrait_image.big -%}
+    <img src="{{ artist.portrait_image.big }}" alt="portrait">
   {%- endif -%}
   
   <p>
@@ -26,7 +26,7 @@
   </p>
 
   {%- for artwork_image in artist.artwork_images -%}
-    <img src="{{ artwork_image }}" alt="{{ title | append: " artwork" }}">
+    <img src="{{ artwork_image }}" alt="artwork">
   {%- endfor -%}
 
   {%- if artist.art_description -%}
@@ -34,6 +34,4 @@
       {{ artist.art_description }}
     </p>
   {%- endif -%}
-  
-  <hr>
 {%- endunless -%}

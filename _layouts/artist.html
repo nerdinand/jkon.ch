@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body onload="animate();">
+
+    {%- include header.html -%}
+
+    <main aria-label="Content">
+      <h1>
+        {% assign artist_names = page.artist_hash.persons | map: "name" %}
+        {% for artist_name in artist_names %}
+          {{ artist_name }}<br>
+        {% endfor %}
+      </h1>
+      <div class="wrapper">
+        {%- include artists/all-artists-information.html artist_hash=page.artist_hash -%}
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>

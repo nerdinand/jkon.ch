@@ -1,3 +1,7 @@
-{%- for artist_hash in site.data.artists.a2020 -%}
-  {%- include artists/all-artists-information.html artist_hash=artist_hash -%}
-{%- endfor -%}
+{%- assign artists = site.artists | where: "artist_hash.year", "2020" | map: "artist_hash" -%}
+
+<div class="artist-thumbnail-container">
+  {%- for artist in artists -%}
+    {%- include artists/artist-thumbnail.html artist=artist -%}
+  {%- endfor -%}
+</div>

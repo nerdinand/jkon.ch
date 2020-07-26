@@ -6,7 +6,9 @@ persons:
 - name: Robin Lütolf
   birth_year: 1995
   website_url: https://www.robin-luetolf.com/
-portrait_image: /images/artists/2020/big/JoelleBischof_RobinLuetolf_Portrait.jpg
+portrait_image:
+  big: /images/artists/2020/big/JoelleBischof_RobinLuetolf_Portrait.jpg
+  small: /images/artists/2020/small/JoelleBischof_RobinLuetolf_Portrait.jpg
 biography: "Joëlle Bischof hat an der Zürcher Hochschule der Künste Fine Arts studiert.<br>
 Robin Lütolf studiert an der Hochschule der Künste Bern Sound Arts (Musik & Medienkunst)."
 artwork_images:

@@ -6,7 +6,9 @@ persons:
 - name: Noa A. Steiner
   birth_year: 2001
   website_url: https://www.noaandreasteiner.com/
-portrait_image: /images/artists/2020/big/JuneSchaedelin_NoaAndreaSteiner_Portrait.jpg
+portrait_image:
+  big: /images/artists/2020/big/JuneSchaedelin_NoaAndreaSteiner_Portrait.jpg
+  small: /images/artists/2020/small/JuneSchaedelin_NoaAndreaSteiner_Portrait.jpg
 biography: June Schädelin und Noa A. Steiner besuchten beide von 2016-2020 die Kunstförderung des Gymnasiums Hofwil TaF Gestaltung und Kunst. Seit Sommer 2019 arbeiten sie als Künstlerinnenduo.
 artwork_images:
 - /images/artists/2020/big/Werkbild4.jpg
