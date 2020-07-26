@@ -5,6 +5,8 @@ title: JKON 2020
 lang: en
 ---
 
+{%- assign artists = site.artists | where: "artist.year", "2020" | map: "artist" -%}
+
 {%- case site.data.phase.phase -%}
   {%- when "new_date_announced" -%}
     {%- include index/date-announcement.en.md -%}
@@ -29,7 +31,7 @@ lang: en
   {%- when "list_of_artists_announced" -%}
     {%- include index/date-announcement.en.md -%}
     
-    {%- include index/artist-names.html -%}
+    {%- include index/artist-names.html artists=artists -%}
 
     {%- include index/opening-hours.en.md -%}
     
@@ -37,7 +39,7 @@ lang: en
     {%- include index/date-announcement.en.md -%}
 
     <p>
-      {%- include index/artist-links.md -%}
+      {%- include index/artist-links.html artists=artists -%}
     </p>
 
     {%- include index/opening-hours.en.md -%}

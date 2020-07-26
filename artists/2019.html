@@ -5,4 +5,5 @@ title: 'Künstler*innen 2019'
 lang: de
 ---
 
-{% include artists/2019.html %}
+{%- assign artists = site.artists | where: "artist.year", "2019" | map: "artist" -%}
+{% include artists/artist-thumbnails.html artists=artists %}

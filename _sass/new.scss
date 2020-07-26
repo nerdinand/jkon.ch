@@ -47,6 +47,7 @@ body {
   a {
     color: $link-color;
     text-decoration: underline;
+    cursor: pointer;
 
     &:hover {
       text-decoration: none;
@@ -104,5 +105,27 @@ body {
 
   .nav-list {
     display: none;
+  }
+
+  .artist-thumbnail-container {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+
+    .artist-thumbnail {
+      display: flex;
+      flex-direction: column;
+      margin: 3px;
+      width: 240px;
+      height: 320px;
+      background-size: contain;
+      background-repeat: no-repeat;
+
+      .artist-name {
+        margin-top: auto;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.5);
+      }
+    }
   }
 }

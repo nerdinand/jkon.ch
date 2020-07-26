@@ -1,6 +1,4 @@
-{%- for artist_hash in site.data.artists.a2020 -%}
-  {%- assign artist = artist_hash[1] -%}
-
+{%- for artist in artists -%}
   {%- unless artist.cancelled -%}
     <p>
       {{ artist.persons | map: 'name' | join: ', '  }}
