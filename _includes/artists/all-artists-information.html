@@ -22,7 +22,7 @@
   {%- endif -%}
   
   <p>
-    {{ artist.biography }}
+    {{ artist.biography | newline_to_br }}
   </p>
 
   {%- for artwork_image in artist.artwork_images.big -%}
@@ -31,7 +31,7 @@
 
   {%- if artist.art_description -%}
     <p>
-      {{ artist.art_description }}
+      {{ artist.art_description | newline_to_br }}
     </p>
   {%- endif -%}
 {%- endunless -%}
