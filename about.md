@@ -15,7 +15,7 @@ Florian Amoser, Nermina Šerifović, Janine Strasser
 
 ## Ehemalige Mitglieder im Organisationskomitee
 
-Noëmi Ackermann, Manuel Bachofner, Thomas von Büren, Barbara von Büren, Anja Egger, Melanie Gamma, Selina John, Fabian Matz, Seu-Jing Tang, Marianne Werthmüller
+Noëmi Ackermann, Manuel Bachofner, Thomas von Büren, Barbara von Büren, Anja Egger, Melanie Gamma, Selina John, Fabian Matz, Gianna Rovere, Seu-Jing Tang, Marianne Werthmüller
 
 Verein JKON  
 4600 Olten  
