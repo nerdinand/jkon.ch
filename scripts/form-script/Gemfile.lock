@@ -21,6 +21,10 @@ GEM
     pry-byebug (3.9.0)
       byebug (~> 11.0)
       pry (~> 0.13.0)
+    sorbet (0.5.5920)
+      sorbet-static (= 0.5.5920)
+    sorbet-runtime (0.5.5920)
+    sorbet-static (0.5.5920-universal-darwin-14)
     thread_safe (0.3.6)
     tzinfo (1.2.7)
       thread_safe (~> 0.1)
@@ -35,7 +39,9 @@ DEPENDENCIES
   activesupport
   awesome_print
   pry-byebug
+  sorbet
+  sorbet-runtime
   wicked_pdf
 
 BUNDLED WITH
-   1.17.2
+   2.1.4
