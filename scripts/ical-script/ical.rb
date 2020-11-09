@@ -10,6 +10,7 @@ url = 'https://www.jkon.ch'
 location_schuetzi = 'Schützi Olten, Schützenmattweg 7, 4600 Olten'
 # location_coq_d_or = "Kulturlokal Coq d'Or, Tannwaldstrasse 48, 4600 Olten"
 
+# Thursday
 cal.event do |event|
   event.dtstart     = DateTime.civil(2021, 8, 5, 18, 0)
   event.dtend       = DateTime.civil(2021, 8, 5, 21, 0)
@@ -19,8 +20,9 @@ cal.event do |event|
   event.url         = url
 end
 
+# Friday
 cal.event do |event|
-  event.dtstart     = DateTime.civil(2021, 8, 6, 17, 0)
+  event.dtstart     = DateTime.civil(2021, 8, 6, 18, 0)
   event.dtend       = DateTime.civil(2021, 8, 6, 21, 0)
   event.summary     = summary
   event.description = description
@@ -28,6 +30,7 @@ cal.event do |event|
   event.url         = url
 end
 
+# Saturday
 cal.event do |event|
   event.dtstart     = DateTime.civil(2021, 8, 7, 16, 0)
   event.dtend       = DateTime.civil(2021, 8, 7, 19, 0)
@@ -37,6 +40,7 @@ cal.event do |event|
   event.url         = url
 end
 
+# Opening
 cal.event do |event|
   event.dtstart     = DateTime.civil(2021, 8, 5, 18, 30)
   event.summary     = 'JKON 2021 Vernissage'
@@ -45,6 +49,7 @@ cal.event do |event|
   event.url         = url
 end
 
+# Closing
 cal.event do |event|
   event.dtstart     = DateTime.civil(2021, 8, 7, 17, 30)
   event.summary     = 'JKON 2021 Finissage'

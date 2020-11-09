@@ -1,7 +1,7 @@
 ### Opening hours of the exhibition
 
 |__Thursday__, 5th of August 2021|18h00-21h00|
-|__Friday__, 6th of August 2021|17h00-21h00|
+|__Friday__, 6th of August 2021|18h00-21h00|
 |__Saturday__, 7th of August 2021|16h00-19h00|
 
 The __opening__ takes place 18h30, Thursday, 5th of August 2021. 
