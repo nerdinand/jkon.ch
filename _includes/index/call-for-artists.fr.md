@@ -1,4 +1,4 @@
-[![Call for Artists](images/calls/callforartists_2021.gif){:width="300px"}](/call-for-artists.fr.html)
+[![Call for Artists](images/calls/callforartists_2021.gif){:class="call-for-artists"}](/call-for-artists.fr.html)
 
 __Nous t'attendons!__ 
 
