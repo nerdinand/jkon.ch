@@ -5,7 +5,7 @@ title: À propos de nous / contact
 lang: fr
 ---
 
-## Le comité d’organisation de la JKON 2020
+## Le comité d'organisation de la JKON 2020
 
 Florian Amoser, Nadia Bader, Stefanie Kurt, Lena Meier, Ferdinand Niedermann, Gianna Rovere, Nermina Šerifović, Janine Strasser
 
@@ -13,7 +13,7 @@ Florian Amoser, Nadia Bader, Stefanie Kurt, Lena Meier, Ferdinand Niedermann, Gi
 
 Florian Amoser, Nermina Šerifović, Janine Strasser
 
-## Anciens membres au comité d’organisation
+## Anciens membres au comité d'organisation
 
 Noëmi Ackermann, Manuel Bachofner, Thomas von Büren, Barbara von Büren, Anja Egger, Melanie Gamma, Selina John, Fabian Matz, Gianna Rovere, Seu-Jing Tang, Marianne Werthmüller
 

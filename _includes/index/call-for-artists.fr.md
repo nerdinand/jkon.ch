@@ -1,6 +1,6 @@
 [![Call for Artists](images/calls/callforartists_2021.gif){:width="300px"}](/call-for-artists.fr.html)
 
-__Nous t’attendons!__ 
+__Nous t'attendons!__ 
 
 Tu es un/une artiste? Tu as entre 18 et 35 ans et tu aimerais montrer tes œuvres dans le [Schützi](https://schuetzi.ch/) à Olten en {{ site.data.phase.dates.jkon.month.fr }}? 
 
