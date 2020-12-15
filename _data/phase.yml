@@ -7,10 +7,70 @@
 # 6. Artist portraits online
 
 # phase: new_date_announced
-phase: schedule_announced
-# phase: call_for_artists_running
+# phase: schedule_announced
+phase: call_for_artists_running
 # phase: call_for_artists_closed
 # phase: list_of_artists_announced
 # phase: artist_portraits_online
 
 call_for_help: false
+
+dates:
+  jkon:
+    year: 2021
+
+    full_date:
+      de: 5. bis 7. August 2021
+      fr: 5 au 7 août 2021
+      en: 5th until 7th of August 2021
+    
+    month:
+      de: August 2021
+      fr: août 2021
+      en: August 2021
+
+    day1:
+      date:
+        de: __Donnerstag__, 5. August 2021
+        fr: __Jeudi__, 5 août 2021
+        en: __Thursday__, 5th of August 2021
+      time:
+        de: 18h00-21h00
+        fr: 18h00-21h00
+        en: 18h00-21h00
+
+    day2:
+      date:
+        de: __Freitag__, 6. August 2021
+        fr: __Vendredi__, 6 août 2021
+        en: __Friday__, 6th of August 2021
+      time:
+        de: 18h00-21h00
+        fr: 18h00-21h00
+        en: 18h00-21h00
+
+    day3:
+      date:
+        de: __Samstag__, 7. August 2021
+        fr: __Samedi__, 7 août 2021
+        en: __Saturday__, 7th of August 2021
+      time:
+        de: 16h00-19h00
+        fr: 16h00-19h00
+        en: 16h00-19h00
+
+    opening:
+      de: 18h30 am Donnerstag, 5. August 2021
+      fr: jeudi 5 août 2021 à 18h30
+      en: 18h30, Thursday, 5th of August 2021
+
+    finissage:
+      de: 17h30 am Samstag, 7. August 2021
+      fr: samedi 7 août 2021 à 17h30
+      en: 17h30, Saturday, 7th of August 2021
+
+
+  registration_closing:
+    de: 14. Februar 2021
+    fr: 14ème février 2021
+    en: 14th of February 2021

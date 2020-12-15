@@ -1,11 +1,11 @@
 ### Opening hours of the exhibition
 
-|__Thursday__, 5th of August 2021|18h00-21h00|
-|__Friday__, 6th of August 2021|18h00-21h00|
-|__Saturday__, 7th of August 2021|16h00-19h00|
+|{{ site.data.phase.dates.jkon.day1.date.en }}|{{ site.data.phase.dates.jkon.day1.time.en }}|
+|{{ site.data.phase.dates.jkon.day2.date.en }}|{{ site.data.phase.dates.jkon.day2.time.en }}|
+|{{ site.data.phase.dates.jkon.day3.date.en }}|{{ site.data.phase.dates.jkon.day3.time.en }}|
 
-The __opening__ takes place 18h30, Thursday, 5th of August 2021. 
+The __opening__ takes place {{ site.data.phase.dates.jkon.opening.en }}. 
 
-The __finissage__, including the award ceremony, takes place at 17h30, Saturday, 7th of August 2021. 
+The __finissage__, including the award ceremony, takes place at {{ site.data.phase.dates.jkon.finissage.en }}. 
 
 [Add to my calendar](scripts/ical-script/jkon2021.ics)

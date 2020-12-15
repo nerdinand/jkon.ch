@@ -1,3 +1,3 @@
-[![Call for Artists](images/calls/JKON_CallForProjects_2020_fr.jpg){:width="300px"}](/call-for-artists.fr.html)
+[![Call for Artists](images/calls/callforartists_2021.gif){:width="300px"}](/call-for-artists.fr.html)
 
-Inscriptions jusqu'au 1 mars 2020. [Formulaire d'inscription](/call-for-artists.fr.html)
+Inscriptions jusqu'au {{ site.data.phase.dates.registration_closing.fr }}. [Formulaire d'inscription](/call-for-artists.fr.html)
