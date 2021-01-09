@@ -1,22 +1,20 @@
 ---
 layout: page
 ref: about
-title: About us / contact
+title: About us / Contact
 lang: en
 ---
 
-## Organization Committee of JKON 2020
+## Organisation Committee of JKON {{ site.data.phase.dates.jkon.year }}
 
-Florian Amoser, Nadia Bader, Stefanie Kurt, Lena Meier, Ferdinand Niedermann, Gianna Rovere, Nermina Šerifović, Janine Strasser
+{% include about/organisation-committee.md %}
 
-## Curators of JKON 2020
+## Curators of JKON {{ site.data.phase.dates.jkon.year }}
 
-Florian Amoser, Nermina Šerifović, Janine Strasser
+{% include about/curation.md %}
 
 ## Former members of the Organization Committee
 
-Noëmi Ackermann, Manuel Bachofner, Thomas von Büren, Barbara von Büren, Anja Egger, Melanie Gamma, Selina John, Fabian Matz, Gianna Rovere, Seu-Jing Tang, Marianne Werthmüller
+{% include about/former-members-organisation-committee.md %}
 
-Verein JKON  
-4600 Olten  
-[info@jkon.ch](mailto:info@jkon.ch)
+{% include about/association.md %}
