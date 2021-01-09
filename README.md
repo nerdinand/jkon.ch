@@ -2,7 +2,7 @@
 
 This is the new jkon.ch website.
 
-It is built with [Jekyll](https://jekyllrb.com/) and hosted on [GitHub Pages](https://pages.github.com/). The base design is  [minima](https://github.com/jekyll/minima).
+It is built with [Jekyll](https://jekyllrb.com/) and hosted on [GitHub Pages](https://pages.github.com/).
 
 ## Installation
 
