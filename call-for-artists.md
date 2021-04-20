@@ -13,6 +13,6 @@ Zur Verfügung stehen 3136 Kubikmeter Raum. Fülle ihn mit Deiner Kunst. Melde d
 
 Ausstellung: __{{ site.data.phase.dates.jkon.full_date.de }}, [Schützi](https://schuetzi.ch/) Olten__
 
-Für die Gruppenausstellung JKON {{ site.data.phase.dates.jkon.year }} suchen wir Künstler\*innen, die sich mit einem Portfolio für Ausstellungsplätze bewerben können. 
+Für die Gruppenausstellung JKON {{ site.data.phase.dates.jkon.year }} suchen wir Künstler:innen, die sich mit einem Portfolio für Ausstellungsplätze bewerben können. 
 
 {% include_relative form.html %}
