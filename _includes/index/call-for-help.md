@@ -1,8 +1,8 @@
-## Wir suchen MIT-ORGANISATOR\*INNEN für die JKON 2020!
+## Wir suchen MIT-ORGANISATOR:inNEN für die JKON 2020!
 
 Die JKON - Junge Kunst Olten - bietet Kunstschaffenden jährlich eine Ausstellungs-Plattform, um ihre Werke einem breiten Publikum zu präsentieren und zu vermitteln. Das ehrenamtliche Organisationsteam engagiert sich seit 2014 für die nachhaltige Förderung junger künstlerischer Positionen.
 
-Für die JKON 2020 suchen wir nun kunstinteressierte, engagierte Mit-Organisator\*Innen:
+Für die JKON 2020 suchen wir nun kunstinteressierte, engagierte Mit-Organisator:innen:
 
 ### Werbung
 
