@@ -1,0 +1,25 @@
+<h2><a href="/artists/2020.html">JKON 2020</a></h2>
+
+<p>
+  <strong>Kurator:innen</strong>: 
+  Florian Amoser,
+  Janine Strasser, 
+  Nermina Serifovic
+</p>
+
+<p>
+  <strong>Preisträger:innen</strong>: 
+</p>
+
+<p>Stella Meris (Bargeldpreis von 5'000.- CHF der Hans und Beatrice Maurer-Billeter-Stiftung)</p>
+<p>Delia Ferraro (Sommerfenster im Kunsthaus Zofingen LOOK@JKON 2020)</p>
+<p>Isabelle Weber (Ausstellung im Dienstraum des Kunstmuseum Olten 2021)</p>
+
+<strong>Künstler:innen</strong>:
+
+<p>
+  {%- assign artists = site.artists | where: "artist.year", "2020" | map: "artist" -%}
+  {%- include index/artist-links.html artists=artists -%}
+</p>
+
+{%- include past-exhibitions/2020-gallery.html -%}

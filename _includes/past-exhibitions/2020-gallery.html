@@ -1,0 +1,20 @@
+<div ID="ngy2p" data-nanogallery2='{
+    "itemsBaseURL": "images/past-exhibitions/2020/",
+    "thumbnailWidth": "240",
+    "thumbnailHeight": "320",
+    "thumbnailAlignment": "center",
+    "thumbnailOpenImage": true,
+    "viewerTools": {
+      "topLeft": "pageCounter",
+      "topRight": "zoomButton, fullscreenButton, closeButton"
+    },
+    "imageTransition": "swipe"
+  }'>
+
+  {% assign image_file_names = "JKON2020_DSF1741.jpg JKON2020_FLO7321.jpg JKON2020_FLO7337.jpg JKON2020_FLO7347.jpg JKON2020_FLO7357.jpg JKON2020_FLO7377.jpg JKON2020_FLO7396.jpg JKON2020_FLO7413.jpg JKON2020_FLO7441.jpg JKON2020_DSF1744.jpg JKON2020_FLO7324.jpg JKON2020_FLO7340.jpg JKON2020_FLO7350.jpg JKON2020_FLO7370.jpg JKON2020_FLO7379.jpg JKON2020_FLO7399.jpg JKON2020_FLO7416.jpg JKON2020_FLO7453.jpg JKON2020_DSF1750.jpg JKON2020_FLO7331.jpg JKON2020_FLO7343.jpg JKON2020_FLO7353.jpg JKON2020_FLO7371.jpg JKON2020_FLO7388.jpg JKON2020_FLO7403.jpg JKON2020_FLO7434.jpg JKON2020_FLO7315.jpg JKON2020_FLO7334.jpg JKON2020_FLO7346.jpg JKON2020_FLO7354.jpg JKON2020_FLO7376.jpg JKON2020_FLO7389.jpg JKON2020_FLO7407.jpg JKON2020_FLO7436.jpg" 
+  | split: " " %}
+
+  {% for image_file_name in image_file_names %}
+    <a href="big/{{ image_file_name }}" data-ngthumb="small/{{ image_file_name }}" data-ngdesc=""></a>
+  {% endfor %}
+</div>
