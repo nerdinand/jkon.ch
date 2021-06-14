@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 artist_list = "Aathmigan Jegatheeswaran
 Andrea Francesco Todisco
 Emanuel Heim

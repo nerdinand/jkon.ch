@@ -1,9 +1,11 @@
+# frozen_string_literal: true
+
 source 'https://rubygems.org'
 
+gem 'activesupport'
 gem 'awesome_print'
 gem 'pry-byebug'
 gem 'wicked_pdf'
-gem 'activesupport'
 
-gem 'sorbet', :group => :development
+gem 'sorbet', group: :development
 gem 'sorbet-runtime'

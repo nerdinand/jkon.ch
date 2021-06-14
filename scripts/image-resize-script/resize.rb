@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 SOURCE_DIR = '../../images/past-exhibitions/2020/original'
 BIG_DIR = '../../images/past-exhibitions/2020/big'
 SMALL_DIR = '../../images/past-exhibitions/2020/small'

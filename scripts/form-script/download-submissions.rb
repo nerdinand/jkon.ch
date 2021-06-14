@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # typed: true
 
 require 'net/http'
@@ -13,7 +15,7 @@ require_relative 'pdf_export'
 require_relative 'attachment_download'
 require_relative 'pdf_combination'
 
-JOTFORM_FORM_ID = 203494655758368
+JOTFORM_FORM_ID = 203_494_655_758_368
 api_key = ENV['API_KEY']
 
 def process_submission(submission)
@@ -25,14 +27,13 @@ def process_submission(submission)
   AttachmentDownload.new(submission_id, submission.dossier, 'dossier.pdf').download!
   AttachmentDownload.new(submission_id, submission.exhibition_proposal, 'exhibition_proposal.pdf').download!
 
-  combined_pdf_file_name = submission.name.gsub(/[^A-Za-z]/, '-') + '.pdf'
-  while File.exists? "out/#{combined_pdf_file_name}"
-    combined_pdf_file_name = "#{combined_pdf_file_name[0..-5]}-1.pdf"
-  end
+  combined_pdf_file_name = "#{submission.name.gsub(/[^A-Za-z]/, '-')}.pdf"
+  combined_pdf_file_name = "#{combined_pdf_file_name[0..-5]}-1.pdf" while File.exist? "out/#{combined_pdf_file_name}"
 
   combined_pdf_path = "out/#{combined_pdf_file_name}"
 
-  PDFCombination.new(combined_pdf_path, "#{submission_id}/summary.pdf", "#{submission_id}/exhibition_proposal.pdf", "#{submission_id}/dossier.pdf").combine!
+  PDFCombination.new(combined_pdf_path, "#{submission_id}/summary.pdf", "#{submission_id}/exhibition_proposal.pdf",
+                     "#{submission_id}/dossier.pdf").combine!
 
   combined_pdf_file_name
 end

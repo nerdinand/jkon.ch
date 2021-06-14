@@ -66,17 +66,12 @@ class ActiveSupport::BacktraceCleaner
 
   def add_silencer(&block); end
 
-  def clean(backtrace, kind=T.unsafe(nil)); end
-
   def filter(backtrace, kind=T.unsafe(nil)); end
 
   def remove_filters!(); end
 
   def remove_silencers!(); end
   FORMATTED_GEMS_PATTERN = ::T.let(nil, ::T.untyped)
-end
-
-class ActiveSupport::BacktraceCleaner
 end
 
 module ActiveSupport::Benchmarkable
@@ -126,10 +121,6 @@ class ActiveSupport::Cache::FileStore
   def cache_path(); end
 
   def initialize(cache_path, options=T.unsafe(nil)); end
-  DIR_FORMATTER = ::T.let(nil, ::T.untyped)
-  FILENAME_MAX_SIZE = ::T.let(nil, ::T.untyped)
-  FILEPATH_MAX_SIZE = ::T.let(nil, ::T.untyped)
-  GITKEEP_FILES = ::T.let(nil, ::T.untyped)
 end
 
 class ActiveSupport::Cache::FileStore
@@ -142,7 +133,6 @@ class ActiveSupport::Cache::MemoryStore
   def pruning?(); end
 
   def synchronize(&block); end
-  PER_ENTRY_OVERHEAD = ::T.let(nil, ::T.untyped)
 end
 
 class ActiveSupport::Cache::MemoryStore
@@ -362,9 +352,6 @@ module ActiveSupport::Callbacks::ClassMethods
   def skip_callback(name, *filter_list, &block); end
 end
 
-module ActiveSupport::Callbacks::ClassMethods
-end
-
 module ActiveSupport::Callbacks::Conditionals
 end
 
@@ -481,9 +468,6 @@ module ActiveSupport::Configurable::ClassMethods
   def config(); end
 
   def configure(); end
-end
-
-module ActiveSupport::Configurable::ClassMethods
 end
 
 class ActiveSupport::Configurable::Configuration
@@ -783,7 +767,6 @@ class ActiveSupport::Deprecation
   def deprecation_horizon=(deprecation_horizon); end
 
   def initialize(deprecation_horizon=T.unsafe(nil), gem_name=T.unsafe(nil)); end
-  DEFAULT_BEHAVIORS = ::T.let(nil, ::T.untyped)
 end
 
 module ActiveSupport::Deprecation::Behavior
@@ -841,9 +824,6 @@ class ActiveSupport::Deprecation::DeprecationProxy
   def self.new(*args, &block); end
 end
 
-module ActiveSupport::Deprecation::InstanceDelegator
-end
-
 module ActiveSupport::Deprecation::InstanceDelegator::ClassMethods
   def include(included_module); end
 
@@ -857,9 +837,6 @@ module ActiveSupport::Deprecation::InstanceDelegator::OverrideDelegators
   def deprecation_warning(deprecated_method_name, message=T.unsafe(nil), caller_backtrace=T.unsafe(nil)); end
 
   def warn(message=T.unsafe(nil), callstack=T.unsafe(nil)); end
-end
-
-module ActiveSupport::Deprecation::InstanceDelegator::OverrideDelegators
 end
 
 module ActiveSupport::Deprecation::InstanceDelegator
@@ -887,10 +864,6 @@ module ActiveSupport::Deprecation::Reporting
   def silenced=(silenced); end
 
   def warn(message=T.unsafe(nil), callstack=T.unsafe(nil)); end
-  RAILS_GEM_ROOT = ::T.let(nil, ::T.untyped)
-end
-
-module ActiveSupport::Deprecation::Reporting
 end
 
 class ActiveSupport::Deprecation
@@ -926,12 +899,6 @@ class ActiveSupport::Deprecation
   def self.silenced=(arg); end
 
   def self.warn(*_, &_1); end
-end
-
-class ActiveSupport::DeprecationException
-end
-
-class ActiveSupport::DeprecationException
 end
 
 module ActiveSupport::DescendantsTracker
@@ -1007,8 +974,6 @@ class ActiveSupport::Duration
   def since(time=T.unsafe(nil)); end
 
   def until(time=T.unsafe(nil)); end
-
-  def value(); end
 
   def value=(value); end
   PARTS = ::T.let(nil, ::T.untyped)
@@ -1311,24 +1276,6 @@ class ActiveSupport::Inflector::Inflections
   def self.instance(locale=T.unsafe(nil)); end
 end
 
-module ActiveSupport::Inflector
-  extend ::ActiveSupport::Inflector
-end
-
-class ActiveSupport::InheritableOptions
-  def inheritable_copy(); end
-
-  def initialize(parent=T.unsafe(nil)); end
-end
-
-class ActiveSupport::InheritableOptions
-end
-
-module ActiveSupport::JSON
-  DATETIME_REGEX = ::T.let(nil, ::T.untyped)
-  DATE_REGEX = ::T.let(nil, ::T.untyped)
-end
-
 module ActiveSupport::JSON::Encoding
 end
 
@@ -1406,16 +1353,6 @@ class ActiveSupport::LogSubscriber
   def unknown(progname=T.unsafe(nil), &block); end
 
   def warn(progname=T.unsafe(nil), &block); end
-  BLACK = ::T.let(nil, ::T.untyped)
-  BLUE = ::T.let(nil, ::T.untyped)
-  BOLD = ::T.let(nil, ::T.untyped)
-  CLEAR = ::T.let(nil, ::T.untyped)
-  CYAN = ::T.let(nil, ::T.untyped)
-  GREEN = ::T.let(nil, ::T.untyped)
-  MAGENTA = ::T.let(nil, ::T.untyped)
-  RED = ::T.let(nil, ::T.untyped)
-  WHITE = ::T.let(nil, ::T.untyped)
-  YELLOW = ::T.let(nil, ::T.untyped)
 end
 
 class ActiveSupport::LogSubscriber
@@ -1594,9 +1531,6 @@ end
 module ActiveSupport::Messages::Rotator
 end
 
-module ActiveSupport::Multibyte
-end
-
 class ActiveSupport::Multibyte::Chars
   include ::Comparable
   def =~(*_, &_1); end
@@ -1664,9 +1598,6 @@ module ActiveSupport::Multibyte::Unicode
   def unpack_graphemes(string); end
 
   def upcase(string); end
-  NORMALIZATION_FORMS = ::T.let(nil, ::T.untyped)
-  NORMALIZATION_FORM_ALIASES = ::T.let(nil, ::T.untyped)
-  UNICODE_VERSION = ::T.let(nil, ::T.untyped)
 end
 
 module ActiveSupport::Multibyte::Unicode
@@ -1982,7 +1913,6 @@ end
 
 module ActiveSupport::NumberHelper
   extend ::ActiveSupport::Autoload
-  extend ::ActiveSupport::NumberHelper
 end
 
 class ActiveSupport::OptionMerger
@@ -2004,9 +1934,6 @@ class ActiveSupport::OrderedHash
   def to_yaml_type(); end
 end
 
-class ActiveSupport::OrderedHash
-end
-
 class ActiveSupport::OrderedOptions
   def [](key); end
 
@@ -2015,9 +1942,6 @@ class ActiveSupport::OrderedOptions
   def _get(_); end
 
   def method_missing(name, *args); end
-end
-
-class ActiveSupport::OrderedOptions
 end
 
 module ActiveSupport::PerThreadRegistry
@@ -2108,12 +2032,7 @@ end
 module ActiveSupport::Rescuable::ClassMethods
   def handler_for_rescue(exception, object: T.unsafe(nil)); end
 
-  def rescue_from(*klasses, with: T.unsafe(nil), &block); end
-
   def rescue_with_handler(exception, object: T.unsafe(nil), visited_exceptions: T.unsafe(nil)); end
-end
-
-module ActiveSupport::Rescuable::ClassMethods
 end
 
 module ActiveSupport::Rescuable
@@ -2236,8 +2155,6 @@ class ActiveSupport::SafeBuffer
   def upcase(*args, &block); end
 
   def upcase!(*args); end
-  UNSAFE_STRING_METHODS = ::T.let(nil, ::T.untyped)
-  UNSAFE_STRING_METHODS_WITH_BACKREF = ::T.let(nil, ::T.untyped)
 end
 
 class ActiveSupport::SafeBuffer::SafeConcatError
@@ -2245,9 +2162,6 @@ class ActiveSupport::SafeBuffer::SafeConcatError
 end
 
 class ActiveSupport::SafeBuffer::SafeConcatError
-end
-
-class ActiveSupport::SafeBuffer
 end
 
 class ActiveSupport::StringInquirer
@@ -2488,8 +2402,6 @@ class ActiveSupport::TimeWithZone
 
   def before?(_); end
 
-  def change(options); end
-
   def comparable_time(); end
 
   def encode_with(coder); end
@@ -2724,8 +2636,11 @@ end
 
 class Array
   def self.try_convert(_); end
+end
 
-  def self.wrap(object); end
+class AttachmentDownload
+  extend ::T::Private::Methods::MethodHooks
+  extend ::T::Private::Methods::SingletonMethodHooks
 end
 
 class AwesomePrint::Formatter
@@ -2773,6 +2688,21 @@ class Binding
   def irb(); end
 end
 
+class Bundler::APIResponseInvalidDependenciesError
+  def status_code(); end
+end
+
+class Bundler::APIResponseInvalidDependenciesError
+end
+
+class Bundler::Definition
+  def dependencies_for(groups); end
+
+  def most_specific_locked_platform(); end
+
+  def requested_dependencies(); end
+end
+
 class Bundler::Dependency
   def branch(); end
 
@@ -2792,6 +2722,16 @@ class Bundler::Env
   def self.report(options=T.unsafe(nil)); end
 
   def self.write(io); end
+end
+
+class Bundler::EnvironmentPreserver
+  def replace_with_backup(); end
+end
+
+class Bundler::EnvironmentPreserver
+  def self.env_to_hash(env); end
+
+  def self.from_env(); end
 end
 
 class Bundler::Fetcher
@@ -2979,6 +2919,8 @@ class Bundler::GemHelper
 
   def committed?(); end
 
+  def default_remote(); end
+
   def gem_command(); end
 
   def gem_key(); end
@@ -3013,6 +2955,8 @@ class Bundler::GemHelper
 
   def spec_path(); end
 
+  def tag_prefix=(tag_prefix); end
+
   def tag_version(); end
 
   def version(); end
@@ -3028,6 +2972,20 @@ class Bundler::GemHelper
   def self.instance(); end
 
   def self.instance=(instance); end
+
+  def self.tag_prefix=(prefix); end
+end
+
+class Bundler::GemHelpers::PlatformMatch
+  def self.specificity_score(spec_platform, user_platform); end
+end
+
+module Bundler::GemHelpers
+  def self.local_platform(); end
+
+  def self.same_deps(spec, exemplary_spec); end
+
+  def self.same_specificity(platform, spec, exemplary_spec); end
 end
 
 class Bundler::GemVersionPromoter
@@ -3115,7 +3073,7 @@ end
 class Bundler::Installer
   def generate_bundler_executable_stubs(spec, options=T.unsafe(nil)); end
 
-  def generate_standalone_bundler_executable_stubs(spec); end
+  def generate_standalone_bundler_executable_stubs(spec, options=T.unsafe(nil)); end
 
   def initialize(root, definition); end
 
@@ -3130,6 +3088,10 @@ class Bundler::Installer
   def self.ambiguous_gems=(ambiguous_gems); end
 
   def self.install(root, definition, options=T.unsafe(nil)); end
+end
+
+class Bundler::LazySpecification
+  def eql?(other); end
 end
 
 class Bundler::Molinillo::DependencyGraph
@@ -3226,6 +3188,8 @@ class Bundler::Plugin::Index
   def installed_plugins(); end
 
   def plugin_commands(plugin); end
+
+  def unregister_plugin(name); end
 end
 
 class Bundler::Plugin::Index::CommandConflict
@@ -3272,6 +3236,8 @@ end
 
 module Bundler::Plugin
   def self.list(); end
+
+  def self.uninstall(names, options); end
 end
 
 class Bundler::ProcessLock
@@ -3279,6 +3245,16 @@ end
 
 class Bundler::ProcessLock
   def self.lock(bundle_path=T.unsafe(nil)); end
+end
+
+class Bundler::Resolver::SpecGroup
+  def activated_platforms(); end
+
+  def activated_platforms=(activated_platforms); end
+
+  def copy_for(platforms); end
+
+  def sorted_activated_platforms(); end
 end
 
 class Bundler::Retry
@@ -3316,6 +3292,8 @@ class Bundler::RubyGemsGemInstaller
 end
 
 class Bundler::RubygemsIntegration
+  def add_default_gems_to(specs); end
+
   def add_to_load_path(paths); end
 
   def all_specs(); end
@@ -3329,6 +3307,8 @@ class Bundler::RubygemsIntegration
   def find_name(name); end
 
   def gem_remote_fetcher(); end
+
+  def load_env_plugins(); end
 
   def plain_specs(); end
 
@@ -3400,10 +3380,20 @@ end
 
 class Bundler::Source::Git
   def glob(); end
+
+  def local?(); end
 end
 
 class Bundler::SpecSet
   include ::Enumerable
+end
+
+class Bundler::StubSpecification
+  def default_gem?(); end
+
+  def extensions(); end
+
+  def gem_build_complete_path(); end
 end
 
 class Bundler::Thor
@@ -4516,7 +4506,7 @@ class Bundler::UI::Shell
 
   def debug?(); end
 
-  def error(msg, newline=T.unsafe(nil)); end
+  def error(msg, newline=T.unsafe(nil), color=T.unsafe(nil)); end
 
   def info(msg, newline=T.unsafe(nil)); end
 
@@ -4538,7 +4528,7 @@ class Bundler::UI::Shell
 
   def unprinted_warnings(); end
 
-  def warn(msg, newline=T.unsafe(nil)); end
+  def warn(msg, newline=T.unsafe(nil), color=T.unsafe(nil)); end
 
   def yes?(msg); end
   LEVELS = ::T.let(nil, ::T.untyped)
@@ -5055,17 +5045,21 @@ module Bundler::VersionRanges
 end
 
 module Bundler
+  def self.most_specific_locked_platform?(platform); end
+
   def self.original_exec(*args); end
 
   def self.original_system(*args); end
+
+  def self.preferred_gemfile_name(); end
+
+  def self.reset_settings_and_root!(); end
 
   def self.unbundled_env(); end
 
   def self.unbundled_exec(*args); end
 
   def self.unbundled_system(*args); end
-
-  def self.with_unbundled_env(); end
 end
 
 module Byebug
@@ -5527,24 +5521,9 @@ end
 
 class Date
   include ::DateAndTime::Zones
-  include ::DateAndTime::Calculations
   def acts_like_date?(); end
 
   def ago(seconds); end
-
-  def at_beginning_of_day(); end
-
-  def at_end_of_day(); end
-
-  def at_midday(); end
-
-  def at_middle_of_day(); end
-
-  def at_midnight(); end
-
-  def at_noon(); end
-
-  def beginning_of_day(); end
 
   def change(options); end
 
@@ -5554,23 +5533,13 @@ class Date
 
   def default_inspect(); end
 
-  def end_of_day(); end
-
   def in(seconds); end
 
   def infinite?(); end
 
-  def midday(); end
-
-  def middle_of_day(); end
-
-  def midnight(); end
-
   def minus_with_duration(other); end
 
   def minus_without_duration(_); end
-
-  def noon(); end
 
   def plus_with_duration(other); end
 
@@ -5581,9 +5550,6 @@ class Date
   def since(seconds); end
 
   def to_default_s(); end
-
-  def to_formatted_s(format=T.unsafe(nil)); end
-  DATE_FORMATS = ::T.let(nil, ::T.untyped)
 end
 
 class Date::Infinity
@@ -5599,131 +5565,7 @@ class Date
 
   def self.beginning_of_week_default=(beginning_of_week_default); end
 
-  def self.current(); end
-
   def self.find_beginning_of_week!(week_start); end
-
-  def self.tomorrow(); end
-
-  def self.yesterday(); end
-end
-
-module DateAndTime
-end
-
-module DateAndTime::Calculations
-  def after?(date_or_time); end
-
-  def all_day(); end
-
-  def all_month(); end
-
-  def all_quarter(); end
-
-  def all_week(start_day=T.unsafe(nil)); end
-
-  def all_year(); end
-
-  def at_beginning_of_month(); end
-
-  def at_beginning_of_quarter(); end
-
-  def at_beginning_of_week(start_day=T.unsafe(nil)); end
-
-  def at_beginning_of_year(); end
-
-  def at_end_of_month(); end
-
-  def at_end_of_quarter(); end
-
-  def at_end_of_week(start_day=T.unsafe(nil)); end
-
-  def at_end_of_year(); end
-
-  def before?(date_or_time); end
-
-  def beginning_of_month(); end
-
-  def beginning_of_quarter(); end
-
-  def beginning_of_week(start_day=T.unsafe(nil)); end
-
-  def beginning_of_year(); end
-
-  def days_ago(days); end
-
-  def days_since(days); end
-
-  def days_to_week_start(start_day=T.unsafe(nil)); end
-
-  def end_of_month(); end
-
-  def end_of_quarter(); end
-
-  def end_of_week(start_day=T.unsafe(nil)); end
-
-  def end_of_year(); end
-
-  def future?(); end
-
-  def last_month(); end
-
-  def last_quarter(); end
-
-  def last_week(start_day=T.unsafe(nil), same_time: T.unsafe(nil)); end
-
-  def last_weekday(); end
-
-  def last_year(); end
-
-  def monday(); end
-
-  def months_ago(months); end
-
-  def months_since(months); end
-
-  def next_occurring(day_of_week); end
-
-  def next_quarter(); end
-
-  def next_week(given_day_in_next_week=T.unsafe(nil), same_time: T.unsafe(nil)); end
-
-  def next_weekday(); end
-
-  def on_weekday?(); end
-
-  def on_weekend?(); end
-
-  def past?(); end
-
-  def prev_occurring(day_of_week); end
-
-  def prev_quarter(); end
-
-  def prev_week(start_day=T.unsafe(nil), same_time: T.unsafe(nil)); end
-
-  def prev_weekday(); end
-
-  def sunday(); end
-
-  def today?(); end
-
-  def tomorrow(); end
-
-  def weeks_ago(weeks); end
-
-  def weeks_since(weeks); end
-
-  def years_ago(years); end
-
-  def years_since(years); end
-
-  def yesterday(); end
-  DAYS_INTO_WEEK = ::T.let(nil, ::T.untyped)
-  WEEKEND_DAYS = ::T.let(nil, ::T.untyped)
-end
-
-module DateAndTime::Calculations
 end
 
 module DateAndTime::Compatibility
@@ -5741,9 +5583,6 @@ module DateAndTime::Zones
 end
 
 module DateAndTime::Zones
-end
-
-module DateAndTime
 end
 
 class DateTime
@@ -5988,11 +5827,7 @@ module Enumerable
   include ::ActiveSupport::ToJsonWithActiveSupportEncoder
   def as_json(options=T.unsafe(nil)); end
 
-  def chain(*_); end
-
   def sum(*_); end
-
-  def tally(); end
 end
 
 class Enumerator
@@ -6372,8 +6207,6 @@ module GC
 end
 
 module GC
-  def self.verify_compaction_references(*_); end
-
   def self.verify_transient_heap_internal_consistency(); end
 end
 
@@ -6615,6 +6448,21 @@ class Gem::Request
   extend ::Gem::Text
 end
 
+class Gem::Requirement
+  include ::Gem::Requirement::OrderIndependentComparison
+end
+
+module Gem::Requirement::OrderIndependentComparison
+  def ==(other); end
+
+  def _requirements_sorted?(); end
+
+  def _with_sorted_requirements(); end
+end
+
+module Gem::Requirement::OrderIndependentComparison
+end
+
 class Gem::Resolver::CurrentSet
 end
 
@@ -6839,7 +6687,10 @@ end
 class Gem::Specification
   include ::Bundler::MatchPlatform
   include ::Bundler::GemHelpers
+  def removed_method_calls(); end
+
   def to_ruby(); end
+  REMOVED_METHODS = ::T.let(nil, ::T.untyped)
 end
 
 class Gem::Specification
@@ -6927,6 +6778,10 @@ Gem::UnsatisfiableDepedencyError = Gem::UnsatisfiableDependencyError
 
 Gem::Version::Requirement = Gem::Requirement
 
+module Gem
+  def self.activated_gem_paths(); end
+end
+
 class GetText::PoParser
   Racc_arg = ::T.let(nil, ::T.untyped)
   Racc_debug_parser = ::T.let(nil, ::T.untyped)
@@ -6939,11 +6794,7 @@ class Hash
 
   def deconstruct_keys(_); end
 
-  def deep_merge(other_hash, &block); end
-
   def deep_merge!(other_hash, &block); end
-
-  def except(*keys); end
 
   def except!(*keys); end
 
@@ -6956,8 +6807,6 @@ class Hash
   def to_options!(); end
 
   def to_param(namespace=T.unsafe(nil)); end
-
-  def to_query(namespace=T.unsafe(nil)); end
 end
 
 class Hash
@@ -7198,6 +7047,12 @@ class IRB::Context
 
   def newline_before_multiline_output?(); end
 
+  def omit_on_assignment(); end
+
+  def omit_on_assignment=(omit_on_assignment); end
+
+  def omit_on_assignment?(); end
+
   def use_colorize(); end
 
   def use_colorize?(); end
@@ -7245,6 +7100,8 @@ module IRB::ExtendCommandBundle
 
   def irb_help(*opts, &b); end
 
+  def irb_info(*opts, &b); end
+
   def irb_jobs(*opts, &b); end
 
   def irb_kill(*opts, &b); end
@@ -7286,6 +7143,8 @@ end
 
 class IRB::InputMethod
   def initialize(file=T.unsafe(nil)); end
+
+  def winsize(); end
 end
 
 class IRB::Inspector
@@ -7299,7 +7158,7 @@ class IRB::Irb
 
   def initialize(workspace=T.unsafe(nil), input_method=T.unsafe(nil)); end
 
-  def output_value(); end
+  def output_value(omit=T.unsafe(nil)); end
 
   def prompt(prompt, ltype, indent, line_no); end
   ASSIGNMENT_NODE_TYPES = ::T.let(nil, ::T.untyped)
@@ -7348,6 +7207,10 @@ end
 
 class IRB::ReadlineInputMethod
   def initialize(); end
+end
+
+class IRB::ReadlineInputMethod
+  def self.initialize_readline(); end
 end
 
 class IRB::ReidlineInputMethod
@@ -7407,7 +7270,6 @@ end
 class Integer
   include ::JSON::Ext::Generator::GeneratorMethods::Integer
   def to_bn(); end
-  GMP_VERSION = ::T.let(nil, ::T.untyped)
 end
 
 class JSON::Ext::Generator::State
@@ -7548,8 +7410,6 @@ class Module
 
   def cattr_writer(*syms, instance_writer: T.unsafe(nil), instance_accessor: T.unsafe(nil), default: T.unsafe(nil)); end
 
-  def const_source_location(*_); end
-
   def delegate(*methods, to: T.unsafe(nil), prefix: T.unsafe(nil), allow_nil: T.unsafe(nil), private: T.unsafe(nil)); end
 
   def delegate_missing_to(target); end
@@ -7679,8 +7539,6 @@ end
 class Net::HTTPAlreadyReported
 end
 
-Net::HTTPClientError::EXCEPTION_TYPE = Net::HTTPServerException
-
 Net::HTTPClientErrorCode = Net::HTTPClientError
 
 class Net::HTTPEarlyHints
@@ -7742,8 +7600,6 @@ end
 class Net::HTTPRangeNotSatisfiable
 end
 
-Net::HTTPRedirection::EXCEPTION_TYPE = Net::HTTPRetriableError
-
 Net::HTTPRedirectionCode = Net::HTTPRedirection
 
 Net::HTTPRequestURITooLarge = Net::HTTPURITooLong
@@ -7752,13 +7608,9 @@ Net::HTTPResponceReceiver = Net::HTTPResponse
 
 Net::HTTPRetriableCode = Net::HTTPRedirection
 
-Net::HTTPServerError::EXCEPTION_TYPE = Net::HTTPFatalError
-
 Net::HTTPServerErrorCode = Net::HTTPServerError
 
 Net::HTTPSession = Net::HTTP
-
-Net::HTTPSuccess::EXCEPTION_TYPE = Net::HTTPError
 
 Net::HTTPSuccessCode = Net::HTTPSuccess
 
@@ -7813,8 +7665,6 @@ class Object
   include ::ActiveSupport::Tryable
   include ::PP::ObjectMixin
   include ::ActiveSupport::ToJsonWithActiveSupportEncoder
-  def as_json(options=T.unsafe(nil)); end
-
   def html_safe?(); end
 
   def to_yaml(options=T.unsafe(nil)); end
@@ -7912,8 +7762,6 @@ module OpenSSL::SSL
 end
 
 class OpenSSL::SSL::SSLContext
-  def add_certificate(*_); end
-
   def alpn_protocols(); end
 
   def alpn_protocols=(alpn_protocols); end
@@ -7987,6 +7835,16 @@ class OptionParser::ParseError
   def additional(); end
 
   def additional=(additional); end
+end
+
+class PDFCombination
+  extend ::T::Private::Methods::MethodHooks
+  extend ::T::Private::Methods::SingletonMethodHooks
+end
+
+class PDFExport
+  extend ::T::Private::Methods::MethodHooks
+  extend ::T::Private::Methods::SingletonMethodHooks
 end
 
 ParseError = Racc::ParseError
@@ -8721,6 +8579,10 @@ class Reline::Config
 
   def editing_mode_is?(*val); end
 
+  def emacs_mode_string(); end
+
+  def emacs_mode_string=(emacs_mode_string); end
+
   def enable_keypad(); end
 
   def enable_keypad=(enable_keypad); end
@@ -8805,6 +8667,8 @@ class Reline::Config
 
   def reset_default_key_bindings(); end
 
+  def retrieve_string(str); end
+
   def show_all_if_ambiguous(); end
 
   def show_all_if_ambiguous=(show_all_if_ambiguous); end
@@ -8813,12 +8677,23 @@ class Reline::Config
 
   def show_all_if_unmodified=(show_all_if_unmodified); end
 
+  def show_mode_in_prompt(); end
+
+  def show_mode_in_prompt=(show_mode_in_prompt); end
+
   def test_mode(); end
+
+  def vi_cmd_mode_icon(); end
+
+  def vi_cmd_mode_icon=(vi_cmd_mode_icon); end
+
+  def vi_ins_mode_icon(); end
+
+  def vi_ins_mode_icon=(vi_ins_mode_icon); end
 
   def visible_stats(); end
 
   def visible_stats=(visible_stats); end
-  DEFAULT_PATH = ::T.let(nil, ::T.untyped)
   KEYSEQ_PATTERN = ::T.let(nil, ::T.untyped)
   VARIABLE_NAMES = ::T.let(nil, ::T.untyped)
   VARIABLE_NAME_SYMBOLS = ::T.let(nil, ::T.untyped)
@@ -9217,12 +9092,7 @@ class Reline::LineEditor
   def whole_buffer(); end
 
   def whole_lines(index: T.unsafe(nil), line: T.unsafe(nil)); end
-  CSI_REGEXP = ::T.let(nil, ::T.untyped)
-  NON_PRINTING_END = ::T.let(nil, ::T.untyped)
-  NON_PRINTING_START = ::T.let(nil, ::T.untyped)
-  OSC_REGEXP = ::T.let(nil, ::T.untyped)
   VI_MOTIONS = ::T.let(nil, ::T.untyped)
-  WIDTH_SCANNER = ::T.let(nil, ::T.untyped)
 end
 
 Reline::LineEditor::CompletionJourneyData = Struct::CompletionJourneyData
@@ -9245,8 +9115,13 @@ class Reline::LineEditor
 end
 
 class Reline::Unicode
+  CSI_REGEXP = ::T.let(nil, ::T.untyped)
   EscapedChars = ::T.let(nil, ::T.untyped)
   EscapedPairs = ::T.let(nil, ::T.untyped)
+  NON_PRINTING_END = ::T.let(nil, ::T.untyped)
+  NON_PRINTING_START = ::T.let(nil, ::T.untyped)
+  OSC_REGEXP = ::T.let(nil, ::T.untyped)
+  WIDTH_SCANNER = ::T.let(nil, ::T.untyped)
 end
 
 class Reline::Unicode::EastAsianWidth
@@ -9262,6 +9137,8 @@ class Reline::Unicode::EastAsianWidth
 end
 
 class Reline::Unicode
+  def self.calculate_width(str, allow_escape_code=T.unsafe(nil)); end
+
   def self.ed_transpose_words(line, byte_pointer); end
 
   def self.em_backward_word(line, byte_pointer); end
@@ -9281,6 +9158,8 @@ class Reline::Unicode
   def self.get_next_mbchar_size(line, byte_pointer); end
 
   def self.get_prev_mbchar_size(line, byte_pointer); end
+
+  def self.split_by_width(str, max_width, encoding=T.unsafe(nil)); end
 
   def self.vi_backward_word(line, byte_pointer); end
 
@@ -10008,36 +9887,11 @@ class RubyLex::TerminateLineInput
 end
 
 class RubyLex
-end
-
-module RubyVM::AbstractSyntaxTree
+  def self.compile_with_errors_suppressed(code); end
 end
 
 class RubyVM::AbstractSyntaxTree::Node
-  def children(); end
-
-  def first_column(); end
-
-  def first_lineno(); end
-
-  def last_column(); end
-
-  def last_lineno(); end
-
   def pretty_print_children(q, names=T.unsafe(nil)); end
-
-  def type(); end
-end
-
-class RubyVM::AbstractSyntaxTree::Node
-end
-
-module RubyVM::AbstractSyntaxTree
-  def self.of(body); end
-
-  def self.parse(string); end
-
-  def self.parse_file(pathname); end
 end
 
 module RubyVM::MJIT
@@ -10143,6 +9997,7 @@ class Socket
   IPV6_PATHMTU = ::T.let(nil, ::T.untyped)
   IPV6_RECVPATHMTU = ::T.let(nil, ::T.untyped)
   IPV6_USE_MIN_MTU = ::T.let(nil, ::T.untyped)
+  IP_DONTFRAG = ::T.let(nil, ::T.untyped)
   IP_PORTRANGE = ::T.let(nil, ::T.untyped)
   IP_RECVDSTADDR = ::T.let(nil, ::T.untyped)
   IP_RECVIF = ::T.let(nil, ::T.untyped)
@@ -10234,6 +10089,7 @@ module Socket::Constants
   IPV6_PATHMTU = ::T.let(nil, ::T.untyped)
   IPV6_RECVPATHMTU = ::T.let(nil, ::T.untyped)
   IPV6_USE_MIN_MTU = ::T.let(nil, ::T.untyped)
+  IP_DONTFRAG = ::T.let(nil, ::T.untyped)
   IP_PORTRANGE = ::T.let(nil, ::T.untyped)
   IP_RECVDSTADDR = ::T.let(nil, ::T.untyped)
   IP_RECVIF = ::T.let(nil, ::T.untyped)
@@ -10412,22 +10268,13 @@ class Submission
   def website(); end
 end
 
+class Submission
+  extend ::T::Private::Methods::MethodHooks
+  extend ::T::Private::Methods::SingletonMethodHooks
+end
+
 class SynchronizedDelegator
   RUBYGEMS_ACTIVATION_MONITOR = ::T.let(nil, ::T.untyped)
-end
-
-module TZInfo::RubyCoreSupport
-  HALF_DAYS_IN_DAY = ::T.let(nil, ::T.untyped)
-end
-
-class TZInfo::ZoneinfoDataSource
-  DEFAULT_ALTERNATE_ISO3166_TAB_SEARCH_PATH = ::T.let(nil, ::T.untyped)
-  DEFAULT_SEARCH_PATH = ::T.let(nil, ::T.untyped)
-end
-
-class TZInfo::ZoneinfoTimezoneInfo
-  MAX_TIMESTAMP = ::T.let(nil, ::T.untyped)
-  MIN_TIMESTAMP = ::T.let(nil, ::T.untyped)
 end
 
 class Tempfile
@@ -10705,7 +10552,6 @@ end
 
 class Time
   include ::DateAndTime::Zones
-  include ::DateAndTime::Calculations
   def acts_like_time?(); end
 
   def ago(seconds); end
@@ -10713,8 +10559,6 @@ class Time
   def at_beginning_of_hour(); end
 
   def at_beginning_of_minute(); end
-
-  def at_end_of_day(); end
 
   def at_end_of_hour(); end
 
@@ -10729,8 +10573,6 @@ class Time
   def compare_with_coercion(other); end
 
   def compare_without_coercion(_); end
-
-  def end_of_day(); end
 
   def end_of_hour(); end
 
@@ -10779,8 +10621,6 @@ class Time
   def since(seconds); end
 
   def to_default_s(); end
-
-  def to_formatted_s(format=T.unsafe(nil)); end
   COMMON_YEAR_DAYS_IN_MONTH = ::T.let(nil, ::T.untyped)
   DATE_FORMATS = ::T.let(nil, ::T.untyped)
 end
@@ -10791,8 +10631,6 @@ class Time
   def self.at_with_coercion(*args); end
 
   def self.at_without_coercion(*_); end
-
-  def self.current(); end
 
   def self.days_in_month(month, year=T.unsafe(nil)); end
 
@@ -10916,10 +10754,6 @@ module URI
   def self.get_encoding(label); end
 end
 
-class UnboundMethod
-  def bind_call(*_); end
-end
-
 module UnicodeNormalize
 end
 
@@ -10928,9 +10762,6 @@ end
 
 module Warning
   extend ::Warning
-  def self.[](_); end
-
-  def self.[]=(_, _1); end
 end
 
 class WeakRef

@@ -12,35 +12,32 @@
 # wrong constant name <PackageRegistry>
 # wrong constant name <PackageRegistry>
 # wrong constant name <RESERVED_0>
+# wrong constant name <RESERVED_10>
 # wrong constant name <RESERVED_1>
 # wrong constant name <RESERVED_2>
 # wrong constant name <RESERVED_3>
 # wrong constant name <RESERVED_4>
 # wrong constant name <RESERVED_5>
 # wrong constant name <RESERVED_6>
+# wrong constant name <RESERVED_7>
+# wrong constant name <RESERVED_8>
+# wrong constant name <RESERVED_9>
 # wrong constant name <TypeAlias>
 # wrong constant name <TypeAlias>
-# wrong constant name <any>
-# wrong constant name <any>
 # wrong constant name <root>
 # wrong constant name <Class:<root>>
 # wrong constant name <todo sym>
 # wrong constant name <todo sym>
+# wrong constant name <top>
+# wrong constant name <top>
 # wrong constant name <Class:ActionableError>
 # wrong constant name <Class:ArrayInquirer>
 # wrong constant name <Class:Autoload>
-# wrong constant name <Class:BacktraceCleaner>
 # wrong constant name <Class:Benchmarkable>
 # wrong constant name <Class:BigDecimalWithDefaultFormat>
-# wrong constant name <Class:Cache>
-# wrong constant name <Class:Callbacks>
-# wrong constant name <Class:Concern>
 # wrong constant name <Class:Concurrency>
-# wrong constant name <Class:Configurable>
 # wrong constant name <Class:CurrentAttributes>
 # wrong constant name <Class:Dependencies>
-# wrong constant name <Class:Deprecation>
-# wrong constant name <Class:DeprecationException>
 # wrong constant name <Class:DescendantsTracker>
 # wrong constant name <Class:Digest>
 # wrong constant name <Class:EventedFileUpdateChecker>
@@ -48,11 +45,8 @@
 # wrong constant name <Class:Executor>
 # wrong constant name <Class:FileUpdateChecker>
 # wrong constant name <Class:Gzip>
-# wrong constant name <Class:InheritableOptions>
-# wrong constant name <Class:JSON>
 # wrong constant name <Class:KeyGenerator>
 # wrong constant name <Class:LazyLoadHooks>
-# wrong constant name <Class:LogSubscriber>
 # wrong constant name <Class:Logger>
 # wrong constant name <Class:LoggerSilence>
 # wrong constant name <Class:LoggerThreadSafeLevel>
@@ -60,16 +54,11 @@
 # wrong constant name <Class:MessageEncryptor>
 # wrong constant name <Class:MessageVerifier>
 # wrong constant name <Class:Messages>
-# wrong constant name <Class:Multibyte>
 # wrong constant name <Class:Notifications>
 # wrong constant name <Class:OptionMerger>
-# wrong constant name <Class:OrderedHash>
-# wrong constant name <Class:OrderedOptions>
 # wrong constant name <Class:PerThreadRegistry>
 # wrong constant name <Class:ProxyObject>
 # wrong constant name <Class:Reloader>
-# wrong constant name <Class:Rescuable>
-# wrong constant name <Class:SafeBuffer>
 # wrong constant name <Class:StringInquirer>
 # wrong constant name <Class:Subscriber>
 # wrong constant name <Class:SubscriberQueueRegistry>
@@ -106,18 +95,14 @@
 # wrong constant name extended
 # wrong constant name add_filter
 # wrong constant name add_silencer
-# wrong constant name clean
 # wrong constant name filter
 # wrong constant name remove_filters!
 # wrong constant name remove_silencers!
-# wrong constant name <static-init>
 # wrong constant name benchmark
 # wrong constant name <static-init>
 # wrong constant name to_s
 # wrong constant name <static-init>
 # wrong constant name <Class:Entry>
-# wrong constant name <Class:FileStore>
-# wrong constant name <Class:MemoryStore>
 # wrong constant name <Class:NullStore>
 # wrong constant name <Class:Store>
 # wrong constant name <Class:Strategy>
@@ -182,7 +167,6 @@
 # wrong constant name <Class:Callback>
 # wrong constant name <Class:CallbackChain>
 # wrong constant name <Class:CallbackSequence>
-# wrong constant name <Class:ClassMethods>
 # wrong constant name <Class:Conditionals>
 # wrong constant name <Class:Filters>
 # wrong constant name run_callbacks
@@ -241,7 +225,6 @@
 # wrong constant name set_callback
 # wrong constant name set_callbacks
 # wrong constant name skip_callback
-# wrong constant name <static-init>
 # wrong constant name <Class:Value>
 # wrong constant name call
 # wrong constant name initialize
@@ -265,13 +248,11 @@
 # wrong constant name []
 # wrong constant name members
 # wrong constant name <static-init>
-# wrong constant name <static-init>
 # wrong constant name <Class:MultipleIncludedBlocks>
 # wrong constant name append_features
 # wrong constant name class_methods
 # wrong constant name included
 # wrong constant name initialize
-# wrong constant name <static-init>
 # wrong constant name <static-init>
 # wrong constant name extended
 # wrong constant name <Class:ShareLock>
@@ -286,19 +267,11 @@
 # wrong constant name yield_shares
 # wrong constant name <static-init>
 # wrong constant name <static-init>
-# wrong constant name <Class:ClassMethods>
-# wrong constant name <Class:Configuration>
 # wrong constant name config
 # wrong constant name config
 # wrong constant name configure
-# wrong constant name <static-init>
-# uninitialized constant ActiveSupport::Configurable::Configuration::Elem
-# uninitialized constant ActiveSupport::Configurable::Configuration::K
-# uninitialized constant ActiveSupport::Configurable::Configuration::V
 # wrong constant name compile_methods!
-# wrong constant name <static-init>
 # wrong constant name compile_methods!
-# wrong constant name <static-init>
 # uninitialized constant ActiveSupport::CurrentAttributes::CALLBACK_FILTER_TYPES
 # wrong constant name __callbacks
 # wrong constant name __callbacks?
@@ -437,10 +410,8 @@
 # wrong constant name <Class:DeprecatedInstanceVariableProxy>
 # wrong constant name <Class:DeprecatedObjectProxy>
 # wrong constant name <Class:DeprecationProxy>
-# wrong constant name <Class:InstanceDelegator>
 # wrong constant name <Class:MethodWrapper>
 # uninitialized constant ActiveSupport::Deprecation::RAILS_GEM_ROOT
-# wrong constant name <Class:Reporting>
 # wrong constant name deprecation_horizon
 # wrong constant name deprecation_horizon=
 # wrong constant name initialize
@@ -466,15 +437,11 @@
 # wrong constant name <static-init>
 # wrong constant name <static-init>
 # wrong constant name new
-# wrong constant name <Class:ClassMethods>
-# wrong constant name <Class:OverrideDelegators>
 # wrong constant name include
 # wrong constant name method_added
 # wrong constant name <static-init>
 # wrong constant name deprecation_warning
 # wrong constant name warn
-# wrong constant name <static-init>
-# wrong constant name <static-init>
 # wrong constant name included
 # wrong constant name deprecate_methods
 # wrong constant name <static-init>
@@ -485,7 +452,7 @@
 # wrong constant name silenced
 # wrong constant name silenced=
 # wrong constant name warn
-# wrong constant name <static-init>
+# undefined singleton method `instance' for `ActiveSupport::Deprecation'
 # wrong constant name <static-init>
 # wrong constant name behavior
 # wrong constant name behavior=
@@ -498,11 +465,11 @@
 # wrong constant name gem_name
 # wrong constant name gem_name=
 # wrong constant name initialize
+# wrong constant name instance
 # wrong constant name silence
 # wrong constant name silenced
 # wrong constant name silenced=
 # wrong constant name warn
-# wrong constant name <static-init>
 # wrong constant name <Class:DescendantsArray>
 # wrong constant name descendants
 # wrong constant name direct_descendants
@@ -540,7 +507,6 @@
 # wrong constant name parts=
 # wrong constant name since
 # wrong constant name until
-# wrong constant name value
 # wrong constant name value=
 # wrong constant name <Class:ParsingError>
 # wrong constant name initialize
@@ -677,13 +643,6 @@
 # wrong constant name <static-init>
 # wrong constant name <static-init>
 # wrong constant name instance
-# uninitialized constant ActiveSupport::InheritableOptions::Elem
-# uninitialized constant ActiveSupport::InheritableOptions::K
-# uninitialized constant ActiveSupport::InheritableOptions::V
-# wrong constant name inheritable_copy
-# wrong constant name initialize
-# wrong constant name <static-init>
-# wrong constant name <Class:Encoding>
 # wrong constant name <Class:JSONGemEncoder>
 # wrong constant name encode
 # wrong constant name initialize
@@ -796,8 +755,6 @@
 # wrong constant name verified
 # wrong constant name <static-init>
 # wrong constant name <static-init>
-# wrong constant name <Class:Chars>
-# wrong constant name <Class:Unicode>
 # wrong constant name <=>
 # wrong constant name =~
 # wrong constant name acts_like_string?
@@ -972,23 +929,15 @@
 # wrong constant name <static-init>
 # wrong constant name initialize
 # wrong constant name <static-init>
-# uninitialized constant ActiveSupport::OrderedHash::Elem
-# uninitialized constant ActiveSupport::OrderedHash::K
-# uninitialized constant ActiveSupport::OrderedHash::V
 # wrong constant name encode_with
 # wrong constant name nested_under_indifferent_access
 # wrong constant name reject
 # wrong constant name select
 # wrong constant name to_yaml_type
-# wrong constant name <static-init>
-# uninitialized constant ActiveSupport::OrderedOptions::Elem
-# uninitialized constant ActiveSupport::OrderedOptions::K
-# uninitialized constant ActiveSupport::OrderedOptions::V
 # wrong constant name []
 # wrong constant name []=
 # wrong constant name _get
 # wrong constant name method_missing
-# wrong constant name <static-init>
 # wrong constant name instance
 # wrong constant name <static-init>
 # wrong constant name extended
@@ -1027,14 +976,10 @@
 # wrong constant name reload!
 # wrong constant name reloaded!
 # wrong constant name to_prepare
-# wrong constant name <Class:ClassMethods>
 # wrong constant name handler_for_rescue
 # wrong constant name rescue_with_handler
 # wrong constant name handler_for_rescue
-# wrong constant name rescue_from
 # wrong constant name rescue_with_handler
-# wrong constant name <static-init>
-# wrong constant name <static-init>
 # wrong constant name %
 # wrong constant name *
 # wrong constant name +
@@ -1097,7 +1042,6 @@
 # wrong constant name upcase
 # wrong constant name upcase!
 # wrong constant name initialize
-# wrong constant name <static-init>
 # wrong constant name <static-init>
 # uninitialized constant ActiveSupport::StringInquirer::BLANK_RE
 # uninitialized constant ActiveSupport::StringInquirer::ENCODED_BLANKS
@@ -1204,7 +1148,6 @@
 # wrong constant name acts_like_time?
 # wrong constant name after?
 # wrong constant name before?
-# wrong constant name change
 # wrong constant name comparable_time
 # wrong constant name encode_with
 # wrong constant name getgm
@@ -1300,7 +1243,6 @@
 # wrong constant name shelljoin
 # wrong constant name to_h
 # wrong constant name try_convert
-# wrong constant name wrap
 # wrong constant name <Class:BasicObject>
 # wrong constant name initialize
 # wrong constant name initialize
@@ -1316,6 +1258,13 @@
 # wrong constant name interpret_loosely
 # wrong constant name clone
 # wrong constant name irb
+# wrong constant name status_code
+# wrong constant name <static-init>
+# uninitialized constant Bundler::Definition::GENERICS
+# uninitialized constant Bundler::Definition::GENERIC_CACHE
+# wrong constant name dependencies_for
+# wrong constant name most_specific_locked_platform
+# wrong constant name requested_dependencies
 # uninitialized constant Bundler::Dependency::TYPES
 # wrong constant name branch
 # wrong constant name expanded_platforms
@@ -1324,6 +1273,9 @@
 # wrong constant name environment
 # wrong constant name report
 # wrong constant name write
+# wrong constant name replace_with_backup
+# wrong constant name env_to_hash
+# wrong constant name from_env
 # wrong constant name <Class:Base>
 # wrong constant name <Class:CompactIndex>
 # wrong constant name <Class:Dependency>
@@ -1402,6 +1354,7 @@
 # wrong constant name built_gem_path
 # wrong constant name clean?
 # wrong constant name committed?
+# wrong constant name default_remote
 # wrong constant name gem_command
 # wrong constant name gem_key
 # wrong constant name gem_push?
@@ -1419,6 +1372,7 @@
 # wrong constant name sh_with_input
 # wrong constant name sh_with_status
 # wrong constant name spec_path
+# wrong constant name tag_prefix=
 # wrong constant name tag_version
 # wrong constant name version
 # wrong constant name version_tag
@@ -1427,6 +1381,11 @@
 # wrong constant name install_tasks
 # wrong constant name instance
 # wrong constant name instance=
+# wrong constant name tag_prefix=
+# wrong constant name specificity_score
+# wrong constant name local_platform
+# wrong constant name same_deps
+# wrong constant name same_specificity
 # wrong constant name initialize
 # wrong constant name level
 # wrong constant name level=
@@ -1469,6 +1428,11 @@
 # wrong constant name ambiguous_gems
 # wrong constant name ambiguous_gems=
 # wrong constant name install
+# uninitialized constant Bundler::LazySpecification::GENERICS
+# uninitialized constant Bundler::LazySpecification::GENERIC_CACHE
+# wrong constant name eql?
+# uninitialized constant Bundler::Molinillo::Compatibility
+# uninitialized constant Bundler::Molinillo::Compatibility
 # wrong constant name _recursive_predecessors
 # wrong constant name _recursive_successors
 # wrong constant name ==
@@ -1508,6 +1472,7 @@
 # wrong constant name <Class:SourceConflict>
 # wrong constant name installed_plugins
 # wrong constant name plugin_commands
+# wrong constant name unregister_plugin
 # wrong constant name initialize
 # wrong constant name <static-init>
 # wrong constant name initialize
@@ -1525,8 +1490,15 @@
 # wrong constant name <static-init>
 # wrong constant name <static-init>
 # wrong constant name list
+# wrong constant name uninstall
 # wrong constant name <static-init>
 # wrong constant name lock
+# uninitialized constant Bundler::Resolver::SpecGroup::GENERICS
+# uninitialized constant Bundler::Resolver::SpecGroup::GENERIC_CACHE
+# wrong constant name activated_platforms
+# wrong constant name activated_platforms=
+# wrong constant name copy_for
+# wrong constant name sorted_activated_platforms
 # wrong constant name attempt
 # wrong constant name attempts
 # wrong constant name current_run
@@ -1542,6 +1514,7 @@
 # wrong constant name default_retries
 # uninitialized constant Bundler::RubyGemsGemInstaller::ENV_PATHS
 # wrong constant name <static-init>
+# wrong constant name add_default_gems_to
 # wrong constant name add_to_load_path
 # wrong constant name all_specs
 # wrong constant name backport_ext_builder_monitor
@@ -1549,6 +1522,7 @@
 # wrong constant name default_stubs
 # wrong constant name find_name
 # wrong constant name gem_remote_fetcher
+# wrong constant name load_env_plugins
 # wrong constant name plain_specs
 # wrong constant name plain_specs=
 # wrong constant name stub_rubygems
@@ -1595,6 +1569,12 @@
 # wrong constant name validate!
 # uninitialized constant Bundler::Source::Git::DEFAULT_GLOB
 # wrong constant name glob
+# wrong constant name local?
+# uninitialized constant Bundler::StubSpecification::GENERICS
+# uninitialized constant Bundler::StubSpecification::GENERIC_CACHE
+# wrong constant name default_gem?
+# wrong constant name extensions
+# wrong constant name gem_build_complete_path
 # wrong constant name <Class:Actions>
 # wrong constant name <Class:AmbiguousCommandError>
 # wrong constant name <Class:Argument>
@@ -2516,12 +2496,14 @@
 # wrong constant name for_many
 # uninitialized constant Bundler::YAMLSerializer
 # uninitialized constant Bundler::YAMLSerializer
+# wrong constant name most_specific_locked_platform?
 # wrong constant name original_exec
 # wrong constant name original_system
+# wrong constant name preferred_gemfile_name
+# wrong constant name reset_settings_and_root!
 # wrong constant name unbundled_env
 # wrong constant name unbundled_exec
 # wrong constant name unbundled_system
-# wrong constant name with_unbundled_env
 # wrong constant name <Class:ThreadsTable>
 # wrong constant name <static-init>
 # wrong constant name a
@@ -2578,7 +2560,7 @@
 # wrong constant name scanner
 # wrong constant name <static-init>
 # wrong constant name []
-# CodeRay::Encoders could not load plugin "default_options": cannot load such file -- /Users/ferdi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/coderay-1.1.3/lib/coderay/encoders/default_options.rb
+# CodeRay::Encoders could not load plugin "default_options": cannot load such file -- /Users/ferdi/.rbenv/versions/2.7.3/lib/ruby/gems/2.7.0/gems/coderay-1.1.3/lib/coderay/encoders/default_options.rb
 # wrong constant name <Class:UnknownFileType>
 # wrong constant name <static-init>
 # wrong constant name <static-init>
@@ -2679,8 +2661,6 @@
 # uninitialized constant Concurrent::TimerTask::INFO
 # uninitialized constant Concurrent::TimerTask::UNKNOWN
 # uninitialized constant Concurrent::TimerTask::WARN
-# uninitialized constant Configatron
-# uninitialized constant Configatron
 # uninitialized constant Continuation
 # uninitialized constant Continuation
 # uninitialized constant Coverage
@@ -2693,32 +2673,19 @@
 # uninitialized constant Date::WEEKEND_DAYS
 # wrong constant name acts_like_date?
 # wrong constant name ago
-# wrong constant name at_beginning_of_day
-# wrong constant name at_end_of_day
-# wrong constant name at_midday
-# wrong constant name at_middle_of_day
-# wrong constant name at_midnight
-# wrong constant name at_noon
-# wrong constant name beginning_of_day
 # wrong constant name change
 # wrong constant name compare_with_coercion
 # wrong constant name compare_without_coercion
 # wrong constant name default_inspect
-# wrong constant name end_of_day
 # wrong constant name in
 # wrong constant name infinite?
-# wrong constant name midday
-# wrong constant name middle_of_day
-# wrong constant name midnight
 # wrong constant name minus_with_duration
 # wrong constant name minus_without_duration
-# wrong constant name noon
 # wrong constant name plus_with_duration
 # wrong constant name plus_without_duration
 # wrong constant name readable_inspect
 # wrong constant name since
 # wrong constant name to_default_s
-# wrong constant name to_formatted_s
 # uninitialized constant Date::Infinity::EXABYTE
 # uninitialized constant Date::Infinity::GIGABYTE
 # uninitialized constant Date::Infinity::KILOBYTE
@@ -2730,74 +2697,12 @@
 # wrong constant name beginning_of_week=
 # wrong constant name beginning_of_week_default
 # wrong constant name beginning_of_week_default=
-# wrong constant name current
 # wrong constant name find_beginning_of_week!
-# wrong constant name tomorrow
-# wrong constant name yesterday
-# wrong constant name <Class:Calculations>
-# wrong constant name <Class:Compatibility>
-# wrong constant name <Class:Zones>
-# wrong constant name after?
-# wrong constant name all_day
-# wrong constant name all_month
-# wrong constant name all_quarter
-# wrong constant name all_week
-# wrong constant name all_year
-# wrong constant name at_beginning_of_month
-# wrong constant name at_beginning_of_quarter
-# wrong constant name at_beginning_of_week
-# wrong constant name at_beginning_of_year
-# wrong constant name at_end_of_month
-# wrong constant name at_end_of_quarter
-# wrong constant name at_end_of_week
-# wrong constant name at_end_of_year
-# wrong constant name before?
-# wrong constant name beginning_of_month
-# wrong constant name beginning_of_quarter
-# wrong constant name beginning_of_week
-# wrong constant name beginning_of_year
-# wrong constant name days_ago
-# wrong constant name days_since
-# wrong constant name days_to_week_start
-# wrong constant name end_of_month
-# wrong constant name end_of_quarter
-# wrong constant name end_of_week
-# wrong constant name end_of_year
-# wrong constant name future?
-# wrong constant name last_month
-# wrong constant name last_quarter
-# wrong constant name last_week
-# wrong constant name last_weekday
-# wrong constant name last_year
-# wrong constant name monday
-# wrong constant name months_ago
-# wrong constant name months_since
-# wrong constant name next_occurring
-# wrong constant name next_quarter
-# wrong constant name next_week
-# wrong constant name next_weekday
-# wrong constant name on_weekday?
-# wrong constant name on_weekend?
-# wrong constant name past?
-# wrong constant name prev_occurring
-# wrong constant name prev_quarter
-# wrong constant name prev_week
-# wrong constant name prev_weekday
-# wrong constant name sunday
-# wrong constant name today?
-# wrong constant name tomorrow
-# wrong constant name weeks_ago
-# wrong constant name weeks_since
-# wrong constant name years_ago
-# wrong constant name years_since
-# wrong constant name yesterday
-# wrong constant name <static-init>
 # wrong constant name preserve_timezone
 # wrong constant name <static-init>
 # wrong constant name preserve_timezone
 # wrong constant name preserve_timezone=
 # wrong constant name in_time_zone
-# wrong constant name <static-init>
 # wrong constant name <static-init>
 # uninitialized constant DateTime::ABBR_DAYNAMES
 # uninitialized constant DateTime::ABBR_MONTHNAMES
@@ -2897,9 +2802,7 @@
 # wrong constant name initialize
 # wrong constant name _load
 # wrong constant name as_json
-# wrong constant name chain
 # wrong constant name sum
-# wrong constant name tally
 # wrong constant name +
 # wrong constant name <Class:ArithmeticSequence>
 # wrong constant name <Class:Chain>
@@ -3001,7 +2904,6 @@
 # wrong constant name debug=
 # wrong constant name receiver
 # wrong constant name garbage_collect
-# wrong constant name verify_compaction_references
 # wrong constant name verify_transient_heap_internal_consistency
 # uninitialized constant GDBM
 # uninitialized constant GDBM
@@ -3106,6 +3008,11 @@
 # wrong constant name uri=
 # wrong constant name <static-init>
 # wrong constant name <static-init>
+# wrong constant name <Class:OrderIndependentComparison>
+# wrong constant name ==
+# wrong constant name _requirements_sorted?
+# wrong constant name _with_sorted_requirements
+# wrong constant name <static-init>
 # wrong constant name <static-init>
 # wrong constant name <static-init>
 # wrong constant name add_edge_no_circular
@@ -3199,6 +3106,7 @@
 # wrong constant name <=>
 # uninitialized constant Gem::Specification::GENERICS
 # uninitialized constant Gem::Specification::GENERIC_CACHE
+# wrong constant name removed_method_calls
 # wrong constant name to_ruby
 # wrong constant name initialize
 # wrong constant name packaging
@@ -3228,6 +3136,7 @@
 # wrong constant name spec
 # wrong constant name spec=
 # wrong constant name <static-init>
+# wrong constant name activated_gem_paths
 # uninitialized constant GetText::PoParser::Racc_Main_Parsing_Routine
 # uninitialized constant GetText::PoParser::Racc_Runtime_Core_Id_C
 # uninitialized constant GetText::PoParser::Racc_Runtime_Core_Revision
@@ -3244,16 +3153,13 @@
 # uninitialized constant GetoptLong
 # wrong constant name assert_valid_keys
 # wrong constant name deconstruct_keys
-# wrong constant name deep_merge
 # wrong constant name deep_merge!
-# wrong constant name except
 # wrong constant name except!
 # wrong constant name extract!
 # wrong constant name extractable_options?
 # wrong constant name slice!
 # wrong constant name to_options!
 # wrong constant name to_param
-# wrong constant name to_query
 # wrong constant name ruby2_keywords_hash
 # wrong constant name ruby2_keywords_hash?
 # wrong constant name try_convert
@@ -3340,6 +3246,9 @@
 # wrong constant name newline_before_multiline_output
 # wrong constant name newline_before_multiline_output=
 # wrong constant name newline_before_multiline_output?
+# wrong constant name omit_on_assignment
+# wrong constant name omit_on_assignment=
+# wrong constant name omit_on_assignment?
 # wrong constant name use_colorize
 # wrong constant name use_colorize?
 # wrong constant name use_multiline
@@ -3361,6 +3270,7 @@
 # wrong constant name irb_current_working_workspace
 # wrong constant name irb_fg
 # wrong constant name irb_help
+# wrong constant name irb_info
 # wrong constant name irb_jobs
 # wrong constant name irb_kill
 # wrong constant name irb_pop_workspace
@@ -3374,6 +3284,7 @@
 # wrong constant name retrieve_completion_data
 # wrong constant name select_message
 # wrong constant name initialize
+# wrong constant name winsize
 # wrong constant name initialize
 # wrong constant name assignment_expression?
 # wrong constant name handle_exception
@@ -3399,11 +3310,8 @@
 # uninitialized constant IRB::Notifier
 # uninitialized constant IRB::Notifier
 # wrong constant name initialize
-# uninitialized constant IRB::ReadlineInputMethod::FILENAME_COMPLETION_PROC
-# uninitialized constant IRB::ReadlineInputMethod::HISTORY
-# uninitialized constant IRB::ReadlineInputMethod::USERNAME_COMPLETION_PROC
-# uninitialized constant IRB::ReadlineInputMethod::VERSION
 # wrong constant name initialize
+# wrong constant name initialize_readline
 # uninitialized constant IRB::ReidlineInputMethod::FILENAME_COMPLETION_PROC
 # uninitialized constant IRB::ReidlineInputMethod::HISTORY
 # uninitialized constant IRB::ReidlineInputMethod::USERNAME_COMPLETION_PROC
@@ -3479,7 +3387,6 @@
 # wrong constant name cattr_accessor
 # wrong constant name cattr_reader
 # wrong constant name cattr_writer
-# wrong constant name const_source_location
 # wrong constant name delegate
 # wrong constant name delegate_missing_to
 # wrong constant name deprecate
@@ -3585,8 +3492,6 @@
 # uninitialized constant Net::NTLM
 # wrong constant name initialize
 # wrong constant name io
-# uninitialized constant Net::SFTP
-# uninitialized constant Net::SFTP
 # uninitialized constant Net::SMTP
 # uninitialized constant Net::SMTP
 # uninitialized constant Net::SMTPAuthenticationError
@@ -3603,8 +3508,6 @@
 # uninitialized constant Net::SMTPUnknownError
 # uninitialized constant Net::SMTPUnsupportedCommand
 # uninitialized constant Net::SMTPUnsupportedCommand
-# uninitialized constant Net::SSH
-# uninitialized constant Net::SSH
 # wrong constant name initialize
 # wrong constant name io
 # uninitialized constant Newton
@@ -3612,7 +3515,6 @@
 # wrong constant name to_d
 # wrong constant name <static-init>
 # uninitialized constant RUBYGEMS_ACTIVATION_MONITOR
-# wrong constant name as_json
 # wrong constant name html_safe?
 # wrong constant name to_yaml
 # wrong constant name yaml_tag
@@ -3641,7 +3543,6 @@
 # uninitialized constant OpenSSL::PKCS5::PKCS5Error
 # uninitialized constant OpenSSL::PKCS5::PKCS5Error
 # wrong constant name to_octet_string
-# wrong constant name add_certificate
 # wrong constant name alpn_protocols
 # wrong constant name alpn_protocols=
 # wrong constant name alpn_select_cb
@@ -3994,6 +3895,8 @@
 # wrong constant name editing_mode
 # wrong constant name editing_mode=
 # wrong constant name editing_mode_is?
+# wrong constant name emacs_mode_string
+# wrong constant name emacs_mode_string=
 # wrong constant name enable_keypad
 # wrong constant name enable_keypad=
 # wrong constant name expand_tilde
@@ -4036,11 +3939,18 @@
 # wrong constant name read_lines
 # wrong constant name reset
 # wrong constant name reset_default_key_bindings
+# wrong constant name retrieve_string
 # wrong constant name show_all_if_ambiguous
 # wrong constant name show_all_if_ambiguous=
 # wrong constant name show_all_if_unmodified
 # wrong constant name show_all_if_unmodified=
+# wrong constant name show_mode_in_prompt
+# wrong constant name show_mode_in_prompt=
 # wrong constant name test_mode
+# wrong constant name vi_cmd_mode_icon
+# wrong constant name vi_cmd_mode_icon=
+# wrong constant name vi_ins_mode_icon
+# wrong constant name vi_ins_mode_icon=
 # wrong constant name visible_stats
 # wrong constant name visible_stats=
 # wrong constant name file
@@ -4224,6 +4134,7 @@
 # wrong constant name <Class:EastAsianWidth>
 # wrong constant name <static-init>
 # wrong constant name <static-init>
+# wrong constant name calculate_width
 # wrong constant name ed_transpose_words
 # wrong constant name em_backward_word
 # wrong constant name em_big_backward_word
@@ -4234,6 +4145,7 @@
 # wrong constant name get_mbchar_width
 # wrong constant name get_next_mbchar_size
 # wrong constant name get_prev_mbchar_size
+# wrong constant name split_by_width
 # wrong constant name vi_backward_word
 # wrong constant name vi_big_backward_word
 # wrong constant name vi_big_forward_end_word
@@ -4651,19 +4563,8 @@
 # wrong constant name initialize
 # wrong constant name <static-init>
 # wrong constant name <static-init>
-# wrong constant name <Class:Node>
-# wrong constant name children
-# wrong constant name first_column
-# wrong constant name first_lineno
-# wrong constant name last_column
-# wrong constant name last_lineno
+# wrong constant name compile_with_errors_suppressed
 # wrong constant name pretty_print_children
-# wrong constant name type
-# wrong constant name <static-init>
-# wrong constant name <static-init>
-# wrong constant name of
-# wrong constant name parse
-# wrong constant name parse_file
 # wrong constant name <static-init>
 # wrong constant name enabled?
 # wrong constant name pause
@@ -4910,7 +4811,6 @@
 # wrong constant name ago
 # wrong constant name at_beginning_of_hour
 # wrong constant name at_beginning_of_minute
-# wrong constant name at_end_of_day
 # wrong constant name at_end_of_hour
 # wrong constant name at_end_of_minute
 # wrong constant name beginning_of_hour
@@ -4918,7 +4818,6 @@
 # wrong constant name change
 # wrong constant name compare_with_coercion
 # wrong constant name compare_without_coercion
-# wrong constant name end_of_day
 # wrong constant name end_of_hour
 # wrong constant name end_of_minute
 # wrong constant name eql_with_coercion
@@ -4943,11 +4842,9 @@
 # wrong constant name seconds_until_end_of_day
 # wrong constant name since
 # wrong constant name to_default_s
-# wrong constant name to_formatted_s
 # wrong constant name ===
 # wrong constant name at_with_coercion
 # wrong constant name at_without_coercion
-# wrong constant name current
 # wrong constant name days_in_month
 # wrong constant name days_in_year
 # wrong constant name find_zone
@@ -5018,12 +4915,9 @@
 # wrong constant name split
 # wrong constant name make_components_hash
 # wrong constant name get_encoding
-# wrong constant name bind_call
 # wrong constant name <static-init>
 # uninitialized constant Vector
 # uninitialized constant Vector
-# wrong constant name []
-# wrong constant name []=
 # wrong constant name initialize
 # wrong constant name initialize
 # wrong constant name initialize
