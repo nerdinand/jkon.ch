@@ -2,6 +2,7 @@
 
 # typed: strict
 
+# Downloads an attachment of a submission
 class AttachmentDownload
   extend T::Sig
 

@@ -1,5 +1,7 @@
 AllCops:
   NewCops: enable
+  Exclude:
+    - "_site/**/*"
 
 Style/AccessorGrouping:
   Enabled: false

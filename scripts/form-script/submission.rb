@@ -2,6 +2,7 @@
 
 # typed: strict
 
+# A JotForm form submission with useful readers and extractors for the fields we need
 class Submission
   extend T::Sig
 
