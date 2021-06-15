@@ -1,7 +1,10 @@
+require: rubocop-performance
+
 AllCops:
   NewCops: enable
   Exclude:
     - "_site/**/*"
+    - "vendor/bundle/**/*"
 
 Style/AccessorGrouping:
   Enabled: false
