@@ -2,6 +2,7 @@
 
 # typed: strict
 
+# Combines multiple PDFs using an Automator script
 class PDFCombination
   extend T::Sig
 
@@ -13,7 +14,8 @@ class PDFCombination
 
   sig { returns(T.nilable(T::Boolean)) }
   def combine!
-    system("\"/System/Library/Automator/Combine PDF Pages.action/Contents/Resources/join.py\" -o #{out_pdf_path} #{in_pdf_paths.join(' ')}")
+    system("\"/System/Library/Automator/Combine PDF Pages.action/Contents/Resources/join.py\" \
+      -o #{out_pdf_path} #{in_pdf_paths.join(' ')}")
   end
 
   sig { returns(String) }

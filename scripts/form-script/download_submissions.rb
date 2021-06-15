@@ -18,6 +18,12 @@ require_relative 'pdf_combination'
 JOTFORM_FORM_ID = 203_494_655_758_368
 api_key = ENV['API_KEY']
 
+def determine_free_file_name(submission_name)
+  combined_pdf_file_name = "#{submission_name.gsub(/[^A-Za-z]/, '-')}.pdf"
+  combined_pdf_file_name = "#{combined_pdf_file_name[0..-5]}-1.pdf" while File.exist? "out/#{combined_pdf_file_name}"
+  combined_pdf_file_name
+end
+
 def process_submission(submission)
   submission_id = submission['id']
 
@@ -27,9 +33,7 @@ def process_submission(submission)
   AttachmentDownload.new(submission_id, submission.dossier, 'dossier.pdf').download!
   AttachmentDownload.new(submission_id, submission.exhibition_proposal, 'exhibition_proposal.pdf').download!
 
-  combined_pdf_file_name = "#{submission.name.gsub(/[^A-Za-z]/, '-')}.pdf"
-  combined_pdf_file_name = "#{combined_pdf_file_name[0..-5]}-1.pdf" while File.exist? "out/#{combined_pdf_file_name}"
-
+  combined_pdf_file_name = determine_free_file_name(submission.name)
   combined_pdf_path = "out/#{combined_pdf_file_name}"
 
   PDFCombination.new(combined_pdf_path, "#{submission_id}/summary.pdf", "#{submission_id}/exhibition_proposal.pdf",
@@ -53,8 +57,7 @@ submissions_count = submissions.count
 puts "#{submissions_count} submissions"
 
 if submission_id_argument
-  submission = submissions.find { |s| s['id'] == submission_id_argument }
-  process_submission(submission)
+  process_submission(submissions.find { |s| s['id'] == submission_id_argument })
 else
   submissions.each.with_index do |submission, index|
     combined_pdf_file_name = process_submission(submission)

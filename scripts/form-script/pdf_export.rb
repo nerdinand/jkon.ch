@@ -5,6 +5,7 @@
 require 'wicked_pdf'
 require 'fileutils'
 
+# Exports a submission as a PDF
 class PDFExport
   extend T::Sig
 
@@ -37,6 +38,7 @@ class PDFExport
   end
 
   sig { returns(String) }
+  # rubocop:disable Metrics/MethodLength
   def html_source
     '<!DOCTYPE html>' \
       '<html>' \
@@ -60,6 +62,7 @@ class PDFExport
       '</body>' \
       '</html>'
   end
+  # rubocop:enable Metrics/MethodLength
 
   private
 

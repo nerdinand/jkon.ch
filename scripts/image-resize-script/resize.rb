@@ -11,6 +11,13 @@ SMALL_HEIGHT = 320
 Dir["#{SOURCE_DIR}/*"].each do |original_file|
   filename = File.basename(original_file)
   puts filename
-  `convert #{original_file} -resize #{BIG_MAX_WIDTH}x\\> #{BIG_DIR}/#{filename}`
-  `convert #{original_file} -resize "#{SMALL_WIDTH}x#{SMALL_HEIGHT}^" -gravity center -crop #{SMALL_WIDTH}x#{SMALL_HEIGHT}+0+0 +repage #{SMALL_DIR}/#{filename}`
+
+  `convert #{original_file} \
+    -resize #{BIG_MAX_WIDTH}x\\> #{BIG_DIR}/#{filename}`
+
+  `convert #{original_file} \
+    -resize "#{SMALL_WIDTH}x#{SMALL_HEIGHT}^" \
+    -gravity center \
+    -crop #{SMALL_WIDTH}x#{SMALL_HEIGHT}+0+0 \
+    +repage #{SMALL_DIR}/#{filename}`
 end
