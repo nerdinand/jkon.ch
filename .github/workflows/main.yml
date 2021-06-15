@@ -22,16 +22,21 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      - name: Setup Ruby, JRuby and TruffleRuby
-        uses: ruby/setup-ruby@v1.73.0
+      - uses: ruby/setup-ruby@v1
         with:
           bundler-cache: true
 
+      - name: bundle install
+        run: bundle install
+
       - name: Run rubocop
-        run: bundle exec rubocop
+        run: bundle exec rubocop --config .rubocop.yml
+
+      - name: bundle install
+        working-directory: ./scripts/form-script
+        run: bundle install
 
       - name: Run sorbet
         working-directory: ./scripts/form-script
