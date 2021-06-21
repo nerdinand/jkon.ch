@@ -15,12 +15,12 @@ La fondation octroie à une/un artiste une bourse de CHF 5000 pour l'encourageme
 
 Sur l'invitation de la CFF, le musée d'art d'Olten organise des expositions artistiques dans l'ancien bureau sur le perron 7 de la gare d'Olten depuis 2018.
 
-Une/un artiste de l'JKON reçoit la possibilité d'exposer ses œuvres dans ce bureau l'année 2021.
+Une/un artiste de l'JKON reçoit la possibilité d'exposer ses œuvres dans ce bureau l'année 2022.
 
 [www.kunstmuseumolten.ch](https://www.kunstmuseumolten.ch){:target="\_blank"}
 
 ## Kunsthaus Zofingen SOMMERFENSTER
 
-La ou le lauréat/e exposera dans la vitrine d'été (juillet/août 2021) du Kunsthaus Zofingen.
+La ou le lauréat/e exposera dans la vitrine d'été (juillet/août 2022) du Kunsthaus Zofingen.
 
 [kunsthauszofingen.ch](https://kunsthauszofingen.ch/){:target="\_blank"}
