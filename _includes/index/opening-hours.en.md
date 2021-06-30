@@ -6,6 +6,13 @@
 
 The __opening__ takes place {{ site.data.phase.dates.jkon.opening.en }}. 
 
+__Guided tour & meet the artists__: 
+{% assign guided_tours = site.data.phase.dates.jkon.guided_tours | map: 'en' %}
+{% for guided_tour in guided_tours %}
+{{ guided_tour }}
+{% endfor %}
+
 The __finissage__, including the award ceremony, takes place at {{ site.data.phase.dates.jkon.finissage.en }}. 
 
 [Add to my calendar](scripts/ical-script/jkon2021.ics)
+

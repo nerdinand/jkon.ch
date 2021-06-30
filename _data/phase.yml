@@ -10,8 +10,8 @@
 # phase: schedule_announced
 # phase: call_for_artists_running
 # phase: call_for_artists_closed
-phase: list_of_artists_announced
-# phase: artist_portraits_online
+# phase: list_of_artists_announced
+phase: artist_portraits_online
 
 call_for_help: false
 
@@ -58,6 +58,14 @@ dates:
         de: 16h00-19h00
         fr: 16h00-19h00
         en: 16h00-19h00
+
+    guided_tours:
+      - de: Freitag, 6. August 2021, 18:30
+        fr: Vendredi, 6 août 2021, 18:30
+        en: Friday, 6th of August 2021, 18:30
+      - de: Samstag, 7. August 2021, 16:00
+        fr: Samedi, 7 août 2021, 16:00
+        en: Saturday, 7th of August 2021, 16:00
 
     opening:
       de: 18h30 am Donnerstag, 5. August 2021

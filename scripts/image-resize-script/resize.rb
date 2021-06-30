@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-SOURCE_DIR = '../../images/past-exhibitions/2020/original'
-BIG_DIR = '../../images/past-exhibitions/2020/big'
-SMALL_DIR = '../../images/past-exhibitions/2020/small'
+SOURCE_DIR = '../../images/artists/2021/original'
+BIG_DIR = '../../images/artists/2021/big'
+SMALL_DIR = '../../images/artists/2021/small'
 
 BIG_MAX_WIDTH = 740
 SMALL_WIDTH = 240

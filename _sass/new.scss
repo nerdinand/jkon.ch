@@ -1,4 +1,4 @@
-$brand-color: #000000;
+$brand-color: #B9B4D7;
 $font-color: #333;
 $link-color: #333;
 
@@ -7,8 +7,13 @@ $hamburger-padding-y           : 5px;
 $hamburger-layer-width         : 30px;
 $hamburger-layer-color         : white;
 
+@font-face {
+  font-family: Lora;
+  src: url(font/Lora-VariableFont_wght.ttf);
+}
+
 body {
-  font-family: Georgia, Helvetica, Roboto, Arial, sans-serif;
+  font-family: 'Lora', serif;
   color: $font-color;
   text-align: center;
   background: url(/images/jkon-background-lines.svg) repeat top center fixed;
