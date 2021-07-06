@@ -35,9 +35,9 @@ dates:
         fr: __Jeudi__, 5 août 2021
         en: __Thursday__, 5th of August 2021
       time:
-        de: 18h00-21h00
-        fr: 18h00-21h00
-        en: 18h00-21h00
+        de: 18:00-21:00
+        fr: 18:00-21:00
+        en: 18:00-21:00
 
     day2:
       date:
@@ -45,9 +45,9 @@ dates:
         fr: __Vendredi__, 6 août 2021
         en: __Friday__, 6th of August 2021
       time:
-        de: 18h00-21h00
-        fr: 18h00-21h00
-        en: 18h00-21h00
+        de: 18:00-21:00
+        fr: 18:00-21:00
+        en: 18:00-21:00
 
     day3:
       date:
@@ -55,9 +55,9 @@ dates:
         fr: __Samedi__, 7 août 2021
         en: __Saturday__, 7th of August 2021
       time:
-        de: 16h00-19h00
-        fr: 16h00-19h00
-        en: 16h00-19h00
+        de: 16:00-19:00
+        fr: 16:00-19:00
+        en: 16:00-19:00
 
     guided_tours:
       - de: Freitag, 6. August 2021, 18:30
@@ -68,14 +68,14 @@ dates:
         en: Saturday, 7th of August 2021, 16:00
 
     opening:
-      de: 18h30 am Donnerstag, 5. August 2021
-      fr: jeudi 5 août 2021 à 18h30
-      en: 18h30, Thursday, 5th of August 2021
+      de: 18:30 am Donnerstag, 5. August 2021
+      fr: jeudi 5 août 2021 à 18:30
+      en: 18:30, Thursday, 5th of August 2021
 
     finissage:
-      de: 17h30 am Samstag, 7. August 2021
-      fr: samedi 7 août 2021 à 17h30
-      en: 17h30, Saturday, 7th of August 2021
+      de: 17:30 am Samstag, 7. August 2021
+      fr: samedi 7 août 2021 à 17:30
+      en: 17:30, Saturday, 7th of August 2021
 
 
   registration_closing:
