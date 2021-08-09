@@ -1,0 +1,27 @@
+<h2><a href="/artists/2021.html">JKON 2021</a></h2>
+
+<p>
+  <strong>Curators</strong>: 
+  Florian Amoser,
+  Janine Strasser, 
+  Nermina Šerifović
+</p>
+
+<p>
+  <strong>Laureates</strong>: 
+</p>
+
+<p>Nathalie Stirnimann & Stefan Stojanovic (CHF 5000 cash prize of the foundation Hans and Beatrice Maurer-Billeter)</p>
+<p>Nathalie Stirnimann & Stefan Stojanovic (exhibition in the summer window showcase of Kunsthaus Zofingen LOOK@JKON 2022)</p>
+<p>Lorenz Fischer (exhibition "Dienstraum" of the Kunstmuseum Olten in 2022)</p>
+
+<strong>Artists</strong>:
+
+<p>
+  {%- assign artists = site.artists | where: "artist.year", "2021" | map: "artist" -%}
+  {%- include index/artist-links.html artists=artists -%}
+</p>
+
+{% comment %}
+{%- include past-exhibitions/2021-gallery.html -%}
+{% endcomment %}

@@ -45,6 +45,15 @@ lang: fr
     {%- include index/opening-hours.fr.md -%}
 
     {%- include index/flyer.fr.md -%}
+
+  {%- when "winners_announced" -%}
+    {%- include index/date-announcement.fr.md -%}
+
+    <p>
+      {%- include index/artist-links.html artists=artists -%}
+    </p>
+
+    {%- include index/winners.fr.html -%}
 {%- endcase -%}
 
 {%- if site.data.phase.call_for_help -%}
