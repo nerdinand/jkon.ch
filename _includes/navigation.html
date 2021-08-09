@@ -25,6 +25,8 @@
         {%- assign active_pages = "index, past-exhibitions, what-is-jkon, sponsors, sponsorship-awards, about" | split: ", " -%}
       {%- when "artist_portraits_online" -%}
         {%- assign active_pages = "index, artists, past-exhibitions, what-is-jkon, sponsors, sponsorship-awards, about" | split: ", " -%}
+      {%- when "winners_announced" -%}
+        {%- assign active_pages = "index, artists, past-exhibitions, what-is-jkon, sponsors, sponsorship-awards, about" | split: ", " -%}
     {% endcase %}
 
     {% assign pages=site.pages | where:"lang", locale %}
