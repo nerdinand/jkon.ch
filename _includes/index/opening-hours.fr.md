@@ -14,5 +14,5 @@ __Visite guidée & débats artistiques__:
 
 La __clôture__, y compris la remise des prix, aura lieu le {{ site.data.phase.dates.jkon.finissage.fr }}.
 
-[Ajouter à mon calendrier](scripts/ical-script/jkon2021.ics)
+[Ajouter à mon calendrier](scripts/ical-script/jkon{{site.data.phase.dates.jkon.year}}.ics)
 

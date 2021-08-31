@@ -14,5 +14,5 @@ __Führung und Werkgespräche__:
 
 Die __Finissage__ mit Preisverleihung findet {{ site.data.phase.dates.jkon.finissage.de }} statt.
 
-[Zu meinem Kalender hinzufügen](scripts/ical-script/jkon2021.ics)
+[Zu meinem Kalender hinzufügen](scripts/ical-script/jkon{{site.data.phase.dates.jkon.year}}.ics)
 

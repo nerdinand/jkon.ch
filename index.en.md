@@ -1,11 +1,11 @@
 ---
 layout: page
 ref: index
-title: JKON 2021
+title: JKON 2022
 lang: en
 ---
 
-{%- assign artists = site.artists | where: "artist.year", "2021" | map: "artist" -%}
+{%- assign artists = site.artists | where: "artist.year", site.data.phase.dates.jkon.year | map: "artist" -%}
 
 {%- case site.data.phase.phase -%}
   {%- when "new_date_announced" -%}

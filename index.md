@@ -1,11 +1,11 @@
 ---
 layout: page
 ref: index
-title: JUNGE KUNST OLTEN 2021
+title: JUNGE KUNST OLTEN 2022
 lang: de
 ---
 
-{%- assign artists = site.artists | where: "artist.year", "2021" | map: "artist" -%}
+{%- assign artists = site.artists | where: "artist.year", site.data.phase.dates.jkon.year | map: "artist" -%}
 
 {%- case site.data.phase.phase -%}
   {%- when "new_date_announced" -%}

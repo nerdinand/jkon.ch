@@ -5,17 +5,16 @@ require 'pry-byebug'
 
 cal = Icalendar::Calendar.new
 
-summary = 'JKON 2021'
-description = 'Junge Kunst Olten 2021'
+summary = 'JKON 2022'
+description = 'Junge Kunst Olten 2022'
 url = 'https://www.jkon.ch'
 
 location_schuetzi = 'Schützi Olten, Schützenmattweg 7, 4600 Olten'
-# location_coq_d_or = "Kulturlokal Coq d'Or, Tannwaldstrasse 48, 4600 Olten"
 
 # Thursday
 cal.event do |event|
-  event.dtstart     = DateTime.civil(2021, 8, 5, 18, 0)
-  event.dtend       = DateTime.civil(2021, 8, 5, 21, 0)
+  event.dtstart     = DateTime.civil(2022, 8, 25, 18, 0)
+  event.dtend       = DateTime.civil(2022, 8, 25, 22, 0)
   event.summary     = summary
   event.description = description
   event.location    = location_schuetzi
@@ -24,8 +23,8 @@ end
 
 # Friday
 cal.event do |event|
-  event.dtstart     = DateTime.civil(2021, 8, 6, 18, 0)
-  event.dtend       = DateTime.civil(2021, 8, 6, 21, 0)
+  event.dtstart     = DateTime.civil(2022, 8, 26, 18, 0)
+  event.dtend       = DateTime.civil(2022, 8, 26, 22, 0)
   event.summary     = summary
   event.description = description
   event.location    = location_schuetzi
@@ -34,8 +33,8 @@ end
 
 # Saturday
 cal.event do |event|
-  event.dtstart     = DateTime.civil(2021, 8, 7, 16, 0)
-  event.dtend       = DateTime.civil(2021, 8, 7, 19, 0)
+  event.dtstart     = DateTime.civil(2022, 8, 27, 14, 0)
+  event.dtend       = DateTime.civil(2022, 8, 27, 19, 0)
   event.summary     = summary
   event.description = description
   event.location    = location_schuetzi
@@ -44,8 +43,8 @@ end
 
 # Opening
 cal.event do |event|
-  event.dtstart     = DateTime.civil(2021, 8, 5, 18, 30)
-  event.summary     = 'JKON 2021 Vernissage'
+  event.dtstart     = DateTime.civil(2022, 8, 25, 18, 30)
+  event.summary     = 'JKON 2022 Vernissage'
   event.description = description
   event.location    = location_schuetzi
   event.url         = url
@@ -53,21 +52,24 @@ end
 
 # Closing
 cal.event do |event|
-  event.dtstart     = DateTime.civil(2021, 8, 7, 17, 30)
-  event.summary     = 'JKON 2021 Finissage'
+  event.dtstart     = DateTime.civil(2022, 8, 27, 17, 30)
+  event.summary     = 'JKON 2022 Finissage'
   event.description = description
   event.location    = location_schuetzi
   event.url         = url
 end
 
-# cal.event do |event|
-#   event.dtstart     = DateTime.civil(2019, 8, 24, 21, 0)
-#   event.summary     = 'JKON 2019 Afterparty'
-#   event.description = description
-#   event.location    = location_coq_d_or
-#   event.url         = url
-# end
+# Guided tours
+[DateTime.civil(2022, 8, 26, 19, 0), DateTime.civil(2022, 8, 27, 16, 0)].each do |datetime|
+  cal.event do |event|
+    event.dtstart     = datetime
+    event.summary     = 'JKON 2022 Werkgespräche'
+    event.description = description
+    event.location    = location_schuetzi
+    event.url         = url
+  end
+end
 
 cal.publish
 
-File.write('jkon2021.ics', cal.to_ical)
+File.write('jkon2022.ics', cal.to_ical)

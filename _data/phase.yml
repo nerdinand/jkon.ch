@@ -5,80 +5,81 @@
 # 4. CfA closed
 # 5. List of Artists announced
 # 6. Artist portraits online
+# 7. Winners of prizes announced
 
 # phase: new_date_announced
-# phase: schedule_announced
+phase: schedule_announced
 # phase: call_for_artists_running
 # phase: call_for_artists_closed
 # phase: list_of_artists_announced
 # phase: artist_portraits_online
-phase: winners_announced
+# phase: winners_announced
 
 call_for_help: false
 
 dates:
   jkon:
-    year: 2021
+    year: 2022
 
     full_date:
-      de: 5. bis 7. August 2021
-      fr: 5 au 7 août 2021
-      en: 5th until 7th of August 2021
+      de: 25. bis 27. August 2022
+      fr: 25 au 27 août 2022
+      en: 25th until 27th of August 2022
     
     month:
-      de: August 2021
-      fr: août 2021
-      en: August 2021
+      de: August 2022
+      fr: août 2022
+      en: August 2022
 
     day1:
       date:
-        de: __Donnerstag__, 5. August 2021
-        fr: __Jeudi__, 5 août 2021
-        en: __Thursday__, 5th of August 2021
+        de: __Donnerstag__, 25. August 2022
+        fr: __Jeudi__, 25 août 2022
+        en: __Thursday__, 25th of August 2022
       time:
-        de: 18:00-21:00
-        fr: 18:00-21:00
-        en: 18:00-21:00
+        de: 18:00-22:00
+        fr: 18:00-22:00
+        en: 18:00-22:00
 
     day2:
       date:
-        de: __Freitag__, 6. August 2021
-        fr: __Vendredi__, 6 août 2021
-        en: __Friday__, 6th of August 2021
+        de: __Freitag__, 26. August 2022
+        fr: __Vendredi__, 26 août 2022
+        en: __Friday__, 26th of August 2022
       time:
-        de: 18:00-21:00
-        fr: 18:00-21:00
-        en: 18:00-21:00
+        de: 18:00-22:00
+        fr: 18:00-22:00
+        en: 18:00-22:00
 
     day3:
       date:
-        de: __Samstag__, 7. August 2021
-        fr: __Samedi__, 7 août 2021
-        en: __Saturday__, 7th of August 2021
+        de: __Samstag__, 27. August 2022
+        fr: __Samedi__, 27 août 2022
+        en: __Saturday__, 27th of August 2022
       time:
-        de: 16:00-19:00
-        fr: 16:00-19:00
-        en: 16:00-19:00
+        de: 14:00-19:00
+        fr: 14:00-19:00
+        en: 14:00-19:00
 
     guided_tours:
-      - de: Freitag, 6. August 2021, 18:30
-        fr: Vendredi, 6 août 2021, 18:30
-        en: Friday, 6th of August 2021, 18:30
-      - de: Samstag, 7. August 2021, 16:00
-        fr: Samedi, 7 août 2021, 16:00
-        en: Saturday, 7th of August 2021, 16:00
+      - de: Freitag, 26. August 2022, 19:00
+        fr: Vendredi, 26 août 2022, 19:00
+        en: Friday, 26th of August 2022, 19:00
+      - de: Samstag, 27. August 2022, 16:00
+        fr: Samedi, 27 août 2022, 16:00
+        en: Saturday, 27th of August 2022, 16:00
 
     opening:
-      de: 18:30 am Donnerstag, 5. August 2021
-      fr: jeudi 5 août 2021 à 18:30
-      en: 18:30, Thursday, 5th of August 2021
+      de: 18:30 am Donnerstag, 25. August 2022
+      fr: jeudi 25 août 2022 à 18:30
+      en: 18:30, Thursday, 25th of August 2022
 
     finissage:
-      de: 17:30 am Samstag, 7. August 2021
-      fr: samedi 7 août 2021 à 17:30
-      en: 17:30, Saturday, 7th of August 2021
+      de: 17:30 am Samstag, 27. August 2022
+      fr: samedi 27 août 2022 à 17:30
+      en: 17:30, Saturday, 27th of August 2022
 
   registration_closing:
-    de: 14. Februar 2021
-    fr: 14ème février 2021
-    en: 14th of February 2021
+    de: 14. Februar 2022
+    fr: 14ème février 2022
+    en: 14th of February 2022
