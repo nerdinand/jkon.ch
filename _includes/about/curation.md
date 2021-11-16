@@ -1,1 +1,1 @@
-Florian Amoser, Nermina Šerifović, Janine Strasser
+Florian Amoser, Lorenz Fischer, Nermina Šerifović, Janine Strasser
