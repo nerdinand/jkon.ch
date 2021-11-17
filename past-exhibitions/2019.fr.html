@@ -1,4 +1,9 @@
-<h2><a href="/artists/2019.html">JKON 2019</a></h2>
+---
+layout: page
+ref: past-exhibitions-2019
+title: JKON 2019
+lang: fr
+---
 
 <p>
   <strong>Les commissaires</strong>: 
@@ -18,5 +23,5 @@
 
 <p>
   {%- assign artists = site.artists | where: "artist.year", "2019" | map: "artist" -%}
-  {%- include index/artist-links.html artists=artists -%}
+  {% include artists/artist-thumbnails.html artists=artists %}
 </p>

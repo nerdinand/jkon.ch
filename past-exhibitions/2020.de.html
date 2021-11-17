@@ -1,4 +1,9 @@
-<h2><a href="/artists/2020.html">JKON 2020</a></h2>
+---
+layout: page
+ref: past-exhibitions-2020
+title: JKON 2020
+lang: de
+---
 
 <p>
   <strong>Kurator:innen</strong>: 
@@ -19,7 +24,7 @@
 
 <p>
   {%- assign artists = site.artists | where: "artist.year", "2020" | map: "artist" -%}
-  {%- include index/artist-links.html artists=artists -%}
+  {% include artists/artist-thumbnails.html artists=artists %}
 </p>
 
 {%- include past-exhibitions/2020-gallery.html -%}
