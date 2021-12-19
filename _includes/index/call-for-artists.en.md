@@ -1,4 +1,4 @@
-[![Call for Artists](images/calls/callforartists_2021.gif){:class="call-for-artists"}](/call-for-artists.en.html)
+[![Call for Artists](images/calls/callforartists-2022.webp){:class="call-for-artists"}](/call-for-artists.en.html)
 
 __We are looking for you!__
 
@@ -6,4 +6,4 @@ Are you an artist between 18 and 35 years old? Would you like to exhibit your ar
 
 3136 cubic metres of space are available. Fill it with your art!
 
-Register until the {{ site.data.phase.dates.registration_closing.en }}. [Registration form](/call-for-artists.en.html)
+Register until the {{ site.data.phase.dates.call_for_artists_closing.en }}. [Registration form](/call-for-artists.en.html)
