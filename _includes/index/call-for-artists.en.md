@@ -6,4 +6,4 @@ Are you an artist between 18 and 35 years old? Would you like to exhibit your ar
 
 3136 cubic metres of space are available. Fill it with your art!
 
-Register until the {{ site.data.phase.dates.call_for_artists_closing.en }}. [Registration form](/call-for-artists.en.html)
+Register until the {{ site.data.phase.dates.call_for_artists_deadline.en }}. [Registration form](/call-for-artists.en.html)

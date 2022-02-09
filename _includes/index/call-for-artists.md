@@ -6,4 +6,4 @@ Du machst Kunst, bist zwischen 18 und 35 Jahre alt und möchtest Deine Werke im 
 
 Zur Verfügung stehen 3136 Kubikmeter Raum. Fülle ihn mit Deiner Kunst.
 
-Melde dich bis am {{ site.data.phase.dates.call_for_artists_closing.de }} an. [Anmeldeformular](/call-for-artists.html)
+Melde dich bis am {{ site.data.phase.dates.call_for_artists_deadline.de }} an. [Anmeldeformular](/call-for-artists.html)
