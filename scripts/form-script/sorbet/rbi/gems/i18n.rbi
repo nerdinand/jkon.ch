@@ -7,7 +7,7 @@
 #
 #   https://github.com/sorbet/sorbet-typed/new/master?filename=lib/i18n/all/i18n.rbi
 #
-# i18n-1.8.3
+# i18n-1.10.0
 
 module I18n
   def self.cache_key_digest; end
@@ -22,7 +22,16 @@ module I18n
   def self.interpolate_hash(string, values); end
   def self.new_double_nested_cache; end
   def self.perform_caching?; end
+  def self.reserve_key(key); end
+  def self.reserved_keys_pattern; end
   extend I18n::Base
+end
+module I18n::Utils
+  def self.deep_merge!(hash, other_hash, &block); end
+  def self.deep_merge(hash, other_hash, &block); end
+  def self.deep_symbolize_keys(hash); end
+  def self.deep_symbolize_keys_in_object(value); end
+  def self.except(hash, *keys); end
 end
 class I18n::ExceptionHandler
   def call(exception, _locale, _key, _options); end
@@ -78,6 +87,15 @@ class I18n::UnknownFileType < I18n::ArgumentError
   def initialize(type, filename); end
   def type; end
 end
+class I18n::UnsupportedMethod < I18n::ArgumentError
+  def backend_klass; end
+  def initialize(method, backend_klass, msg); end
+  def method; end
+  def msg; end
+end
+class I18n::InvalidFilenames < I18n::ArgumentError
+  def initialize(file_errors); end
+end
 module I18n::Base
   def available_locales; end
   def available_locales=(value); end
@@ -108,12 +126,21 @@ module I18n::Base
   def normalize_key(key, separator); end
   def normalize_keys(locale, key, scope, separator = nil); end
   def reload!; end
-  def t!(key, options = nil); end
-  def t(key = nil, *arg1, throw: nil, raise: nil, locale: nil, **options); end
-  def translate!(key, options = nil); end
-  def translate(key = nil, *arg1, throw: nil, raise: nil, locale: nil, **options); end
-  def transliterate(key, *arg1, throw: nil, raise: nil, locale: nil, replacement: nil, **options); end
+  def t!(key, **options); end
+  def t(key = nil, throw: nil, raise: nil, locale: nil, **options); end
+  def translate!(key, **options); end
+  def translate(key = nil, throw: nil, raise: nil, locale: nil, **options); end
+  def transliterate(key, throw: nil, raise: nil, locale: nil, replacement: nil, **options); end
   def with_locale(tmp_locale = nil); end
+end
+module I18n::Backend
+end
+module I18n::Backend::Fallbacks
+  def exists?(locale, key, options = nil); end
+  def extract_non_symbol_default!(options); end
+  def on_fallback(_original_locale, _fallback_locale, _key, _optoins); end
+  def resolve_entry(locale, object, subject, options = nil); end
+  def translate(locale, key, options = nil); end
 end
 class I18n::Config
   def available_locales; end
@@ -140,9 +167,35 @@ class I18n::Config
   def missing_interpolation_argument_handler; end
   def missing_interpolation_argument_handler=(exception_handler); end
 end
-module I18n::Backend
+module I18n::Locale
 end
-module I18n::HashRefinements
+class I18n::Locale::Fallbacks < Hash
+  def [](locale); end
+  def compute(tags, include_defaults = nil, exclude = nil); end
+  def defaults; end
+  def defaults=(defaults); end
+  def initialize(*mappings); end
+  def map(*args, &block); end
+end
+module I18n::Locale::Tag
+  def self.implementation; end
+  def self.implementation=(implementation); end
+  def self.tag(tag); end
+end
+module I18n::Locale::Tag::Parents
+  def parent; end
+  def parents; end
+  def self_and_parents; end
+end
+class I18n::Locale::Tag::Simple
+  def initialize(*tag); end
+  def self.tag(tag); end
+  def subtags; end
+  def tag; end
+  def to_a; end
+  def to_s; end
+  def to_sym; end
+  include I18n::Locale::Tag::Parents
 end
 module I18n::Backend::Transliterator
   def self.get(rule = nil); end
@@ -179,6 +232,7 @@ module I18n::Backend::Base
   def pluralize(locale, entry, count); end
   def reload!; end
   def resolve(locale, object, subject, options = nil); end
+  def resolve_entry(locale, object, subject, options = nil); end
   def store_translations(locale, data, options = nil); end
   def subtrees?; end
   def translate(locale, key, options = nil); end
@@ -243,12 +297,6 @@ module I18n::Backend::Chain::Implementation
   def translate(locale, key, default_options = nil); end
   def translations; end
   include I18n::Backend::Base
-end
-module I18n::Backend::Fallbacks
-  def exists?(locale, key, options = nil); end
-  def extract_non_symbol_default!(options); end
-  def on_fallback(_original_locale, _fallback_locale, _key, _optoins); end
-  def translate(locale, key, options = nil); end
 end
 module I18n::Backend::Flatten
   def escape_default_separator(key); end
@@ -371,26 +419,6 @@ module I18n::Gettext::Helpers
   def s_(msgid, separator = nil); end
   def sgettext(msgid, separator = nil); end
 end
-module I18n::Locale
-end
-class I18n::Locale::Fallbacks < Hash
-  def [](locale); end
-  def compute(tags, include_defaults = nil, exclude = nil); end
-  def defaults; end
-  def defaults=(defaults); end
-  def initialize(*mappings); end
-  def map(mappings); end
-end
-module I18n::Locale::Tag
-  def self.implementation; end
-  def self.implementation=(implementation); end
-  def self.tag(tag); end
-end
-module I18n::Locale::Tag::Parents
-  def parent; end
-  def parents; end
-  def self_and_parents; end
-end
 class Anonymous_Struct_1 < Struct
   def extension; end
   def extension=(_); end
@@ -426,16 +454,6 @@ class I18n::Locale::Tag::Rfc4646 < Anonymous_Struct_1
 end
 module I18n::Locale::Tag::Rfc4646::Parser
   def self.match(tag); end
-end
-class I18n::Locale::Tag::Simple
-  def initialize(*tag); end
-  def self.tag(tag); end
-  def subtags; end
-  def tag; end
-  def to_a; end
-  def to_s; end
-  def to_sym; end
-  include I18n::Locale::Tag::Parents
 end
 module I18n::Tests
 end

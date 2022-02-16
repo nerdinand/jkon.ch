@@ -14,7 +14,7 @@ class PDFCombination
 
   sig { returns(T.nilable(T::Boolean)) }
   def combine!
-    system("\"/System/Library/Automator/Combine PDF Pages.action/Contents/Resources/join.py\" \
+    system("python2.7 \"/System/Library/Automator/Combine PDF Pages.action/Contents/Resources/join.py\" \
       -o #{out_pdf_path} #{in_pdf_paths.join(' ')}")
   end
 

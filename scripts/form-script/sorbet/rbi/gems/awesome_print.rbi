@@ -7,7 +7,7 @@
 #
 #   https://github.com/sorbet/sorbet-typed/new/master?filename=lib/awesome_print/all/awesome_print.rbi
 #
-# awesome_print-1.8.0
+# awesome_print-1.9.2
 
 module AwesomeMethodArray
   def &(_other_ary); end
@@ -80,7 +80,7 @@ class AwesomePrint::Inspector
   def colorize?; end
   def current_indentation; end
   def dotfile_readable?(dotfile); end
-  def increase_indentation; end
+  def increase_indentation(&block); end
   def indentator; end
   def indentator=(arg0); end
   def initialize(options = nil); end
@@ -103,7 +103,7 @@ class AwesomePrint::Formatters::BaseFormatter
   def get_limit_size; end
   def indent; end
   def indentation; end
-  def indented; end
+  def indented(&block); end
   def limited(data, width, is_hash = nil); end
   def method_tuple(method); end
   def outdent; end
@@ -228,6 +228,7 @@ class AwesomePrint::Formatter
   def cast_without_ostruct(object, type); end
   def convert_to_hash(object); end
   def format(object, type = nil); end
+  def has_method_accessor?(object); end
   def initialize(inspector); end
   def inspector; end
   def options; end
