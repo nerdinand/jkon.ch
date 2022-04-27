@@ -6,6 +6,6 @@
 
 [![Stadt Olten](/images/sponsors/olten.gif)](http://www.olten.ch/)
 
-[Kulturzentrum Schützi Olten](http://schuetzi.ch/)
+[![Kulturzentrum Schützi Olten](/images/sponsors/schutzi-logo_2019_100.png)](http://schuetzi.ch/)
 
 [![Oetiker+Partner AG](/images/sponsors/oetiker-partner.png)](https://www.oetiker.ch/)
