@@ -1,5 +1,3 @@
-[![Stavros Niarchos Foundation](/images/sponsors/snf-logo.png)](https://www.snf.org/en/)
-
 [![Migros Kulturprozent](/images/sponsors/migros-kulturprozent-farbig_d.gif)](https://www.migros-kulturprozent.ch/)
 
 [![SoKultur](/images/sponsors/logo_so_kultur_swisslos.jpg)](https://www.sokultur.ch/)
