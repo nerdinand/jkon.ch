@@ -17,7 +17,7 @@ require_relative 'pdf_combination'
 
 if __FILE__ == $PROGRAM_NAME
   JOTFORM_FORM_ID = 213_185_814_039_355
-  api_key = ENV['API_KEY']
+  api_key = ENV.fetch('API_KEY')
 
   def determine_free_file_name(submission_name)
     combined_pdf_file_name = "#{submission_name.gsub(/[^A-Za-z]/, '-')}.pdf"
