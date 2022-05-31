@@ -7,3 +7,5 @@
 [![Kulturzentrum Schützi Olten](/images/sponsors/schutzi-logo_2019_100.png)](http://schuetzi.ch/)
 
 [![Oetiker+Partner AG](/images/sponsors/oetiker-partner.png)](https://www.oetiker.ch/)
+
+[Oltner Kalender](https://oltner-kalender.ch/)
