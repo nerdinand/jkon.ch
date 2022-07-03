@@ -1,6 +1,6 @@
 {%- for past_exhibition in site.data.past_exhibitions -%}
   <a href="/past-exhibitions/{{ past_exhibition.year }}.{{ page.lang }}.html">
-    <div class="exhibition-thumbnail" style="background-image: url({{ past_exhibition.image }})">
+    <div class="exhibition-thumbnail" style="background-image: url('{{ past_exhibition.image }}')">
       <div class="exhibition-year">
         <h3>{{ past_exhibition.year }}</h3>
       </div>

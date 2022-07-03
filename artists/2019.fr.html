@@ -1,9 +1,0 @@
----
-layout: page
-ref: artists-2019
-title: Artistes 2019
-lang: fr
----
-
-{%- assign artists = site.artists | where: "artist.year", "2019" | map: "artist" -%}
-{% include artists/artist-thumbnails.html artists=artists %}
