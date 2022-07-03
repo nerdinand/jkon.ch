@@ -1,18 +1,18 @@
 # frozen_string_literal: true
 
 if ARGV.size != 1
-  puts "Usage: ruby resize.rb <root_dir>"
-  puts "  e.g. `ruby resize.rb ../../images/artists/2022/`"
-  puts "  Script assumes that <root_dir> contains the subdirectories `original`, `big`, `small`."
-  puts "  Will generate resized images for each image in `original` and store them in `big` and `small`."
+  puts 'Usage: ruby resize.rb <root_dir>'
+  puts '  e.g. `ruby resize.rb ../../images/artists/2022/`'
+  puts '  Script assumes that <root_dir> contains the subdirectories `original`, `big`, `small`.'
+  puts '  Will generate resized images for each image in `original` and store them in `big` and `small`.'
   exit(1)
 end
 
 root_dir = ARGV[0]
 
-ORIGINAL_DIR = "#{root_dir}/original"
-BIG_DIR = "#{root_dir}/big"
-SMALL_DIR = "#{root_dir}/small"
+ORIGINAL_DIR = "#{root_dir}/original".freeze
+BIG_DIR = "#{root_dir}/big".freeze
+SMALL_DIR = "#{root_dir}/small".freeze
 
 BIG_MAX_WIDTH = 740
 SMALL_WIDTH = 240
