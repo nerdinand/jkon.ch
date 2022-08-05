@@ -4,7 +4,8 @@ if ARGV.size != 2
   puts 'Usage: ruby resize.rb <source_dir> <destination_dir>'
   puts '  e.g. `ruby resize.rb ../../images/artists/original/2022/ ../../images/artists/2022/`'
   puts '  Script assumes that <destination_dir> contains the subdirectories `big`, `small`.'
-  puts '  Will generate resized images for each image in `source_dir` and store them in `destination_dir/big` and `destination_dir/small`.'
+  puts '  Will generate resized images for each image in `source_dir` and store them in'
+  puts '  `destination_dir/big` and `destination_dir/small`.'
   exit(1)
 end
 
