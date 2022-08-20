@@ -33,7 +33,7 @@ end
 
 # Saturday
 cal.event do |event|
-  event.dtstart     = DateTime.civil(2022, 8, 27, 14, 0)
+  event.dtstart     = DateTime.civil(2022, 8, 27, 16, 0)
   event.dtend       = DateTime.civil(2022, 8, 27, 19, 0)
   event.summary     = summary
   event.description = description
@@ -72,4 +72,4 @@ end
 
 cal.publish
 
-File.write('jkon2022.ics', cal.to_ical)
+File.write('../../ical/jkon2022.ics', cal.to_ical)

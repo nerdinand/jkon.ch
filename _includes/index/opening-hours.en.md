@@ -14,5 +14,5 @@ __Guided tour & meet the artists__:
 
 The __finissage__, including the award ceremony, takes place at {{ site.data.phase.dates.jkon.finissage.en }}. 
 
-[Add to my calendar](scripts/ical-script/jkon{{site.data.phase.dates.jkon.year}}.ics)
+[Add to my calendar](ical/jkon{{site.data.phase.dates.jkon.year}}.ics)
 
