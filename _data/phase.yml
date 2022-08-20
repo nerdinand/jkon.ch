@@ -57,9 +57,9 @@ dates:
         fr: __Samedi__, 27 août 2022
         en: __Saturday__, 27th of August 2022
       time:
-        de: 14:00-19:00
-        fr: 14:00-19:00
-        en: 14:00-19:00
+        de: 16:00-19:00
+        fr: 16:00-19:00
+        en: 16:00-19:00
 
     guided_tours:
       - de: Freitag, 26. August 2022, 19:00
