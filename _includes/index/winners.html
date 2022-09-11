@@ -2,11 +2,4 @@
   <strong>Preisträger:innen {{ site.data.phase.dates.jkon.year }}</strong>: 
 </p>
 
-{%- assign prizes = site.data.prizes | where: "year", site.data.phase.dates.jkon.year -%}
-
-{%- for prize in prizes -%}
-  {%- assign artist = site.artists | where: "artist.year", prize.year | where: "artist.prize", prize.key | map: "artist" | first -%}
-
-  <p><a href="/artists/{{artist.year}}/{{artist.persons | map: "name" | join }}">{{ artist.persons | map: "name" | join: ", " }}</a> ({{ prize.de }})</p>
-{%- endfor -%}
-
+{%- include winners/winners.html year=site.data.phase.dates.jkon.year -%}
