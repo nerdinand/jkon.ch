@@ -2,6 +2,10 @@
   <strong>Laureates {{ site.data.phase.dates.jkon.year }}</strong>: 
 </p>
 
-<p>Nathalie Stirnimann & Stefan Stojanovic (CHF 5000 cash prize of the foundation Hans and Beatrice Maurer-Billeter)</p>
-<p>Nathalie Stirnimann & Stefan Stojanovic (exhibition in the summer window showcase of Kunsthaus Zofingen LOOK@JKON 2022)</p>
-<p>Lorenz Fischer (exhibition "Dienstraum" of the Kunstmuseum Olten in 2022)</p>
+{%- assign prizes = site.data.prizes | where: "year", site.data.phase.dates.jkon.year -%}
+
+{%- for prize in prizes -%}
+  {%- assign artist = site.artists | where: "artist.year", prize.year | where: "artist.prize", prize.key | map: "artist" | first -%}
+
+  <p><a href="/artists/{{artist.year}}/{{artist.persons | map: "name" | join }}">{{ artist.persons | map: "name" | join: ", " }}</a> ({{ prize.en }})</p>
+{%- endfor -%}
