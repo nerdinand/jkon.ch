@@ -25,20 +25,24 @@ if __FILE__ == $PROGRAM_NAME
     combined_pdf_file_name
   end
 
+  def download_attachments(submission)
+    exhibition_proposal_path = AttachmentDownload.new(submission.id, submission.exhibition_proposal,
+                                                      'exhibition_proposal.pdf').download!
+    dossier_path = AttachmentDownload.new(submission.id, submission.dossier, 'dossier.pdf').download!
+    [exhibition_proposal_path, dossier_path]
+  end
+
   def process_submission(submission)
-    submission_id = submission['id']
+    submission = Submission.new(submission)
 
-    submission = Submission.new(submission_id, submission['answers'])
-    PDFExport.new(submission).export!
+    summary_path = PDFExport.new(submission).export!
 
-    AttachmentDownload.new(submission_id, submission.dossier, 'dossier.pdf').download!
-    AttachmentDownload.new(submission_id, submission.exhibition_proposal, 'exhibition_proposal.pdf').download!
+    pdf_paths = [summary_path] + download_attachments(submission)
 
     combined_pdf_file_name = determine_free_file_name(submission.name)
     combined_pdf_path = "out/#{combined_pdf_file_name}"
 
-    PDFCombination.new(combined_pdf_path, "#{submission_id}/summary.pdf", "#{submission_id}/exhibition_proposal.pdf",
-                       "#{submission_id}/dossier.pdf").combine!
+    PDFCombination.new(combined_pdf_path, pdf_paths).combine!
 
     combined_pdf_file_name
   end

@@ -27,14 +27,15 @@ class PDFExport
     @submission = T.let(submission, Submission)
   end
 
-  sig { returns(Integer) }
+  sig { returns(String) }
   def export!
-    FileUtils.mkdir_p(submission.id)
+    FileUtils.mkdir_p(destination_path)
+    path = "#{destination_path}/#{pdf_file_name}"
 
     File.write(
-      "#{submission.id}/#{pdf_file_name}",
-      WickedPdf.new.pdf_from_string(html_source)
+      path, WickedPdf.new.pdf_from_string(html_source)
     )
+    path
   end
 
   sig { returns(String) }
@@ -58,13 +59,18 @@ class PDFExport
       '   </tbody>
         </table>
         <div style="page-break-before: always;" />' \
-      "<img src=\"#{submission.portraitneutraler}\" style=\"max-width: 900px; max-height: 1400px;\"/>" \
+      "<img src=\"#{T.unsafe(submission).portraitneutraler}\" style=\"max-width: 900px; max-height: 1400px;\"/>" \
       '</body>' \
       '</html>'
   end
   # rubocop:enable Metrics/MethodLength
 
   private
+
+  sig { returns(String) }
+  def destination_path
+    "tmp/#{submission.id}"
+  end
 
   sig { returns(String) }
   def pdf_file_name

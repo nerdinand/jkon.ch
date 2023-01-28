@@ -27,12 +27,11 @@ class Submission
   sig { returns(String) }
   attr_reader :id
 
-  sig { params(id: String, answers_hash: T.nilable(T::Hash[String, T::Hash[String, String]])).void }
-  def initialize(id, answers_hash)
-    @id = id
-    @answers_hash = answers_hash
+  sig { params(submission_hash: T::Hash[T.untyped, T.untyped]).void }
+  def initialize(submission_hash)
+    @id = T.let(submission_hash['id'], String)
+    @answers_hash = T.let(submission_hash['answers'], T::Hash[T.untyped, T.untyped])
     fill_instance_variables!
-    @answers_hash = nil
   end
 
   private
@@ -107,7 +106,7 @@ class Submission
     field['answer']
   end
 
-  sig { params(field: T::Hash[String, String]).returns(T.nilable(String)) }
+  sig { params(field: T::Hash[String, T::Array[String]]).returns(T.nilable(String)) }
   def extract_control_fileupload(field)
     answer = field['answer']
     return nil if answer.nil?

@@ -13,9 +13,10 @@ class AttachmentDownload
     @file_name = T.let(file_name, String)
   end
 
-  sig { returns(T.nilable(T::Boolean)) }
+  sig { returns(String) }
   def download!
     system("curl -L -s \"#{url}\" > #{write_path}")
+    write_path
   end
 
   private
@@ -31,6 +32,6 @@ class AttachmentDownload
 
   sig { returns(String) }
   def write_path
-    "#{submission_id}/#{file_name}"
+    "tmp/#{submission_id}/#{file_name}"
   end
 end
