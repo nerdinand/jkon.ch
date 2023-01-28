@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (7.0.2.2)
+    activesupport (7.0.4.2)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
@@ -9,36 +9,28 @@ GEM
     awesome_print (1.9.2)
     byebug (11.1.3)
     coderay (1.1.3)
-    concurrent-ruby (1.1.9)
-    i18n (1.10.0)
+    concurrent-ruby (1.2.0)
+    i18n (1.12.0)
       concurrent-ruby (~> 1.0)
     method_source (1.0.0)
-    minitest (5.15.0)
-    pry (0.13.1)
+    minitest (5.17.0)
+    pry (0.14.2)
       coderay (~> 1.1)
       method_source (~> 1.0)
-    pry-byebug (3.9.0)
+    pry-byebug (3.10.1)
       byebug (~> 11.0)
-      pry (~> 0.13.0)
-    sorbet (0.5.9656)
-      sorbet-static (= 0.5.9656)
-    sorbet-runtime (0.5.9656)
-    sorbet-static (0.5.9656-universal-darwin-14)
-    sorbet-static (0.5.9656-universal-darwin-15)
-    sorbet-static (0.5.9656-universal-darwin-16)
-    sorbet-static (0.5.9656-universal-darwin-17)
-    sorbet-static (0.5.9656-universal-darwin-18)
-    sorbet-static (0.5.9656-universal-darwin-19)
-    sorbet-static (0.5.9656-universal-darwin-20)
-    sorbet-static (0.5.9656-universal-darwin-21)
-    sorbet-static (0.5.9656-x86_64-linux)
-    tzinfo (2.0.4)
+      pry (>= 0.13, < 0.15)
+    sorbet (0.5.10634)
+      sorbet-static (= 0.5.10634)
+    sorbet-runtime (0.5.10634)
+    sorbet-static (0.5.10634-universal-darwin-22)
+    tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
-    wicked_pdf (2.1.0)
+    wicked_pdf (2.6.3)
       activesupport
 
 PLATFORMS
-  ruby
+  arm64-darwin-22
 
 DEPENDENCIES
   activesupport
@@ -49,4 +41,4 @@ DEPENDENCIES
   wicked_pdf
 
 BUNDLED WITH
-   2.2.3
+   2.4.1
