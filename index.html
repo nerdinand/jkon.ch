@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+      @font-face {
+        font-family: 'Syne';
+        src: url(resources/Syne-VariableFont_wght.ttf) format('truetype');
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+      }
+
+      html {
+        background-color: black;
+        color: white;
+        font-family: Syne;
+        text-align: center;
+      }
+
+      #jkon-logo {
+        height: 6rem;
+        margin-top: 2rem;
+      }
+
+      header {
+        background-image: url(resources/JKON_Web_Header.jpg);
+        background-size: cover;
+        background-position: center;
+      }
+
+      body {
+        margin: 0;
+      }
+
+      h1 {
+        font-size: 6rem;
+        font-weight: bold;
+      }
+
+      h2 {
+        font-size: 2rem;
+        font-weight: bold;
+      }
+
+      h3 {
+        font-weight: bold;
+        margin-bottom: 1rem;
+      }
+
+      header > p {
+        margin-top: 1rem;
+        font-size: 4rem;
+        font-weight: bold;
+        padding-bottom: 2rem;
+      }
+
+      .mauve {
+        background-color: #7A82D0;
+      }
+
+      section.mauve { 
+        padding: 2rem 0rem;
+      }
+
+      section.mauve > p {
+        font-size: 13pt;
+        font-weight: bold;
+        margin: 1rem;
+      }
+
+      section.orange {
+        background-color: #ff7f24;
+        display: flex;
+        flex-direction: row;
+      }
+      
+      section.orange .image {
+        flex: 0.45;
+      }
+
+      section.orange img {
+        width: 100%;
+        height: 100%;
+      }
+
+      section.orange .program {
+        flex: 0.55;
+        padding: 1rem;
+        text-align: left;
+      }
+
+      @media screen and (max-width: 600px) {
+        section.orange {
+          display: block;
+        }
+      }
+
+      table {
+        border-spacing: 0.5rem 0.5rem;
+      }
+
+      .time-column {
+        font-weight: bold;
+        width: 45%;
+      }
+
+      section.red {
+        font-size: 0.8rem;
+        text-align: left;
+        padding: 3rem;
+        background-color: #AF2718;
+      }
+
+      section.red .lead {
+        font-weight: bold;
+      }
+
+      section.red p {
+        margin-bottom: 1.5rem;
+      }
+
+      .logos {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem 5rem;
+        flex-wrap: wrap;
+      }
+      
+      .logos a {
+        flex: 1
+      }
+
+      .logos img {
+        margin: 10px;
+        width: 80px;
+      }
+
+      a {
+        color: white;
+      }
+
+      footer {
+        font-size: 0.8rem;
+      }
+
+      footer > p {
+        padding: 2rem;
+      }
+
+      .info {
+        padding: 1rem;
+        text-align: left;
+        display: flex;
+        flex-direction: row;
+        column-gap: 50px;
+        flex-wrap: wrap;
+      }
+
+      .info div {
+        padding: 1rem 1rem;
+      }
+    </style>
+
+    <link rel="shortcut icon" href="/images/jkon-logo.ico">
+
+    <title>JKON</title>
+  </head>
+
+  <body>
+    <header class="site-header">
+      <a href="/">
+        <img id="jkon-logo" src="resources/JKON_Logo_weiss.png">
+      </a>
+
+      <h1>Exploit me</h1>
+      <p>18.3.23 - 16.4.23</p>
+    </header>
+
+    <section class="mauve">
+      <h2>JKON (Junge Kunst Olten)<br>zu Gast im Kunstmuseum Olten</h2>
+      <p>mit Mina Achermann, Roshan Adhihetty, Stirnimann & Stojanovic, Boyband CHIC, Nicolle Bussien, Adrien Fernandez Garcia, Victoria Holdt, Adreas Jäggi, Aathmigan, Genevieve Leong, Mendog & Stevil, Cheyenne Oswald, Jan Pulfer, Denis Roueche, Catherin Schöberl, Emile Van Helleputte & Celine Aernoudt, Mahtola Wittmer, Selina Zürrer und Daniel Züsli</p>
+    </section>
+
+    <section class="orange">
+      <div class="image">
+        <img src="resources/splicer_blutorange-1_230119 copy_edit_FA.jpg" ></img>
+      </div>
+      <div class="program">
+        <h3>Programm</h3>
+        <table>
+          <tbody>
+            <tr><td class="time-column">Fr 17. März, 18.30</td><td>Vernissage</td></tr>
+            <tr><td class="time-column">Do 23. März, 19.15</td><td>Podiumsdiskussion mit Gäst:innen</td></tr>
+            <tr><td class="time-column">Di 28. März, 19.15</td><td>Künstler:innengespräch</td></tr>
+            <tr><td class="time-column">Mi 5. April, 12.15</td><td>Kunst zum Zmittag</td></tr>
+            <tr><td class="time-column">Do 6. April, 18.00</td><td>hingeschaut. Werkbetrachtung</td></tr>
+            <tr><td class="time-column">So 16. April, 16.00</td><td>Finissage & Preisverleihung</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="red">
+      <p class="lead">
+        Auf Einladung des Kunstmuseums Olten präsentiert JKON eine thematische Gruppenschau mit neuen Arbeiten von ehemals beteiligten Kunstschaffenden. Die 20 Positionen bieten eine einzigartige Perspektive auf das Thema der Ausbeutung - sowohl in Bezug auf die Herausforderungen, sich in der Kunstwelt zu etablieren, als auch bezüglich der Ausbeutung von Land und anderen Ressourcen. «Exploit me» referenziert dabei bewusst (ironisch) Nutzen, Ausnutzen wie auch den «Exploit» (den grossen Wurf bzw. das Schlupfloch).
+      </p>
+      <p>
+        Seit 2015 organisiert JKON einmal pro Jahr eine Ausstellung als Förderplattform für junge Kunstschaffende. Im Hinblick auf das 10-jährige Jubiläum 2024 dient die aktuelle 9. Ausgabe der Reflexion und dem Ausblick. Dabei tanzen Konzept, Dauer und Ort aus der Reihe: Eine thematische Klammer und die Beschränkung auf bisher Beteiligte ersetzen die offene Ausschreibung, aus dem verlängerten Wochenende wird ein Monat und von der Schützi zügelt die Schau ins Kunstmuseum. Was bleibt ist die Vergabe von Förderpreisen - so offeriert u.a. auch das Kunstmuseum erneut eine Ausstellungsmöglichkeit im Dienstraum am Bahnhof Olten. Die letztjährige Preisträgerin Manuela Cossalter ist dort parallel zu «Exploit me» zu sehen.
+      </p>
+    </section>
+
+    <footer class="mauve">
+      <div class="logos">
+        <a href="/"><img src="resources/JKON_Logo_weiss.png"></a>
+        <a href="https://kunstmuseumolten.ch/"><img src="resources/Logo_KMO_weiss_1501.png"></a>
+        <a href="https://sokultur.ch/"><img src="resources/logo_so_kultur_swisslos.png"></a>
+        <a href="https://www.olten.ch/"><img src="resources/olten_weiss.png"></a>
+      </div>
+      <p>
+        Förderpreise verliehen durch:<br>
+        Maurer-Billeter-Stiftung, Kunsthaus Zofingen, Kunstmuseum Olten
+      </p>
+
+      <div class="info">
+        <div>
+          <a href="/">jkon.ch</a>
+          <br>
+          <a href="https://kunstmuseumolten.ch/">kunstmuseumolten.ch</a>
+          <br><br>
+          <p>
+            Kunstmuseum Olten<br>
+            Kirchgasse 8, CH - 4600 Olten
+          </p>
+        </div>
+        <div>
+          Öffnungszeiten:<br>
+          Di-Fr 12-17 Uhr, Sa & So 10-17 Uhr
+          <br><br>
+          <p>
+            Vor Abendveranstaltungen ist das Museum durchgehend geöffnet.
+          </p>
+        </div>
+        <div>
+          <a href="mailto:info@jkon.ch">info@jkon.ch</a><br>
+          <a href="https://www.facebook.com/jungekunstolten">facebook: jungekunstolten</a><br>
+          <a href="https://www.instagram.com/jkonolten">instagram: jkonolten</a>
+          <br><br>
+          <a href="/impressum">Impressum</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
