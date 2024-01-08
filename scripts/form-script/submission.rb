@@ -49,7 +49,7 @@ class Submission
 
     return nil if field.nil?
 
-    send("extract_#{field['type']}", field)
+    send(:"extract_#{field['type']}", field)
   end
 
   sig { params(field_name: String).returns(T.nilable(T::Hash[T.untyped, T.untyped])) }
