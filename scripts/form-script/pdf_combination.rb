@@ -25,7 +25,7 @@ class PDFCombination
   sig { returns(T::Array[String]) }
   def in_pdf_paths
     @in_pdf_paths.select do |path|
-      File.exist?(path) && !File.zero?(path)
+      File.exist?(path) && !File.empty?(path)
     end
   end
 end
