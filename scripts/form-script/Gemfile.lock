@@ -69,7 +69,7 @@ GEM
       concurrent-ruby (~> 1.0)
     wicked_pdf (2.7.0)
       activesupport
-    yard (0.9.34)
+    yard (0.9.35)
     yard-sorbet (0.8.1)
       sorbet-runtime (>= 0.5)
       yard (>= 0.9)
