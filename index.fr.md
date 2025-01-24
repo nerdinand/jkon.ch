@@ -1,7 +1,7 @@
 ---
 layout: page
 ref: index
-title: JKON 2022
+title: JKON 2025
 lang: fr
 ---
 
