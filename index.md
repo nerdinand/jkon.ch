@@ -1,7 +1,7 @@
 ---
 layout: page
 ref: index
-title: JUNGE KUNST OLTEN 2022
+title: JUNGE KUNST OLTEN 2025
 lang: de
 ---
 
