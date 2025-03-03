@@ -1,0 +1,165 @@
+@font-face {
+  font-family: Funnel;
+  src: url(font/FunnelSans-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: Funnel;
+  src: url(font/FunnelSans-Italic-VariableFont_wght.ttf);
+  font-style: italic;
+}
+
+body {
+  font-family: 'Funnel', sans-serif;
+  font-size: 16pt;
+  margin: 0;
+}
+
+h1 {
+  font-size: 92pt;
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 26pt;
+  margin-top: 50px;
+}
+
+.lead {
+  font-size: 22pt;
+  margin: 0 10px;
+}
+
+nav {
+  font-size: 20pt;
+  display: flex;
+  padding: 10px;
+}
+
+header.site-header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+nav a {
+  text-decoration-line: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+a {
+  color: black;
+}
+
+img#logo {
+  margin: 5px;
+}
+
+img.hero {
+  width: 100%;
+}
+
+.hero-credits {
+  font-size: 12pt;
+  float: right;
+}
+
+.page-nav {
+  align-self: center;
+}
+
+.page-link {
+  margin: 0 40px;
+}
+
+.footer-nav {
+  align-self: center;
+  font-size: 12pt;
+}
+
+.footer-item {
+  margin: 0 40px;
+}
+
+.locale-links {
+  align-self: center;
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.list-style-none {
+  list-style: none;
+  padding-left: 0;
+}
+
+.hero-wrapper {
+  width: 85%;
+  margin: auto;
+}
+
+.section {
+  width: 70%;
+  margin: auto;
+  margin-bottom: 400px;
+}
+
+.columns {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+  margin: 0 10px;
+  flex-grow: 1;
+  flex-basis: 0;
+  min-width: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.sponsor-links {
+  margin-top: 100px;
+}
+
+a.sponsor {
+  margin: 20px 0px;
+  display: block;
+  font-size: 26pt;
+}
+
+.exhibition-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.exhibition {
+  max-width: 400px;
+  min-width: 250px;
+  flex: 50%;
+  margin: 10px 20px;
+}
+
+.exhibition h2 {
+  text-decoration: underline;
+  font-size: 36pt;
+  margin-top: 20px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .section {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 40pt;
+  }
+}

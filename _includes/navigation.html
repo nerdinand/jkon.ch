@@ -1,45 +1,13 @@
 {% assign locale=page.lang | default: 'de' %}
 
-<nav class="site-nav">
-  <div class="menu-icon">
-    <span class="rhombus">
-      <button class="hamburger hamburger--squeeze" type="button" onclick="toggleNavigation();">
-        <span class="hamburger-box">
-          <span class="hamburger-inner"></span>
-        </span>
-      </button>
-    </span>
-  </div>
+<div class="page-nav">
+  {% assign pages=site.pages | where: "lang", locale | sort: "order" %}
+  {% for page in pages %}
+    {% assign current_page=pages | where: "ref", page["ref"] | first %}
 
-  <div class="nav-list">      
-    {%- case site.data.phase.phase -%}
-      {%- when "new_date_announced" -%}
-        {%- assign active_pages = "index, past-exhibitions, what-is-jkon, sponsors, sponsorship-awards, about" | split: ", " -%}
-      {%- when "schedule_announced" -%}
-        {%- assign active_pages = "index, past-exhibitions, what-is-jkon, sponsors, sponsorship-awards, about" | split: ", " -%}
-      {%- when "call_for_artists_running" -%}
-        {%- assign active_pages = "index, call-for-artists, past-exhibitions, what-is-jkon, sponsors, sponsorship-awards, about" | split: ", " -%}
-      {%- when "call_for_artists_closed" -%}
-        {%- assign active_pages = "index, past-exhibitions, what-is-jkon, sponsors, sponsorship-awards, about" | split: ", " -%}
-      {%- when "list_of_artists_announced" -%}
-        {%- assign active_pages = "index, past-exhibitions, what-is-jkon, sponsors, sponsorship-awards, about" | split: ", " -%}
-      {%- when "artist_portraits_online" -%}
-        {%- assign active_pages = "index, artists, past-exhibitions, what-is-jkon, sponsors, sponsorship-awards, about" | split: ", " -%}
-      {%- when "winners_announced" -%}
-        {%- assign active_pages = "index, artists, past-exhibitions, what-is-jkon, sponsors, sponsorship-awards, about" | split: ", " -%}
-    {% endcase %}
+    {% if current_page.title %}
+      <a class="page-link" href="{{ site.baseurl | append: current_page.url }}">{{ current_page.title }}</a>
+    {% endif %}
+  {% endfor %}
+</div>
 
-    {% assign pages=site.pages | where:"lang", locale %}
-    <ul class="list-style-none">
-      {% for ref in active_pages %}
-        {% assign current_page=pages | where:"ref", ref | first %}
-
-        {% if current_page.title %}
-          <li>
-            <a class="page-link" href="{{ site.baseurl | append: current_page.url }}">{{ current_page.title }}</a>
-          </li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-  </div>
-</nav>

@@ -3,19 +3,26 @@
 
   {%- include head.html -%}
 
-  <body>
-
+  <body onload="installListener()">
     {%- include header.html -%}
 
     <main aria-label="Content">
-      <h1>{{ page.title }}</h1>
-      <div class="wrapper">
-        {{ content }}
-      </div>
+      {% if page.hero_image %}
+        <div class="hero-wrapper">
+          <img class="hero" src="{{ page.hero_image }}">
+          {% if page.hero_image_credits %}
+            <span class="hero-credits">{{ page.hero_image_credits }}</span>
+          {% endif %}
+        </div>
+      {% endif %}
+
+      {% if page.title %}
+        <h1>{{ page.page_title }}</h1>
+      {% endif %}
+
+      {{ content }}
     </main>
 
     {%- include footer.html -%}
-
   </body>
-
 </html>

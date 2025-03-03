@@ -1,10 +1,8 @@
 <footer aria-label="Footer">
-  <div class="wrapper">
-    <ul class="list-style-none">
-      <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-      <li><a rel="me" href="https://www.facebook.com/jungekunstolten" title="facebook: jungekunstolten">facebook: jungekunstolten</a></li>
-      <li><a rel="me" href="https://www.instagram.com/jkonolten" title="instagram: jkonolten">instagram: jkonolten</a></li>
-      <li><a href="{{site.baseurl | append: '/impressum'}}">Impressum</a></li>
-    </ul>
-  </div>
+  <nav class="footer-nav">
+    <div class="footer-item">© JKON Junge Kunst Olten 2025</div>
+    <a class="footer-item" href="{{site.baseurl | append: '/impressum'}}">Impressum</a>
+    <a class="footer-item" href="mailto:{{ site.email }}">Email</a>
+    <a class="footer-item" rel="me" href="https://www.instagram.com/jkonolten" title="instagram: jkonolten">Instagram</a>
+  </nav>
 </footer>

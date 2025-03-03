@@ -1,9 +1,0 @@
-{%- assign prizes = site.data.prizes | where: "year", include.year -%}
-{%- for prize in prizes -%}
-  {%- assign artists = site.artists | where: "artist.year", prize.year | map: "artist" -%}
-  {%- for artist in artists -%}
-    {%- if artist.prizes contains prize.key -%}
-      <p><a href="/artists/{{artist.year}}/{{artist.persons | map: 'name' | join }}">{{ artist.persons | map: "name" | join: ", " }}</a> ({{ prize[page['lang']] }})</p>
-    {%- endif -%}
-  {%- endfor -%}
-{%- endfor -%}
