@@ -1,5 +1,5 @@
 function animate(event) {
-  let rotation = (event.clientX / 2) % 360
+  let rotation = -(window.scrollY / 2) % 360
   document.getElementById("logo").style.transform = `rotate(${rotation}deg)`;
 }
 
@@ -30,7 +30,7 @@ function randomize() {
 }
 
 function installListener() {
-  document.getElementsByTagName("body")[0].addEventListener("mousemove", animate)
+  addEventListener("scroll", animate);
   
   randomize();
 }
