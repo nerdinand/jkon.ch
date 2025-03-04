@@ -13,12 +13,15 @@ body {
   font-family: 'Funnel', sans-serif;
   font-size: 16pt;
   margin: 0;
+  word-break: normal;
+  hyphens: auto;
 }
 
 h1 {
   font-size: 92pt;
   text-decoration: underline;
   font-weight: normal;
+  margin-left: 10px;
 }
 
 h2 {
@@ -78,6 +81,8 @@ img.hero {
 }
 
 .footer-nav {
+  display: flex;
+  flex-wrap: wrap;
   align-self: center;
   font-size: 12pt;
 }
@@ -108,18 +113,6 @@ img.hero {
   margin-bottom: 400px;
 }
 
-.columns {
-  display: flex;
-}
-
-.column {
-  flex: 1;
-  margin: 0 10px;
-  flex-grow: 1;
-  flex-basis: 0;
-  min-width: 0;
-}
-
 img {
   width: 100%;
 }
@@ -134,14 +127,14 @@ a.sponsor {
   font-size: 26pt;
 }
 
-.exhibition-section {
+.flex-wrap-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.exhibition {
-  max-width: 400px;
+.flex-wrap-element {
+  max-width: 500px;
   min-width: 250px;
   flex: 50%;
   margin: 10px 20px;
@@ -153,6 +146,13 @@ a.sponsor {
   margin-top: 20px;
 }
 
+.hide-desktop {
+  display: none;
+}
+
+.hide-mobile {
+  display: initial;
+}
 
 @media only screen and (max-width: 600px) {
   .section {
@@ -161,5 +161,25 @@ a.sponsor {
 
   h1 {
     font-size: 40pt;
+  }
+
+  .page-link {
+    margin: 0 6px;
+  }
+
+  nav {
+    font-size: 12pt;
+  }
+
+  img#logo {
+    width: 50px;
+  }
+
+  .hide-desktop {
+    display: initial;
+  }
+
+  .hide-mobile {
+    display: none;
   }
 }
