@@ -1,7 +1,6 @@
 ---
 layout: page
 ref: impressum
-title: Impressum
 lang: de
 ---
 

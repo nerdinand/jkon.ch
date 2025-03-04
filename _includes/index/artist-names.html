@@ -1,7 +1,0 @@
-{%- for artist in artists -%}
-  {%- unless artist.cancelled -%}
-    <p>
-      {{ artist.persons | map: 'name' | join: ', '  }}
-    </p>
-  {%- endunless -%}
-{%- endfor -%}

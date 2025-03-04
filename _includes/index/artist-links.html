@@ -1,5 +1,0 @@
-{%- for artist in artists -%}
-  {%- unless artist.cancelled -%}
-    <a href="/artists/{{artist.year}}/{{artist.persons | map: "name" | join }}">{{ artist.persons | map: "name" | join: ", " }}</a>&nbsp;
-  {%- endunless -%}
-{%- endfor -%}

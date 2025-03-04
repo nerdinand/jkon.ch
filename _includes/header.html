@@ -1,9 +1,13 @@
 <header class="site-header">
-  <a href="/">
-    <div id="jkon-logo"></div>
-  </a>
+  <nav class="site-nav">
+    <a href="/">
+      <img id="logo" src="/images/jkon-logo-plain.svg">
+    </a>
 
-  {% include navigation.html %}
+    {% include navigation.html %}
 
-  {% include locale-links.html %}
+    <div class="locale-links hide-mobile">
+      {% include locale-links.html %}
+    </div>
+  </nav>
 </header>
