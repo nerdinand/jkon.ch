@@ -1,6 +1,5 @@
 ---
 layout: page
-ref: impressum
 lang: de
 ---
 
