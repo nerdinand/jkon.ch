@@ -2,6 +2,8 @@
 
 # typed: strict
 
+require 'open-uri'
+
 # Downloads an attachment of a submission
 class AttachmentDownload
   extend T::Sig
@@ -13,9 +15,13 @@ class AttachmentDownload
     @file_name = T.let(file_name, String)
   end
 
-  sig { returns(String) }
+  sig { returns(T.nilable(String)) }
   def download!
-    system("curl -L -s \"#{url}\" > #{write_path}")
+    temp_file = T.unsafe(URI.parse(url)).open
+
+    return if temp_file.nil?
+
+    FileUtils.mv(temp_file.path, write_path)
     write_path
   end
 

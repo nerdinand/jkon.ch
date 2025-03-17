@@ -15,7 +15,6 @@ class Submission
                         curriculum_vitae
                         website
                         instagram_handle
-                        portraitneutraler
                         dossier
                         exhibition_proposal
                       ], T::Array[String])
@@ -111,6 +110,11 @@ class Submission
     answer = field['answer']
     return nil if answer.nil?
 
-    answer.first
+    answer = answer.first
+    return nil if answer.nil?
+
+    # Hack to fix wrongly encoded spaces in url
+    path, filename = File.split(answer)
+    [path, URI.encode_uri_component(filename)].join('/')
   end
 end

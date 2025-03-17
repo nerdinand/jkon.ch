@@ -16,7 +16,7 @@ require_relative 'attachment_download'
 require_relative 'pdf_combination'
 
 if __FILE__ == $PROGRAM_NAME
-  JOTFORM_FORM_ID = 213_185_814_039_355
+  JOTFORM_FORM_ID = 250_605_555_721_353
   api_key = ENV.fetch('API_KEY')
 
   def determine_free_file_name(submission_name)
@@ -37,7 +37,7 @@ if __FILE__ == $PROGRAM_NAME
 
     summary_path = PDFExport.new(submission).export!
 
-    pdf_paths = [summary_path] + download_attachments(submission)
+    pdf_paths = ([summary_path] + download_attachments(submission)).compact
 
     combined_pdf_file_name = determine_free_file_name(submission.name)
     combined_pdf_path = "out/#{combined_pdf_file_name}"

@@ -79,7 +79,6 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  activesupport
   awesome_print
   pry-byebug
   sorbet

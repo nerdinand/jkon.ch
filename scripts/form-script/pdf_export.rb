@@ -57,9 +57,7 @@ class PDFExport
         </tr>"
       end.join +
       '   </tbody>
-        </table>
-        <div style="page-break-before: always;" />' \
-      "<img src=\"#{T.unsafe(submission).portraitneutraler}\" style=\"max-width: 900px; max-height: 1400px;\"/>" \
+        </table>' \
       '</body>' \
       '</html>'
   end
