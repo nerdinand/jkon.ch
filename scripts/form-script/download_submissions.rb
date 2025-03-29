@@ -33,8 +33,6 @@ if __FILE__ == $PROGRAM_NAME
   end
 
   def process_submission(submission)
-    submission = Submission.new(submission)
-
     summary_path = PDFExport.new(submission).export!
 
     pdf_paths = ([summary_path] + download_attachments(submission)).compact
@@ -55,18 +53,19 @@ if __FILE__ == $PROGRAM_NAME
 
   FileUtils.mkdir_p('out')
 
-  submissions = JSON.parse(response)['content']
+  submissions = JSON.parse(response)['content'].map { |s| Submission.new(s) }
 
-  submissions_count = submissions.count
+  submissions_to_process = if submission_id_argument
+                             [submissions.find { |s| s.id == submission_id_argument }]
+                           else
+                             submissions.select(&:active?)
+                           end
 
-  puts "#{submissions_count} submissions"
+  submissions_count = submissions_to_process.count
+  puts "#{submissions_count} submissions to process"
 
-  if submission_id_argument
-    process_submission(submissions.find { |s| s['id'] == submission_id_argument })
-  else
-    submissions.each.with_index do |submission, index|
-      combined_pdf_file_name = process_submission(submission)
-      puts "#{index + 1}/#{submissions_count} (#{submission['id']}) > out/#{combined_pdf_file_name}"
-    end
+  submissions_to_process.each.with_index do |submission, index|
+    combined_pdf_file_name = process_submission(submission)
+    puts "#{index + 1}/#{submissions_count} (#{submission.id}) > out/#{combined_pdf_file_name}"
   end
 end

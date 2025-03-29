@@ -17,7 +17,7 @@ class AttachmentDownload
 
   sig { returns(T.nilable(String)) }
   def download!
-    temp_file = T.unsafe(URI.parse(url)).open
+    temp_file = T.unsafe(URI.parse(URI::DEFAULT_PARSER.escape(url))).open
 
     return if temp_file.nil?
 

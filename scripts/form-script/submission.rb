@@ -29,8 +29,14 @@ class Submission
   sig { params(submission_hash: T::Hash[T.untyped, T.untyped]).void }
   def initialize(submission_hash)
     @id = T.let(submission_hash['id'], String)
+    @active = T.let(submission_hash['status'] == 'ACTIVE', T::Boolean)
     @answers_hash = T.let(submission_hash['answers'], T::Hash[T.untyped, T.untyped])
     fill_instance_variables!
+  end
+
+  sig { returns(T::Boolean) }
+  def active?
+    @active
   end
 
   private
