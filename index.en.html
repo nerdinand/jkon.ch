@@ -11,34 +11,14 @@ hero_image: "images/index-hero.png"
 
 <div class="section flex-wrap-container">
   <div class="flex-wrap-element">
-    <p>
-      JKON has established itself as a non-profit platform for young art in Olten. Over the years, we have produced an art exhibition in the Schützenmatte (2016 - 2022), realized a retrospective in the Kunstmuseum Olten (2023) and repeatedly reflected discourse on art and its role in society.
-    </p>
-
-    <p>
-      For the 10th edition, we are breaking new grounds: three small rooms in the Kunstverein Olten will be our venue. We are moving closer together, condensing our exhibition and creating an intimate atmosphere for exchange and reflection. What does it mean to present art in a small space? How does the dialog between the works and the artists change? JKON remains a space for experimentation and new perspectives - join us in shaping the future of this platform!
-    </p>
-
-    <p>
-      We invite young artists to explore the theme of <em>«Dichtung»</em> - in its many different meanings (poetry, material, fiction, packaging etc.). Whether poetic condensation, material compression or conceptual intensification - the limitation of space becomes the quality of the exhibition. How can art on a small scale tell a big story? What forms of expression emerge when confinement becomes inspiration? We are looking for works that explore the power of condensation and open up new perspectives.
-    </p>
-
     {% if site.call_for_artists %}
-      <p>
-        Are you an artist between the ages of 18 and 35 and would like to present your works for one month - from 30.08. to 27.09.2025 - in the exhibition rooms of the Kunstverein Olten? Then take this opportunity and apply! Submit your <strong>application by 6.4.2025</strong> and become part of our exhibition on the theme of <em>«Dichtung»</em>.  
-      </p>
+      {% include call-for-artists/left-column.en.html %}
     {% endif %}
-
-    <p>
-      Three prizes will be awarded.
-    </p>
+    
+    {% include artists-selected/index.en.html %}
   </div>
 
   {% if site.call_for_artists %}
-    <div class="flex-wrap-element">
-      <img src="images/call-for-artists.gif" />
-    </div>
-
-    <script type="text/javascript" src="https://form.jotform.com/jsform/250605555721353"></script>
+    {% include call-for-artists/right-column.en.html %}
   {% endif %}
 </div>
