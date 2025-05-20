@@ -13,8 +13,6 @@ body {
   font-family: 'Funnel', sans-serif;
   font-size: 16pt;
   margin: 0;
-  word-break: normal;
-  hyphens: auto;
 }
 
 h1 {
