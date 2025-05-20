@@ -2,12 +2,10 @@
 
 <div class="page-nav">
   {% assign pages=site.pages | where: "lang", locale | sort: "order" %}
-  {% for page in pages %}
-    {% if page["ref"] %}
-      {% assign current_page=pages | where: "ref", page["ref"] | first %}
-
-      {% if current_page.title %}
-        <a class="page-link" href="{{ site.baseurl | append: current_page.url }}">{{ current_page.title }}</a>
+  {% for p in pages %}
+    {% if p["ref"] %}
+      {% if p.title %}
+        <a class="page-link {% if p.url==page.url %}page-current{% endif %}" href="{{ site.baseurl | append: p.url }}">{{ p.title }}</a>
       {% endif %}
     {% endif %}
   {% endfor %}

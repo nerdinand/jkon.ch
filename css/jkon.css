@@ -49,6 +49,10 @@ nav a {
   text-decoration-line: none;
 }
 
+nav a.page-current {
+  text-decoration: underline;
+}
+
 nav a:hover {
   text-decoration: underline;
 }
