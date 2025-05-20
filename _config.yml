@@ -36,3 +36,5 @@ exclude:
   - scripts/
   - images/old/
   - images/artists/original/
+
+call_for_artists: false
