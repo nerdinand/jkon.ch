@@ -91,10 +91,12 @@ img.hero {
 .page-nav {
   align-self: center;
   height: 70px;
+  display: flex;
 }
 
 .page-link {
   margin: 0 40px;
+  align-self: center;
 }
 
 .footer-nav {
