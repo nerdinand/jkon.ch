@@ -28,6 +28,14 @@ h2 {
   margin-top: 50px;
 }
 
+td {
+  vertical-align: top;
+}
+
+tr.spacer {
+  height: 20px;
+}
+
 .lead {
   font-size: 22pt;
   margin: 0 10px;
