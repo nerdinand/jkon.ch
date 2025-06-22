@@ -36,9 +36,14 @@ tr.spacer {
   height: 20px;
 }
 
+.archive h2 {
+  text-decoration: underline;
+  font-size: 60px;
+}
+
 .lead {
   font-size: 22pt;
-  margin: 0 10px;
+  margin: 0 47px;
 }
 
 nav {
@@ -71,6 +76,7 @@ a {
 
 img#logo {
   margin: 5px;
+  height: 70px;
 }
 
 img.hero {
@@ -84,6 +90,7 @@ img.hero {
 
 .page-nav {
   align-self: center;
+  height: 70px;
 }
 
 .page-link {
@@ -191,5 +198,16 @@ a.sponsor {
 
   .hide-mobile {
     display: none;
+  }
+
+  .page-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .footer-item {
+    width: 100%;
+    margin: 0 20px;
   }
 }
