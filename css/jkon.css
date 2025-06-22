@@ -13,6 +13,10 @@ body {
   font-family: 'Funnel', sans-serif;
   font-size: 16pt;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
 }
 
 h1 {
@@ -130,6 +134,10 @@ img.hero {
   width: 70%;
   margin: auto;
   margin-bottom: 400px;
+}
+
+.contact-section {
+  margin-bottom: 92pt;
 }
 
 img {
