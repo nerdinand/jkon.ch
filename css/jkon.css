@@ -181,6 +181,10 @@ a.sponsor {
   display: initial;
 }
 
+.logo-banner {
+  margin-top: 40px;
+}
+
 @media only screen and (max-width: 600px) {
   .section {
     width: 100%;
