@@ -3,7 +3,7 @@ layout: page
 ref: index
 title: Current
 # page_title: "Call for Artists 2025: We are looking for you!"
-page_title: "JKON 2025"
+page_title: "Call JKON 2026 in March!"
 lang: en
 order: 1
 hero_image: "images/index-hero.png"
@@ -13,9 +13,17 @@ hero_image: "images/index-hero.png"
   <div class="flex-wrap-element">
     {% if site.call_for_artists %}
       {% include call-for-artists/left-column.en.html %}
-    {% endif %}
-    
-    {% include artists-selected/index.en.html %}
+    {% elsif site.artists_selected %}
+      {% include artists-selected/index.en.html %}
+    {% else %}
+      <p>
+        The Call for Artists for JKON 2026 will be published in March!
+      </p>
+
+      <p>
+        The association JKON aims to promote young artists. JKON offers a platform for presenting selected works of art and artistic positions to a wide audience. The exhibition is accompanied by a small supporting program on art and current discourses (talks, guided tours, performances, etc.). The aim is to promote exchange and networking between young artists and visitors as well as with galleries, museums and other art platforms.
+      </p>
+    {% endif %}    
   </div>
 
   {% if site.call_for_artists %}

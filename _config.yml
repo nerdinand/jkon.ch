@@ -38,3 +38,4 @@ exclude:
   - images/artists/original/
 
 call_for_artists: false
+artists_selected: false
