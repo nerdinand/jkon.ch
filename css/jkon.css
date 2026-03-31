@@ -50,6 +50,10 @@ tr.spacer {
   margin: 0 47px;
 }
 
+.bold {
+  font-weight: bold;
+}
+
 nav {
   font-size: 20pt;
   display: flex;
