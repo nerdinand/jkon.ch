@@ -91,6 +91,10 @@ img.hero {
   width: 100%;
 }
 
+.w-100 {
+  width: 100%;
+}
+
 .hero-credits {
   font-size: 12pt;
   float: right;
